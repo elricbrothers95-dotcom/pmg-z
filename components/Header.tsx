@@ -10,7 +10,9 @@ export default function Header() {
   const pathname = usePathname();
   const isAboutPage = pathname === '/about';
   const isYourIndustryPage = pathname === '/your-industry';
-  const isLightPage = isAboutPage || isYourIndustryPage;
+  const isFunctionalAreasPage = pathname === '/our-functional-areas';
+  const isSolutionsPage = pathname === '/our-solutions';
+  const isLightPage = isAboutPage || isYourIndustryPage || isFunctionalAreasPage || isSolutionsPage;
 
   const textColor = isLightPage ? 'text-black' : 'text-white';
   const logoTextColor = isLightPage ? 'text-[#000000]' : 'text-white'; // purely black for logo text on light pages
@@ -19,9 +21,10 @@ export default function Header() {
   const navItems = [
     { name: 'About', hasDropdown: false, href: '/about' },
     { name: 'Your Industry', hasDropdown: false, href: '/your-industry' },
-    { name: 'Our functional areas', hasDropdown: true, href: '#' },
-    { name: 'Our Solutions', hasDropdown: true, href: '#' },
+    { name: 'Our functional areas', hasDropdown: false, href: '/our-functional-areas' },
+    { name: 'Our Solutions', hasDropdown: false, href: '/our-solutions' },
     { name: 'Insights', hasDropdown: true, href: '#' },
+    { name: 'Contact Us', hasDropdown: false, href: '#contact' },
   ];
 
   return (
@@ -40,26 +43,24 @@ export default function Header() {
 
         {/* PMG Text */}
         <div
-          className={`absolute ${logoTextColor} font-bold uppercase text-center`}
+          className={`absolute ${logoTextColor} logo-text text-center`}
           style={{
             top: '32px',
             left: '140px',
-            width: '107px',
-            height: '47px',
             fontSize: '35px',
             lineHeight: '100%',
-            letterSpacing: '0%',
-            fontFamily: 'Trade Gothic LT Std, -apple-system, BlinkMacSystemFont, sans-serif',
-            fontWeight: 700
           }}
         >
           PMG
         </div>
 
         {/* Navigation - Centered Group */}
-        <nav className="absolute flex items-center gap-10" style={{ top: '38px', left: '50%', transform: 'translateX(-50%)' }}>
+        <nav className="absolute flex items-center gap-16" style={{ top: '38px', left: '50%', transform: 'translateX(-50%)' }}>
           {navItems.map((item, index) => {
-            const isActive = (item.name === 'About' && isAboutPage) || (item.name === 'Your Industry' && isYourIndustryPage);
+            const isActive = (item.name === 'About' && isAboutPage) ||
+                            (item.name === 'Your Industry' && isYourIndustryPage) ||
+                            (item.name === 'Our functional areas' && isFunctionalAreasPage) ||
+                            (item.name === 'Our Solutions' && isSolutionsPage);
 
             return (
               <div
@@ -69,7 +70,7 @@ export default function Header() {
                 onMouseLeave={() => setOpenDropdown(null)}
               >
                 {item.hasDropdown ? (
-                  <button className={`flex items-center gap-1 ${textColor} font-inter font-semibold hover:opacity-80 transition-opacity whitespace-nowrap`} style={{ fontSize: '14.8px', lineHeight: '21px' }}>
+                  <button className={`nav-text flex items-center gap-1 ${textColor} hover:opacity-80 transition-opacity whitespace-nowrap`}>
                     {item.name}
                     <svg
                       width="9"
@@ -89,8 +90,7 @@ export default function Header() {
                 ) : (
                   <Link
                     href={item.href}
-                    className={`flex items-center gap-1 font-inter font-semibold hover:opacity-80 transition-opacity whitespace-nowrap ${isActive ? 'bg-[#cbdbf6] text-black px-4 py-1 rounded-[20px]' : textColor}`}
-                    style={{ fontSize: '14.8px', lineHeight: '21px' }}
+                    className={`nav-text flex items-center gap-1 hover:opacity-80 transition-opacity whitespace-nowrap ${isActive ? 'bg-[#cbdbf6] text-black px-4 py-1 rounded-[20px]' : textColor}`}
                   >
                     {item.name}
                   </Link>
@@ -99,15 +99,6 @@ export default function Header() {
             );
           })}
         </nav>
-
-        {/* Contact Us - Right Side */}
-        <a
-          href="#contact"
-          className={`absolute ${textColor} font-inter font-semibold hover:opacity-80 transition-opacity`}
-          style={{ top: '38px', right: '140px', fontSize: '14.8px', lineHeight: '21px' }}
-        >
-          Contact Us
-        </a>
       </div>
     </header>
   );

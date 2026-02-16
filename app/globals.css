@@ -2,7 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@600&family=Montserrat:wght@400;500;600&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@400;600;700&family=Montserrat:wght@400;500;600&family=Poppins:wght@600&display=swap');
+
+@font-face {
+  font-family: 'Trade Gothic LT Std';
+  src: local('Trade Gothic LT Std'), local('TradeGothicLTStd-BdExt');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 
 * {
   margin: 0;
@@ -10,6 +18,103 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: none; /* Firefox */
+}
+
+html::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+html:hover {
+  scrollbar-width: thin; /* Firefox - show on hover/scroll */
+}
+
+html:hover::-webkit-scrollbar {
+  width: 8px;
+}
+
+html:hover::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html:hover::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+html:hover::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+
 body {
   font-family: 'DM Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Prevent layout shifts */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Optimize rendering performance */
+.hero-section {
+  will-change: opacity;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+/* Logo Text Styling */
+.logo-text {
+  font-family: var(--font-inter), 'Inter', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Navigation Text Styling */
+.nav-text {
+  font-family: var(--font-inter), 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 14.8px;
+  line-height: 21px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Depth System: Recessed containers + Elevated cards ── */
+
+/* Recessed container - appears set into the page */
+.depth-container {
+  background: linear-gradient(145deg, #E8ECF6 0%, #EEF1F9 50%, #E6EAF4 100%);
+  box-shadow:
+    inset 0 2px 8px rgba(20, 53, 138, 0.06),
+    inset 0 -1px 4px rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(20, 53, 138, 0.04);
+  border-bottom: 1px solid rgba(20, 53, 138, 0.06);
+}
+
+/* Elevated card - floats above the container */
+.depth-card {
+  background: #FFFFFF;
+  box-shadow:
+    0 1px 2px rgba(20, 53, 138, 0.04),
+    0 4px 12px rgba(20, 53, 138, 0.06),
+    0 12px 32px rgba(20, 53, 138, 0.08);
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.depth-card:hover {
+  box-shadow:
+    0 2px 4px rgba(20, 53, 138, 0.06),
+    0 8px 20px rgba(20, 53, 138, 0.08),
+    0 16px 40px rgba(20, 53, 138, 0.1);
+  transform: translateY(-2px);
 }

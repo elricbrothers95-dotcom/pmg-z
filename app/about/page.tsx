@@ -15,20 +15,20 @@ export default function About() {
         <div className="relative text-center mb-16 px-4">
 
           <div className="relative z-10">
-            <div className="flex items-center justify-center gap-4 mb-4">
-              <img src="/logo.png" alt="PMG" style={{ height: '40px', width: 'auto' }} />
+            <div className="flex flex-col items-center mb-4">
               <h2 className="text-[#14358A] font-bold text-4xl">PMG Consulting</h2>
+              <p
+                className="font-dm-sans font-normal mt-2"
+                style={{
+                  fontSize: '20px',
+                  lineHeight: '135%',
+                  color: '#333333',
+                  marginLeft: '-15px'
+                }}
+              >
+                Driving Industries Forward
+              </p>
             </div>
-            <p
-              className="font-dm-sans font-normal mb-8 text-center"
-              style={{
-                fontSize: '20px',
-                lineHeight: '135%',
-                color: '#333333'
-              }}
-            >
-              Driving Industries Forward
-            </p>
             <p
               className="font-montserrat font-normal mx-auto text-center px-4"
               style={{
@@ -49,7 +49,7 @@ export default function About() {
             src="/results-diagram.png"
             alt="Strategic Values Diagram"
             className="max-w-full h-auto"
-            style={{ maxHeight: '450px' }}
+            style={{ maxWidth: '600px' }}
           />
         </div>
 
@@ -135,29 +135,267 @@ export default function About() {
 
         {/* Our Core Values */}
         <div className="mt-24 mb-20 text-center">
-          <div className="flex justify-center items-center px-4">
-            <img
-              src="/core-values.png"
-              alt="Our Core Values - Principled Integrity, Individualism, Respect, Excellence"
-              className="max-w-full h-auto"
-              style={{ maxWidth: '1400px' }}
-            />
+          <h3
+            className="font-dm-sans font-bold mb-12"
+            style={{
+              fontSize: '48px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
+              color: '#14358A'
+            }}
+          >
+            Our Core Values
+          </h3>
+
+          {/* Wave + Text Content */}
+          <div className="relative max-w-[1440px] mx-auto px-4">
+            {/* Row 1: Principled Sincerity (left) + Respect (right) */}
+            <div className="flex justify-between items-start px-2 mb-0">
+              {/* Principled Sincerity */}
+              <div className="text-center" style={{ width: '213px' }}>
+                <h4
+                  className="font-inter font-bold mb-2"
+                  style={{ fontSize: '24px', lineHeight: '32px', color: '#14358A' }}
+                >
+                  Principled<br />Sincerity
+                </h4>
+                <p
+                  className="font-inter font-normal"
+                  style={{ fontSize: '14px', lineHeight: '18px', color: '#5F5F5F' }}
+                >
+                  We commit to genuine self-expression and sincerity, fostering meaningful relationships built on candid communication and professional vulnerability.
+                </p>
+              </div>
+
+              {/* Respect */}
+              <div className="text-center" style={{ width: '213px', marginRight: '22%' }}>
+                <h4
+                  className="font-inter font-bold mb-2"
+                  style={{ fontSize: '24px', lineHeight: '32px', color: '#14358A' }}
+                >
+                  Respect
+                </h4>
+                <p
+                  className="font-inter font-normal"
+                  style={{ fontSize: '14px', lineHeight: '18px', color: '#5F5F5F' }}
+                >
+                  We value diverse global perspectives and approach every situation with an open mind. We believe inclusivity is a catalyst for better solutions and collective success.
+                </p>
+              </div>
+            </div>
+
+            {/* Wave Image */}
+            <div className="flex justify-center items-center" style={{ marginTop: '-40px', marginBottom: '-40px' }}>
+              <img
+                src="/core-values-wave.png"
+                alt="Core values wave graphic"
+                className="max-w-full h-auto"
+                style={{ maxWidth: '1400px' }}
+              />
+            </div>
+
+            {/* Row 2: Innovation (center-left) + Excellence (right) */}
+            <div className="flex justify-between items-start px-2" style={{ marginTop: '0px' }}>
+              {/* Spacer */}
+              <div style={{ width: '213px' }}></div>
+
+              {/* Innovation */}
+              <div className="text-center" style={{ width: '213px', marginLeft: '5%' }}>
+                <h4
+                  className="font-inter font-bold mb-2"
+                  style={{ fontSize: '24px', lineHeight: '32px', color: '#14358A' }}
+                >
+                  Innovation
+                </h4>
+                <p
+                  className="font-inter font-normal"
+                  style={{ fontSize: '14px', lineHeight: '18px', color: '#5F5F5F' }}
+                >
+                  Driven by a passion for creative thinking, we embrace innovation as a catalyst for growth, progress, and unlocking positive change.
+                </p>
+              </div>
+
+              {/* Excellence */}
+              <div className="text-center" style={{ width: '228px' }}>
+                <h4
+                  className="font-inter font-bold mb-2"
+                  style={{ fontSize: '24px', lineHeight: '32px', color: '#14358A' }}
+                >
+                  Excellence
+                </h4>
+                <p
+                  className="font-inter font-normal"
+                  style={{ fontSize: '14px', lineHeight: '18px', color: '#5F5F5F' }}
+                >
+                  We are dedicated to the pursuit of world-class mastery in our functional domains. We view excellence as an ongoing journey of refinement, continuous learning, and delivering high-impact results.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
 
         {/* Read Our Latest Insights */}
-        {/* Read Our Latest Insights */}
         <div className="mb-20 text-center bg-[#F9FAFB] py-16">
+          {/* Section Title */}
+          <h3
+            className="font-dm-sans font-bold mb-12"
+            style={{
+              fontSize: '48px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
+              color: '#14358A'
+            }}
+          >
+            Read Our Latest Insights
+          </h3>
 
+          {/* Cards Container */}
+          <div className="flex justify-center items-start gap-6 px-4 mb-12 flex-wrap">
+            {/* Card 1 - The Hidden Risks of AI Expansion */}
+            <div
+              className="w-[399px] overflow-hidden"
+              style={{
+                borderRadius: '10px',
+                border: '3px solid #231F20',
+                background: '#FFFFFF'
+              }}
+            >
+              {/* Card Header */}
+              <div
+                className="w-full flex items-center justify-center"
+                style={{
+                  height: '104px',
+                  borderTopLeftRadius: '7px',
+                  borderTopRightRadius: '7px',
+                  background: 'linear-gradient(180deg, #1B45B4 3.85%, #1C2792 69.39%)'
+                }}
+              >
+                <h4
+                  className="font-dm-sans font-bold text-white text-center px-3"
+                  style={{
+                    fontSize: '24px',
+                    lineHeight: '110%',
+                    letterSpacing: '-0.03em'
+                  }}
+                >
+                  The Hidden Risks of AI Expansion
+                </h4>
+              </div>
+              {/* Card Body */}
+              <div className="py-6 px-4 flex flex-col items-center">
+                <p
+                  className="font-dm-sans font-normal mb-4"
+                  style={{
+                    fontSize: '16px',
+                    lineHeight: '140%',
+                    color: '#1B45B4'
+                  }}
+                >
+                  AI · July 25, 2024
+                </p>
+                <button
+                  className="font-dm-sans font-bold text-white"
+                  style={{
+                    fontSize: '16px',
+                    lineHeight: '140%',
+                    padding: '16px 32px',
+                    borderRadius: '10px',
+                    background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)'
+                  }}
+                >
+                  Read More
+                </button>
+              </div>
+            </div>
 
-          <div className="flex justify-center items-center px-4 mb-24 overflow-hidden">
-            <img
-              src="/insights-section.png"
-              alt="Read Our Latest Insights - The Hidden Risks of AI Expansion, The Unseen Edge"
-              className="max-w-full h-auto relative left-[-2px]"
-              style={{ maxWidth: '1000px' }}
-            />
+            {/* Card 2 - The Unseen Edge */}
+            <div
+              className="w-[399px] overflow-hidden"
+              style={{
+                borderRadius: '10px',
+                border: '3px solid #231F20',
+                background: '#FFFFFF'
+              }}
+            >
+              {/* Card Header */}
+              <div
+                className="w-full flex items-center justify-center"
+                style={{
+                  height: '98px',
+                  borderTopLeftRadius: '7px',
+                  borderTopRightRadius: '7px',
+                  background: 'linear-gradient(180deg, #1B45B4 3.85%, #1C2792 69.39%)'
+                }}
+              >
+                <h4
+                  className="font-dm-sans font-bold text-white text-center px-3"
+                  style={{
+                    fontSize: '24px',
+                    lineHeight: '110%',
+                    letterSpacing: '-0.03em'
+                  }}
+                >
+                  The Unseen Edge
+                </h4>
+              </div>
+              {/* Card Body */}
+              <div className="py-6 px-4 flex flex-col items-center">
+                <p
+                  className="font-dm-sans font-normal mb-4"
+                  style={{
+                    fontSize: '16px',
+                    lineHeight: '140%',
+                    color: '#1B45B4'
+                  }}
+                >
+                  Strategy · July 20, 2024
+                </p>
+                <button
+                  className="font-dm-sans font-bold text-white"
+                  style={{
+                    fontSize: '16px',
+                    lineHeight: '140%',
+                    padding: '16px 32px',
+                    borderRadius: '10px',
+                    background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)'
+                  }}
+                >
+                  Read More
+                </button>
+              </div>
+            </div>
           </div>
+
+          {/* Browse All Publications Button */}
+          <button
+            className="inline-flex items-center justify-center gap-2 font-inter font-semibold text-white"
+            style={{
+              fontSize: '21.1px',
+              lineHeight: '30px',
+              padding: '24px 32px',
+              borderRadius: '82px',
+              background: '#14358A',
+              border: '2px solid #14358A'
+            }}
+          >
+            Browse All Publications
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              style={{ transform: 'rotate(180deg)' }}
+            >
+              <path
+                d="M15 19L8 12L15 5"
+                stroke="white"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </button>
         </div>
 
         {/* Who We Partner With */}
@@ -167,18 +405,24 @@ export default function About() {
             We don't work with everyone. We partner with organizations that are ready to move from 'Strategy as a Document' to 'Strategy as an Operation.' Our strategic partnerships are critical extensions of our functional expertise, expanding our capabilities to deliver seamless, cutting-edge solutions across complex operational landscapes.
           </p>
 
-          <div className="flex items-start justify-center gap-16 flex-wrap mt-16">
-            <div className="max-w-[853px] text-left">
-              <h4 className="font-dm-sans font-bold text-[32px] leading-[105%] tracking-[-0.03em] text-black mb-6">OneThought Technologies</h4>
+          <div className="flex flex-col md:flex-row items-start justify-center gap-8 p-8 max-w-7xl mx-auto mt-16">
+            {/* Left Side: Heading and Text */}
+            <div className="flex flex-col max-w-[700px]">
+              <h4 className="font-dm-sans font-bold text-[32px] leading-[105%] tracking-[-0.03em] text-black mb-6">
+                OneThought Technologies
+              </h4>
               <p className="font-montserrat font-normal text-[25px] leading-[140%] text-[#333333]">
                 OneThought Technologies is our premier partner for high-volume BPO and operational technology integration. They leverage top-tier global talent and proprietary tech to resolve complex operational hurdles, ensuring tangible outcomes and seamless, scalable resource solutions.
               </p>
             </div>
-            <div className="flex-shrink-0 pt-4">
+
+            {/* Right Side: Logo */}
+            <div className="flex-shrink-0">
               <img
                 src="/onethought-logo.png"
                 alt="OneThought Technologies Logo"
                 style={{ height: '150px', width: 'auto' }}
+                className="object-contain"
               />
             </div>
           </div>
@@ -312,7 +556,7 @@ export default function About() {
       </div>
 
       {/* Footer */}
-      <footer className="relative z-10 pt-32 pb-20" style={{ background: '#1B45B4', clipPath: 'polygon(0 70px, 100% 0, 100% 100%, 0 100%)', marginTop: '-70px' }}>
+      <footer className="relative z-10 pt-32 pb-20" style={{ background: '#1B45B4' }}>
         <div className="max-w-7xl mx-auto px-20">
           <div className="grid grid-cols-5 gap-16">
             {/* Logo Column */}

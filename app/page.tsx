@@ -7,12 +7,13 @@ export default function Home() {
     >
       {/* Hero Section with Background Image */}
       <div 
-        className="relative w-full min-h-screen"
+        className="hero-section relative w-full min-h-screen"
         style={{
-          backgroundImage: 'url(/hero-bg-new.png)',
+          backgroundImage: 'url(/hero-background.png)',
           backgroundSize: 'cover',
           backgroundPosition: 'center center',
-          backgroundRepeat: 'no-repeat'
+          backgroundRepeat: 'no-repeat',
+          backgroundColor: '#1e3a8a'
         }}
       >
         {/* Header */}
@@ -22,11 +23,13 @@ export default function Home() {
         <div className="relative z-10 flex flex-col items-center justify-center px-4" style={{ minHeight: '100vh', paddingTop: '100px' }}>
         {/* Main Heading */}
         <h1 
-          className="text-center text-white font-dm-sans font-bold"
+          className="text-center text-white font-bold"
           style={{
+            fontFamily: 'DM Sans, sans-serif',
             fontSize: '60px',
+            fontWeight: 700,
             lineHeight: '110%',
-            letterSpacing: '-0.03em',
+            letterSpacing: '-3%',
             maxWidth: '760px',
             marginBottom: '20px'
           }}
@@ -38,9 +41,11 @@ export default function Home() {
 
         {/* Description */}
         <p 
-          className="text-center font-dm-sans font-normal"
+          className="text-center"
           style={{
+            fontFamily: 'DM Sans, sans-serif',
             fontSize: '18px',
+            fontWeight: 400,
             lineHeight: '135%',
             maxWidth: '820px',
             color: '#FFFFFF',
@@ -57,11 +62,14 @@ export default function Home() {
         <div className="flex items-center justify-center gap-5 flex-wrap">
           {/* Primary Button */}
           <button 
-            className="rounded-[10px] text-white font-dm-sans font-semibold hover:opacity-90 transition-opacity"
+            className="rounded-[10px] text-white hover:opacity-90 transition-opacity"
             style={{
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: '18px',
+              lineHeight: '135%',
               background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
               padding: '20px 40px',
-              fontSize: '16px',
               border: 'none',
               cursor: 'pointer'
             }}
@@ -71,10 +79,13 @@ export default function Home() {
 
           {/* Secondary Button */}
           <button 
-            className="rounded-[10px] text-white font-dm-sans font-semibold border border-white hover:bg-white/10 transition-all flex items-center justify-center gap-2"
+            className="rounded-[10px] text-white border border-white hover:bg-white/10 transition-all flex items-center justify-center gap-2"
             style={{
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: '18px',
+              lineHeight: '135%',
               padding: '20px 40px',
-              fontSize: '16px',
               background: 'transparent',
               cursor: 'pointer'
             }}
@@ -103,25 +114,6 @@ export default function Home() {
         >
           Trusted as a strategic partner to global leaders, accelerators, and the "Big 4."
         </p>
-
-        {/* Client Logos */}
-        <div className="flex items-center justify-center gap-16 mb-16 px-4 flex-wrap">
-          <img 
-            src="/accenture.png" 
-            alt="Accenture" 
-            style={{ height: '40px', width: 'auto', opacity: 0.8 }}
-          />
-          <img 
-            src="/vanguard.png" 
-            alt="Vanguard" 
-            style={{ height: '40px', width: 'auto', opacity: 0.8 }}
-          />
-          <img 
-            src="/kenvue.png" 
-            alt="Kenvue" 
-            style={{ height: '40px', width: 'auto', opacity: 0.8 }}
-          />
-        </div>
 
         {/* Section Heading */}
         <h2 
@@ -154,97 +146,98 @@ export default function Home() {
         {/* Services List */}
         <div className="max-w-[1353px] mx-auto" style={{ marginTop: '3rem' }}>
           {/* Service Items */}
-          <div className="rounded-t-xl overflow-hidden" style={{ boxShadow: '20px 20px 40px 0px rgba(112, 129, 136, 0.2)' }}>
+          <div className="overflow-hidden" style={{ borderRadius: '56px', boxShadow: '20px 20px 40px 0px rgba(112, 129, 136, 0.2)', borderLeft: '1px solid rgba(255,255,255,0.1)' }}>
             {/* Crisis & Transition Management */}
             <div 
-              className="flex items-center justify-between px-12 py-8 border-b border-white"
-              style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)' }}
+              className="flex items-center justify-between px-12"
+              style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)', height: '156px', borderBottom: '1px solid white' }}
             >
               <div className="flex items-center gap-4">
-                <span className="text-white text-2xl">↘</span>
-                <span className="text-white font-montserrat font-medium text-xl">Crisis & Transition Management</span>
+                <img src="/arrow-icon.png" alt="Arrow" style={{ width: '24px', height: '24px' }} />
+                <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '30px', lineHeight: '120%' }}>Crisis & Transition Management</span>
               </div>
-              <span className="text-white font-montserrat font-normal text-lg">Navigating Uncertainty, Delivering Stability.</span>
+              <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 500, fontSize: '30px', lineHeight: '60%' }}>Navigating Uncertainty, Delivering Stability.</span>
             </div>
 
             {/* Mergers & Acquisitions */}
             <div 
-              className="flex items-center justify-between px-12 py-8 border-b border-white"
-              style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)' }}
+              className="flex items-center justify-between px-12"
+              style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)', height: '156px', borderBottom: '1px solid white' }}
             >
               <div className="flex items-center gap-4">
-                <span className="text-white text-2xl">↘</span>
-                <span className="text-white font-montserrat font-medium text-xl">Mergers & Acquisitions</span>
+                <img src="/arrow-icon.png" alt="Arrow" style={{ width: '24px', height: '24px' }} />
+                <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '30px', lineHeight: '120%' }}>Mergers & Acquisitions</span>
               </div>
-              <span className="text-white font-montserrat font-normal text-lg">Realizing the synergies that others leave on the table.</span>
+              <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 500, fontSize: '30px', lineHeight: '60%' }}>Realizing the synergies that others leave on the table.</span>
             </div>
 
             {/* Branding & Marketing */}
             <div 
-              className="flex items-center justify-between px-12 py-8 border-b border-white"
-              style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)' }}
+              className="flex items-center justify-between px-12"
+              style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)', height: '156px', borderBottom: '1px solid white' }}
             >
               <div className="flex items-center gap-4">
-                <span className="text-white text-2xl">↘</span>
-                <span className="text-white font-montserrat font-medium text-xl">Branding & Marketing</span>
+                <img src="/arrow-icon.png" alt="Arrow" style={{ width: '24px', height: '24px' }} />
+                <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '30px', lineHeight: '120%' }}>Branding & Marketing</span>
               </div>
-              <span className="text-white font-montserrat font-normal text-lg">Crafting Identities That Captivate.</span>
+              <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 500, fontSize: '30px', lineHeight: '60%' }}>Crafting Identities That Captivate.</span>
             </div>
 
             {/* BPO & Fractional Talent */}
             <div 
-              className="flex items-center justify-between px-12 py-8 border-b border-white"
-              style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)' }}
+              className="flex items-center justify-between px-12"
+              style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)', height: '156px', borderBottom: '1px solid white' }}
             >
               <div className="flex items-center gap-4">
-                <span className="text-white text-2xl">↘</span>
-                <span className="text-white font-montserrat font-medium text-xl">BPO & Fractional Talent</span>
+                <img src="/arrow-icon.png" alt="Arrow" style={{ width: '24px', height: '24px' }} />
+                <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '30px', lineHeight: '120%' }}>BPO & Fractional Talent</span>
               </div>
-              <span className="text-white font-montserrat font-normal text-lg">Scaling your infrastructure without scaling your overhead.</span>
+              <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 500, fontSize: '30px', lineHeight: '60%' }}>Scaling your infrastructure without scaling your overhead.</span>
             </div>
 
             {/* Custom Experience */}
             <div 
-              className="flex items-center justify-between px-12 py-8 border-b border-white"
-              style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)' }}
+              className="flex items-center justify-between px-12"
+              style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)', height: '156px', borderBottom: '1px solid white' }}
             >
               <div className="flex items-center gap-4">
-                <span className="text-white text-2xl">↘</span>
-                <span className="text-white font-montserrat font-medium text-xl">Custom Experience</span>
+                <img src="/arrow-icon.png" alt="Arrow" style={{ width: '24px', height: '24px' }} />
+                <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '30px', lineHeight: '120%' }}>Custom Experience</span>
               </div>
-              <span className="text-white font-montserrat font-normal text-lg">Engineering high-retention, high-value journey</span>
+              <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 500, fontSize: '30px', lineHeight: '60%' }}>Engineering high-retention, high-value journey</span>
             </div>
 
             {/* People & Organizations */}
             <div 
-              className="flex items-center justify-between px-12 py-8 border-b border-white"
-              style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)' }}
+              className="flex items-center justify-between px-12"
+              style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)', height: '156px', borderBottom: '1px solid white' }}
             >
               <div className="flex items-center gap-4">
-                <span className="text-white text-2xl">↘</span>
-                <span className="text-white font-montserrat font-medium text-xl">People & Organizations</span>
+                <img src="/arrow-icon.png" alt="Arrow" style={{ width: '24px', height: '24px' }} />
+                <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '30px', lineHeight: '120%' }}>People & Organizations</span>
               </div>
-              <span className="text-white font-montserrat font-normal text-lg">We solve the "People Tax" on P&L.</span>
+              <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 500, fontSize: '30px', lineHeight: '60%' }}>We solve the "People Tax" on P&L.</span>
             </div>
 
             {/* Operations & Strategy */}
             <div 
-              className="flex items-center justify-between px-12 py-8"
-              style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)' }}
+              className="flex items-center justify-between px-12"
+              style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)', height: '156px' }}
             >
               <div className="flex items-center gap-4">
-                <span className="text-white text-2xl">↘</span>
-                <span className="text-white font-montserrat font-medium text-xl">Operations & Strategy</span>
+                <img src="/arrow-icon.png" alt="Arrow" style={{ width: '24px', height: '24px' }} />
+                <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '30px', lineHeight: '120%' }}>Operations & Strategy</span>
               </div>
-              <span className="text-white font-montserrat font-normal text-lg">Efficiency Engineering. Excellence Delivered</span>
+              <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 500, fontSize: '30px', lineHeight: '60%' }}>Efficiency Engineering. Excellence Delivered</span>
             </div>
 
             {/* Explore More Button */}
             <div 
-              className="flex items-center justify-center py-8 rounded-b-xl"
+              className="flex items-center justify-center py-8"
               style={{ 
                 background: '#AC5FE6',
-                boxShadow: '20px 20px 40px 0px rgba(112, 129, 136, 0.2)'
+                boxShadow: '20px 20px 40px 0px rgba(112, 129, 136, 0.2)',
+                borderTop: '1px solid white'
               }}
             >
               <button 
@@ -283,10 +276,10 @@ export default function Home() {
         <p 
           className="text-center font-montserrat font-normal mb-24"
           style={{
-            fontSize: '24px',
-            lineHeight: '150%',
-            color: '#6B7280',
-            maxWidth: '1000px',
+            fontSize: '32px',
+            lineHeight: '40px',
+            color: '#465052',
+            width: '918px',
             margin: '0 auto 6rem auto'
           }}
         >
@@ -335,7 +328,7 @@ export default function Home() {
           {/* Arrow 1 */}
           <div className="flex items-center justify-center" style={{ width: '140px', marginTop: '-60px' }}>
             <img 
-              src="/arrow-1.png" 
+              src="/stat-arrow.png" 
               alt="Arrow" 
               style={{ width: 'auto', height: 'auto', maxWidth: '100%' }}
             />
@@ -374,7 +367,7 @@ export default function Home() {
           {/* Arrow 2 */}
           <div className="flex items-center justify-center" style={{ width: '140px', marginTop: '-60px' }}>
             <img 
-              src="/arrow-2.png" 
+              src="/stat-arrow.png" 
               alt="Arrow" 
               style={{ width: 'auto', height: 'auto', maxWidth: '100%' }}
             />
@@ -701,22 +694,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Diagonal Wave Divider before CTA */}
-      <div className="relative w-full" style={{ height: '100px', background: '#FFFFFF', overflow: 'hidden' }}>
-        <svg 
-          className="absolute bottom-0 left-0 w-full" 
-          viewBox="0 0 1440 100" 
-          fill="none" 
-          preserveAspectRatio="none"
-          style={{ height: '100%' }}
-        >
-          <path 
-            d="M0 100L1440 0V100H0Z" 
-            fill="#EBF7FF"
-          />
-        </svg>
-      </div>
-
       {/* Seize Your Next Opportunity CTA Section */}
       <div className="relative z-10 py-20" style={{ background: '#EBF7FF' }}>
         <div className="max-w-4xl mx-auto text-center px-4">
@@ -779,20 +756,374 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Diagonal Wave Divider before Footer */}
-      <div className="relative w-full" style={{ height: '100px', background: '#EBF7FF', overflow: 'hidden' }}>
-        <svg 
-          className="absolute bottom-0 left-0 w-full" 
-          viewBox="0 0 1440 100" 
-          fill="none" 
-          preserveAspectRatio="none"
-          style={{ height: '100%' }}
-        >
-          <path 
-            d="M0 100L1440 0V100H0Z" 
-            fill="#1B45B4"
-          />
-        </svg>
+      {/* Ready for a Definitive Path to Transformation Section */}
+      <div className="relative z-10 bg-white py-16 lg:py-24 overflow-hidden">
+        {/* Decorative Background Element */}
+        <div 
+          className="absolute right-0 top-0 w-[280px] lg:w-[300px] h-[100px] lg:h-[116px] opacity-100"
+          style={{
+            background: 'linear-gradient(277.47deg, rgba(0, 151, 254, 0) 8.72%, rgba(0, 151, 254, 0.86) 91.5%)'
+          }}
+        />
+
+        <div className="max-w-[1440px] mx-auto px-6 lg:px-12 xl:px-20 relative">
+          {/* Section Heading */}
+          <h2 
+            className="text-center font-poppins font-semibold mb-8 lg:mb-12"
+            style={{
+              fontSize: 'clamp(32px, 3.5vw, 50px)',
+              lineHeight: '1.1',
+              color: '#14358A'
+            }}
+          >
+            Ready for a Definitive Path to Transformation?
+          </h2>
+
+          {/* Description */}
+          <p 
+            className="text-center font-montserrat font-normal mb-12 lg:mb-16 mx-auto"
+            style={{
+              fontSize: 'clamp(20px, 2vw, 30px)',
+              lineHeight: '1.4',
+              color: '#333333',
+              maxWidth: '1082px'
+            }}
+          >
+            PMG's expertise translates directly into superior results. Explore our structured engagement models, ensuring the right expertise is delivered in a way that aligns perfectly with your growth goals.
+          </p>
+
+          {/* Solution Cards Grid - Top Row */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 xl:gap-10 mb-6 lg:mb-8 xl:mb-10 max-w-[1200px] mx-auto">
+            {/* Out-of-the-Box Solutions Card */}
+            <div 
+              className="bg-white rounded-[10px] p-6 lg:p-8 relative"
+              style={{
+                border: '3px solid #14358A',
+                minHeight: '335px'
+              }}
+            >
+              {/* Icon */}
+              <div 
+                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
+                style={{ background: '#14358A' }}
+              >
+                <img src="/cube-three.png" alt="Out-of-the-Box Solutions" className="w-10 h-10" />
+              </div>
+
+              {/* Title */}
+              <h3 
+                className="font-dm-sans font-bold mb-2"
+                style={{
+                  fontSize: 'clamp(24px, 2vw, 29px)',
+                  lineHeight: '1.05',
+                  letterSpacing: '-0.03em',
+                  color: '#14358A'
+                }}
+              >
+                Out-of-the-Box Solutions
+              </h3>
+
+              {/* Subtitle */}
+              <p 
+                className="font-dm-sans mb-4"
+                style={{
+                  fontSize: '16px',
+                  lineHeight: '1.4',
+                  color: '#68718B'
+                }}
+              >
+                Simple · Affordable · Self-Directed
+              </p>
+
+              {/* Description */}
+              <p 
+                className="font-dm-sans mb-6"
+                style={{
+                  fontSize: '18px',
+                  lineHeight: '1.67',
+                  color: '#68718B',
+                  marginBottom: 'auto'
+                }}
+              >
+                Pre-packaged, technology-enabled offerings designed to rapidly address common industry challenges and deliver immediate value.
+              </p>
+
+              {/* CTA Link */}
+              <a 
+                href="#"
+                className="font-inter font-semibold inline-flex items-center gap-2 hover:gap-3 transition-all"
+                style={{
+                  fontSize: '21px',
+                  lineHeight: '1.43',
+                  color: '#14358A'
+                }}
+              >
+                Explore Strategic solutions
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path d="M4 10H16M16 10L10 4M16 10L10 16" stroke="#14358A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </a>
+            </div>
+
+            {/* Bespoke Solutions Card */}
+            <div 
+              className="bg-white rounded-[10px] p-6 lg:p-8 relative"
+              style={{
+                border: '3px solid #14358A',
+                minHeight: '335px'
+              }}
+            >
+              {/* Icon */}
+              <div 
+                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
+                style={{ background: '#14358A' }}
+              >
+                <img src="/pencil.png" alt="Bespoke Solutions" className="w-10 h-10" />
+              </div>
+
+              {/* Title */}
+              <h3 
+                className="font-dm-sans font-bold mb-2"
+                style={{
+                  fontSize: 'clamp(24px, 2vw, 29px)',
+                  lineHeight: '1.05',
+                  letterSpacing: '-0.03em',
+                  color: '#14358A'
+                }}
+              >
+                Bespoke Solutions
+              </h3>
+
+              {/* Subtitle */}
+              <p 
+                className="font-dm-sans mb-4"
+                style={{
+                  fontSize: '16px',
+                  lineHeight: '1.4',
+                  color: '#68718B'
+                }}
+              >
+                Custom · Flexible · Fully Supported
+              </p>
+
+              {/* Description */}
+              <p 
+                className="font-dm-sans mb-6"
+                style={{
+                  fontSize: '18px',
+                  lineHeight: '1.67',
+                  color: '#68718B'
+                }}
+              >
+                Tailored to your specific, complex needs. Our custom solutions are managed hands-on by our world-class expert team, ensuring high-impact innovation.
+              </p>
+
+              {/* CTA Link */}
+              <a 
+                href="#"
+                className="font-inter font-semibold inline-flex items-center gap-2 hover:gap-3 transition-all"
+                style={{
+                  fontSize: '21px',
+                  lineHeight: '1.43',
+                  color: '#14358A'
+                }}
+              >
+                Explore Strategic solutions
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path d="M4 10H16M16 10L10 4M16 10L10 16" stroke="#14358A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          {/* Solution Cards Grid - Bottom Row */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 xl:gap-10 max-w-[1200px] mx-auto">
+            {/* Active Management Solutions Card */}
+            <div 
+              className="bg-white rounded-[10px] p-6 lg:p-8 relative"
+              style={{
+                border: '3px solid #14358A',
+                minHeight: '335px'
+              }}
+            >
+              {/* Icon */}
+              <div 
+                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
+                style={{ background: '#14358A' }}
+              >
+                <img src="/right-user.png" alt="Active Management Solutions" className="w-10 h-10" />
+              </div>
+
+              {/* Title */}
+              <h3 
+                className="font-dm-sans font-bold mb-2"
+                style={{
+                  fontSize: 'clamp(24px, 2vw, 29px)',
+                  lineHeight: '1.05',
+                  letterSpacing: '-0.03em',
+                  color: '#14358A'
+                }}
+              >
+                Active Management Solutions
+              </h3>
+
+              {/* Subtitle */}
+              <p 
+                className="font-dm-sans mb-4"
+                style={{
+                  fontSize: '16px',
+                  lineHeight: '1.4',
+                  color: '#68718B'
+                }}
+              >
+                Proactive · Expert-Led · Fully Managed
+              </p>
+
+              {/* Description */}
+              <p 
+                className="font-dm-sans mb-6"
+                style={{
+                  fontSize: '18px',
+                  lineHeight: '1.67',
+                  color: '#68718B'
+                }}
+              >
+                We don't just consult—we actively manage critical functions. PMG leads hands-on, end-to-end solution delivery with full accountability for results.
+              </p>
+
+              {/* CTA Link */}
+              <a 
+                href="#"
+                className="font-inter font-semibold inline-flex items-center gap-2 hover:gap-3 transition-all"
+                style={{
+                  fontSize: '21px',
+                  lineHeight: '1.43',
+                  color: '#14358A'
+                }}
+              >
+                Explore Strategic solutions
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path d="M4 10H16M16 10L10 4M16 10L10 16" stroke="#14358A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </a>
+            </div>
+
+            {/* Equity Engagements Card */}
+            <div 
+              className="bg-white rounded-[10px] p-6 lg:p-8 relative"
+              style={{
+                border: '3px solid #14358A',
+                minHeight: '335px'
+              }}
+            >
+              {/* Icon */}
+              <div 
+                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
+                style={{ background: '#14358A' }}
+              >
+                <img src="/efferent-four.png" alt="Equity Engagements" className="w-10 h-10" />
+              </div>
+
+              {/* Title */}
+              <h3 
+                className="font-dm-sans font-bold mb-2"
+                style={{
+                  fontSize: 'clamp(24px, 2vw, 29px)',
+                  lineHeight: '1.05',
+                  letterSpacing: '-0.03em',
+                  color: '#14358A'
+                }}
+              >
+                Equity Engagements
+              </h3>
+
+              {/* Subtitle */}
+              <p 
+                className="font-dm-sans mb-4"
+                style={{
+                  fontSize: '16px',
+                  lineHeight: '1.4',
+                  color: '#68718B'
+                }}
+              >
+                Aligned · Scalable · Capital-Efficient
+              </p>
+
+              {/* Description */}
+              <p 
+                className="font-dm-sans mb-6"
+                style={{
+                  fontSize: '18px',
+                  lineHeight: '1.67',
+                  color: '#68718B'
+                }}
+              >
+                Access top-tier strategy and execution without draining vital cash reserves. PMG invests proprietary expertise for equity, directly aligning our success with your maximized outcomes.
+              </p>
+
+              {/* CTA Link */}
+              <a 
+                href="#"
+                className="font-inter font-semibold inline-flex items-center gap-2 hover:gap-3 transition-all"
+                style={{
+                  fontSize: '21px',
+                  lineHeight: '1.43',
+                  color: '#14358A'
+                }}
+              >
+                Explore Strategic solutions
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path d="M4 10H16M16 10L10 4M16 10L10 16" stroke="#14358A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Unsure Which Solution Fits Section */}
+      <div className="relative z-10 py-16 lg:py-20" style={{ background: '#EBF7FF' }}>
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-12 text-center">
+          {/* Heading */}
+          <h2 
+            className="font-dm-sans font-bold mb-6 lg:mb-8"
+            style={{
+              fontSize: 'clamp(32px, 3.3vw, 48px)',
+              lineHeight: '1.05',
+              letterSpacing: '-0.03em',
+              color: '#14358A'
+            }}
+          >
+            Unsure which solution fits your business?
+          </h2>
+
+          {/* Description */}
+          <p 
+            className="font-montserrat font-normal mb-10 lg:mb-12 mx-auto"
+            style={{
+              fontSize: 'clamp(20px, 2.2vw, 32px)',
+              lineHeight: '1.35',
+              color: '#333333',
+              maxWidth: '1196px'
+            }}
+          >
+            Our proprietary Solutions Assessment Tool helps you pinpoint the perfect, expert-backed strategy for your unique challenges.
+          </p>
+
+          {/* CTA Button */}
+          <button 
+            className="text-white font-dm-sans font-bold rounded-[10px] hover:opacity-90 transition-all transform hover:scale-105"
+            style={{
+              background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
+              padding: '16px 32px',
+              fontSize: 'clamp(18px, 1.4vw, 20px)',
+              lineHeight: '1.4',
+              minWidth: '280px'
+            }}
+          >
+            Find your ideal solution
+          </button>
+        </div>
       </div>
 
       {/* Footer */}
@@ -801,7 +1132,12 @@ export default function Home() {
           <div className="grid grid-cols-5 gap-16">
             {/* Logo Column */}
             <div>
-              <img src="/logo.png" alt="PMG Logo" style={{ width: '120px', height: 'auto' }} />
+              <h2 className="text-white mb-2" style={{ fontSize: '38px', lineHeight: '100%' }}>
+                <span className="logo-text">PMG</span> <span style={{ fontFamily: 'var(--font-inter), Inter, sans-serif', fontWeight: 700, letterSpacing: '-0.02em' }}>Consulting</span>
+              </h2>
+              <p className="font-dm-sans font-normal" style={{ fontSize: '20px', lineHeight: '135%', color: '#FFFFFF', opacity: 0.7 }}>
+                Driving Industries Forward
+              </p>
             </div>
 
             {/* What we Do Column */}
@@ -810,10 +1146,10 @@ export default function Home() {
                 What we Do
               </h3>
               <ul className="space-y-3">
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>Our Services</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>Our Solutions</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>Rebuilding from within</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>Why Consulting?</a></li>
+                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>Our Services</a></li>
+                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>Our Solutions</a></li>
+                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>Rebuilding from within</a></li>
+                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>Why Consulting?</a></li>
               </ul>
             </div>
 
@@ -823,16 +1159,16 @@ export default function Home() {
                 Our Content
               </h3>
               <ul className="space-y-3">
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>FAQs</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>Insights & Innovations</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>Community Programs</a></li>
+                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>FAQs</a></li>
+                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>Insights & Innovations</a></li>
+                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>Community Programs</a></li>
               </ul>
               <h3 className="text-white font-trade-gothic font-bold text-[25px] mt-8 mb-4" style={{ lineHeight: '100%' }}>
                 Working with PMG
               </h3>
               <ul className="space-y-3">
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>Careers</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>Licensing</a></li>
+                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>Careers</a></li>
+                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>Licensing</a></li>
               </ul>
             </div>
 
@@ -842,9 +1178,9 @@ export default function Home() {
                 Our Models
               </h3>
               <ul className="space-y-3">
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>Sector Convergence Model</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>I-O Enterprise Architecture</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>Bussiness Value-Unit Model</a></li>
+                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>Sector Convergence Model</a></li>
+                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>I-O Enterprise Architecture</a></li>
+                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>Bussiness Value-Unit Model</a></li>
               </ul>
             </div>
 
@@ -854,13 +1190,13 @@ export default function Home() {
                 Legal
               </h3>
               <ul className="space-y-3">
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>Privacy & Cookie Policy</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>Hiring & Equal Opportunity</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>AI & Data Ethics Statement</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>Anti-Modern Slavery Policy</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>Intellectual Property</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>Regionalization Policy</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>Digital Terms of Use</a></li>
+                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>Privacy & Cookie Policy</a></li>
+                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>Hiring & Equal Opportunity</a></li>
+                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>AI & Data Ethics Statement</a></li>
+                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>Anti-Modern Slavery Policy</a></li>
+                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>Intellectual Property</a></li>
+                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>Regionalization Policy</a></li>
+                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>Digital Terms of Use</a></li>
               </ul>
             </div>
           </div>
