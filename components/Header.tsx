@@ -15,7 +15,15 @@ export default function Header() {
   const isInsightsPage = pathname === '/insights';
   const isSaaSPage = pathname === '/saas-enterprise-technology';
   const isPublicSectorPage = pathname === '/public-sector-government';
-  const isLightPage = isAboutPage || isYourIndustryPage || isFunctionalAreasPage || isSolutionsPage || isInsightsPage || isSaaSPage || isPublicSectorPage;
+  const isHigherEducationPage = pathname === '/higher-education-edtech';
+  const isFoodAgribusinessPage = pathname === '/food-beverage-agribusiness';
+  const isTravelHospitalityPage = pathname === '/travel-tourism-hospitality';
+  const isWhyFunctionalConsultingPage = pathname === '/why-functional-consulting';
+  const isStrategyOperationsPage = pathname === '/strategy-operations-consulting';
+  const isPeopleOrganizationsPage = pathname === '/people-organizations-consulting';
+  const isCustomerExperiencePage = pathname === '/customer-experience-consulting';
+  const isMergersAcquisitionsPage = pathname === '/mergers-acquisitions-consulting';
+  const isLightPage = isAboutPage || isYourIndustryPage || isFunctionalAreasPage || isSolutionsPage || isInsightsPage || isSaaSPage || isPublicSectorPage || isHigherEducationPage || isFoodAgribusinessPage || isTravelHospitalityPage || isWhyFunctionalConsultingPage || isStrategyOperationsPage || isPeopleOrganizationsPage || isCustomerExperiencePage || isMergersAcquisitionsPage;
 
   const textColor = isLightPage ? 'text-black' : 'text-white';
   const logoTextColor = isLightPage ? 'text-[#000000]' : 'text-white'; // purely black for logo text on light pages
@@ -24,7 +32,7 @@ export default function Header() {
   const navItems = [
     { name: 'About', hasDropdown: false, href: '/about' },
     { name: 'Your Industry', hasDropdown: true, href: '/your-industry' },
-    { name: 'Our functional areas', hasDropdown: false, href: '/our-functional-areas' },
+    { name: 'Our functional areas', hasDropdown: true, href: '/our-functional-areas' },
     { name: 'Our Solutions', hasDropdown: false, href: '/our-solutions' },
     { name: 'Insights', hasDropdown: false, href: '/insights' },
     { name: 'Contact Us', hasDropdown: false, href: '#contact' },
@@ -35,8 +43,22 @@ export default function Header() {
     { title: 'SaaS & Enterprise Technology', desc: 'Accelerating growth and innovation.', href: '/saas-enterprise-technology' },
     { title: 'PE, VC, and Capital Management', desc: 'Maximizing portfolio value for investors.', href: '/your-industry' },
     { title: 'Public Sector & Government Services', desc: 'Enhancing public sector efficiency.', href: '/public-sector-government' },
-    { title: 'Higher Education & EdTech', desc: 'Modernizing institutions for student success.', href: '/your-industry' },
-    { title: 'Food, Beverage & Agribusiness', desc: 'Optimizing the food value chain.', href: '/your-industry' },
+    { title: 'Higher Education & EdTech', desc: 'Modernizing institutions for student success.', href: '/higher-education-edtech' },
+    { title: 'Food, Beverage & Agribusiness', desc: 'Optimizing the food value chain.', href: '/food-beverage-agribusiness' },
+    { title: 'Travel, Tourism & Hospitality', desc: 'Creating world-class guest experiences.', href: '/travel-tourism-hospitality' },
+    { title: 'B2B & Professional Services', desc: 'Optimizing corporate service delivery.', href: '/your-industry' },
+    { title: 'Why Functional Consulting?', desc: 'The advantage of deep expertise over generalists.', href: '/why-functional-consulting' },
+  ];
+
+  const functionalAreasItems = [
+    { title: 'All Functional Areas', desc: 'Explore our full suite of consulting capabilities.', href: '/our-functional-areas' },
+    { title: 'Operations & Strategy', desc: 'Efficiency Engineered, Excellence Delivered.', href: '/strategy-operations-consulting' },
+    { title: 'People & Organizations', desc: 'Unleashing Potential, Driving Performance.', href: '/people-organizations-consulting' },
+    { title: 'Customer Experience', desc: 'Turning Transactions Into Relationships.', href: '/customer-experience-consulting' },
+    { title: 'Mergers & Acquisitions', desc: 'Navigating Transitions, Maximizing Value.', href: '/mergers-acquisitions-consulting' },
+    { title: 'Branding & Marketing', desc: 'Crafting Identities That Captivate.', href: '/our-functional-areas' },
+    { title: 'BPO & Fractional Talent', desc: 'Seamless Solutions, Made Global.', href: '/our-functional-areas' },
+    { title: 'Crisis & Transition Management', desc: 'Navigating Uncertainty with Decisive Leadership.', href: '/our-functional-areas' },
   ];
 
   return (
@@ -118,6 +140,24 @@ export default function Header() {
                        {item.name === 'Your Industry' && (
                         <div className="flex flex-col">
                           {industryItems.map((subItem, idx) => (
+                            <Link 
+                              key={idx}
+                              href={subItem.href}
+                              className="px-6 py-4 hover:bg-gray-50 transition-colors group/item block"
+                            >
+                              <h4 className="text-[#14358A] font-inter font-semibold text-[15px] mb-1 group-hover/item:text-[#6A36FF] transition-colors">
+                                {subItem.title}
+                              </h4>
+                              <p className="text-[#5F6D7E] text-[13px] leading-snug font-inter">
+                                {subItem.desc}
+                              </p>
+                            </Link>
+                          ))}
+                        </div>
+                       )}
+                       {item.name === 'Our functional areas' && (
+                        <div className="flex flex-col">
+                          {functionalAreasItems.map((subItem, idx) => (
                             <Link 
                               key={idx}
                               href={subItem.href}

@@ -412,6 +412,430 @@ export default function Home() {
         </div>
       </div>
 
+      {/* Our Work Section */}
+      <div className="relative z-10 bg-white py-20">
+        {/* Section Heading */}
+        <h2 
+          className="text-center font-bold mb-6"
+          style={{
+            fontFamily: 'DM Sans, sans-serif',
+            fontSize: '48px',
+            lineHeight: '105%',
+            letterSpacing: '-0.03em',
+            color: '#14358A',
+          }}
+        >
+          Our Work
+        </h2>
+
+        {/* Description */}
+        <p 
+          className="text-center font-montserrat font-normal mb-16"
+          style={{
+            fontSize: '30px',
+            lineHeight: '140%',
+            color: '#333333',
+            maxWidth: '1082px',
+            margin: '0 auto 4rem auto',
+            padding: '0 2rem'
+          }}
+        >
+          Our work supports strategy, operations, & transformation—equipping financial leaders with the tools to deliver meaningful change.
+        </p>
+
+        {/* Cards Grid */}
+        <div className="max-w-[1312px] mx-auto px-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Card 1 - Policy & Strategy Development */}
+            <div 
+              className="bg-white rounded-[10px] p-8"
+              style={{
+                border: '3px solid #14358A',
+                minHeight: '260px'
+              }}
+            >
+              {/* Icon */}
+              <div 
+                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
+                style={{ background: '#14358A' }}
+              >
+                <img src="/icons/policy-strategy.png" alt="Policy & Strategy" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
+              </div>
+
+              {/* Title */}
+              <h3 
+                className="font-bold mb-3"
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontSize: '29px',
+                  lineHeight: '105%',
+                  letterSpacing: '-0.03em',
+                  color: '#14358A'
+                }}
+              >
+                Policy & Strategy Development
+              </h3>
+
+              {/* Description */}
+              <p 
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontSize: '15px',
+                  lineHeight: '140%',
+                  color: '#68718B'
+                }}
+              >
+                Design ambitious yet practical policies and strategies to support economic growth, improve public service delivery, and maximize long-term societal impact.
+              </p>
+            </div>
+
+            {/* Card 2 - Operational Efficiency */}
+            <div 
+              className="bg-white rounded-[10px] p-8"
+              style={{
+                border: '3px solid #14358A',
+                minHeight: '260px'
+              }}
+            >
+              {/* Icon */}
+              <div 
+                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
+                style={{ background: '#14358A' }}
+              >
+                <img src="/icons/operational-efficiency.png" alt="Operational Efficiency" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
+              </div>
+
+              {/* Title */}
+              <h3 
+                className="font-bold mb-3"
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontSize: '29px',
+                  lineHeight: '105%',
+                  letterSpacing: '-0.03em',
+                  color: '#14358A'
+                }}
+              >
+                Operational Efficiency
+              </h3>
+
+              {/* Description */}
+              <p 
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontSize: '15px',
+                  lineHeight: '140%',
+                  color: '#68718B'
+                }}
+              >
+                Support efficiency initiatives through process optimization, performance measurement, and resource allocation, enabling departments to do more with less.
+              </p>
+            </div>
+
+            {/* Card 3 - Digital Government & Service Transformation */}
+            <div 
+              className="bg-white rounded-[10px] p-8"
+              style={{
+                border: '3px solid #14358A',
+                minHeight: '260px'
+              }}
+            >
+              {/* Icon */}
+              <div 
+                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
+                style={{ background: '#14358A' }}
+              >
+                <img src="/icons/digital-government.png" alt="Digital Government" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
+              </div>
+
+              {/* Title */}
+              <h3 
+                className="font-bold mb-3"
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontSize: '29px',
+                  lineHeight: '105%',
+                  letterSpacing: '-0.03em',
+                  color: '#14358A'
+                }}
+              >
+                Digital Government & Service Transformation
+              </h3>
+
+              {/* Description */}
+              <p 
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontSize: '15px',
+                  lineHeight: '140%',
+                  color: '#68718B'
+                }}
+              >
+                Design and implement digital platforms, data strategies, and user-centered services to significantly improve citizen accessibility and satisfaction.
+              </p>
+            </div>
+
+            {/* Card 4 - Public Infrastructure & Capital Projects */}
+            <div 
+              className="bg-white rounded-[10px] p-8"
+              style={{
+                border: '3px solid #14358A',
+                minHeight: '260px'
+              }}
+            >
+              {/* Icon */}
+              <div 
+                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
+                style={{ background: '#14358A' }}
+              >
+                <img src="/icons/infrastructure.png" alt="Infrastructure" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
+              </div>
+
+              {/* Title */}
+              <h3 
+                className="font-bold mb-3"
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontSize: '29px',
+                  lineHeight: '105%',
+                  letterSpacing: '-0.03em',
+                  color: '#14358A'
+                }}
+              >
+                Public Infrastructure & Capital Projects
+              </h3>
+
+              {/* Description */}
+              <p 
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontSize: '15px',
+                  lineHeight: '140%',
+                  color: '#68718B'
+                }}
+              >
+                Advise on the planning, financing, and delivery of major infrastructure projects, ensuring maximum public value is delivered on time and on budget.
+              </p>
+            </div>
+
+            {/* Card 5 - Fiscal & Financial Management */}
+            <div 
+              className="bg-white rounded-[10px] p-8"
+              style={{
+                border: '3px solid #14358A',
+                minHeight: '260px'
+              }}
+            >
+              {/* Icon */}
+              <div 
+                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
+                style={{ background: '#14358A' }}
+              >
+                <img src="/icons/fiscal-management.png" alt="Fiscal Management" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
+              </div>
+
+              {/* Title */}
+              <h3 
+                className="font-bold mb-3"
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontSize: '29px',
+                  lineHeight: '105%',
+                  letterSpacing: '-0.03em',
+                  color: '#14358A'
+                }}
+              >
+                Fiscal & Financial Management
+              </h3>
+
+              {/* Description */}
+              <p 
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontSize: '15px',
+                  lineHeight: '140%',
+                  color: '#68718B'
+                }}
+              >
+                Advise on fiscal strategy, budget optimization, and cost reduction to ensure long-term financial sustainability while maintaining critical service quality.
+              </p>
+            </div>
+
+            {/* Card 6 - Workforce & Organizational Transformation */}
+            <div 
+              className="bg-white rounded-[10px] p-8"
+              style={{
+                border: '3px solid #14358A',
+                minHeight: '260px'
+              }}
+            >
+              {/* Icon */}
+              <div 
+                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
+                style={{ background: '#14358A' }}
+              >
+                <img src="/icons/workforce.png" alt="Workforce" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
+              </div>
+
+              {/* Title */}
+              <h3 
+                className="font-bold mb-3"
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontSize: '29px',
+                  lineHeight: '105%',
+                  letterSpacing: '-0.03em',
+                  color: '#14358A'
+                }}
+              >
+                Workforce & Organizational Transformation
+              </h3>
+
+              {/* Description */}
+              <p 
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontSize: '15px',
+                  lineHeight: '140%',
+                  color: '#68718B'
+                }}
+              >
+                Strengthen workforce strategies, enhance training, and build organizational cultures that promote innovation and internal accountability.
+              </p>
+            </div>
+
+            {/* Card 7 - Program Evaluation & Impact Measurement */}
+            <div 
+              className="bg-white rounded-[10px] p-8"
+              style={{
+                border: '3px solid #14358A',
+                minHeight: '260px'
+              }}
+            >
+              {/* Icon */}
+              <div 
+                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
+                style={{ background: '#14358A' }}
+              >
+                <img src="/icons/program-evaluation.png" alt="Program Evaluation" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
+              </div>
+
+              {/* Title */}
+              <h3 
+                className="font-bold mb-3"
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontSize: '29px',
+                  lineHeight: '105%',
+                  letterSpacing: '-0.03em',
+                  color: '#14358A'
+                }}
+              >
+                Program Evaluation & Impact Measurement
+              </h3>
+
+              {/* Description */}
+              <p 
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontSize: '15px',
+                  lineHeight: '140%',
+                  color: '#68718B'
+                }}
+              >
+                Design and implement frameworks to rigorously measure program outcomes, evaluate efficacy, and ensure government investments deliver meaningful community impact.
+              </p>
+            </div>
+
+            {/* Card 8 - Stakeholder Engagement & Public Consultation */}
+            <div 
+              className="bg-white rounded-[10px] p-8"
+              style={{
+                border: '3px solid #14358A',
+                minHeight: '260px'
+              }}
+            >
+              {/* Icon */}
+              <div 
+                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
+                style={{ background: '#14358A' }}
+              >
+                <img src="/icons/stakeholder-engagement.png" alt="Stakeholder Engagement" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
+              </div>
+
+              {/* Title */}
+              <h3 
+                className="font-bold mb-3"
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontSize: '29px',
+                  lineHeight: '105%',
+                  letterSpacing: '-0.03em',
+                  color: '#14358A'
+                }}
+              >
+                Stakeholder Engagement & Public Consultation
+              </h3>
+
+              {/* Description */}
+              <p 
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontSize: '15px',
+                  lineHeight: '140%',
+                  color: '#68718B'
+                }}
+              >
+                Facilitate transparent dialogue and public consultation to build trust and ensure policy decisions are informed by diverse citizen and stakeholder perspectives.
+              </p>
+            </div>
+
+            {/* Card 9 - Procurement & Sourcing Modernization */}
+            <div 
+              className="bg-white rounded-[10px] p-8"
+              style={{
+                border: '3px solid #14358A',
+                minHeight: '260px'
+              }}
+            >
+              {/* Icon */}
+              <div 
+                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
+                style={{ background: '#14358A' }}
+              >
+                <img src="/icons/procurement.png" alt="Procurement" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
+              </div>
+
+              {/* Title */}
+              <h3 
+                className="font-bold mb-3"
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontSize: '29px',
+                  lineHeight: '105%',
+                  letterSpacing: '-0.03em',
+                  color: '#14358A'
+                }}
+              >
+                Procurement & Sourcing Modernization
+              </h3>
+
+              {/* Description */}
+              <p 
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontSize: '15px',
+                  lineHeight: '140%',
+                  color: '#68718B'
+                }}
+              >
+                Reform procurement processes to enhance transparency, achieve greater value for money, and support strategic goals like economic development and sustainability.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Traditional Consulting is Broken Section */}
       <div className="relative z-10 bg-white py-20">
         {/* Section Heading */}
