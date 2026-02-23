@@ -9,16 +9,16 @@ export default function FinancialServicesFinTech() {
       <Header />
 
       {/* Hero Section */}
-      <div className="relative w-full max-w-[1440px] mx-auto" style={{ paddingTop: '100px' }}>
+      <div className="relative w-full max-w-[1440px] mx-auto" style={{ paddingTop: '140px' }}>
 
         {/* Content Container */}
-        <div className="relative" style={{ height: '650px' }}>
+        <div className="relative" style={{ height: '500px' }}>
 
           {/* Heading */}
           <h1
             className="absolute font-poppins font-semibold"
             style={{
-              top: '235px',
+              top: '30px',
               left: '118px',
               width: '802.78px',
               fontSize: '45px',
@@ -34,7 +34,7 @@ export default function FinancialServicesFinTech() {
           <p
             className="absolute font-montserrat font-normal"
             style={{
-              top: '303px',
+              top: '100px',
               left: '118px',
               width: '740px',
               fontSize: '30px',
@@ -49,7 +49,7 @@ export default function FinancialServicesFinTech() {
           <div
             className="absolute overflow-hidden"
             style={{
-              top: '206px',
+              top: '0px',
               left: '960px',
               width: '416px',
               height: '424px',
@@ -63,6 +63,36 @@ export default function FinancialServicesFinTech() {
                 width: '100%',
                 height: '100%',
                 objectFit: 'cover'
+              }}
+            />
+          </div>
+
+          {/* Decorative Diagonal Bars - Bottom Left */}
+          <div className="absolute pointer-events-none" style={{ bottom: '-100px', left: '0', width: '600px', height: '300px' }}>
+            {/* Light Blue Bar */}
+            <div
+              className="absolute"
+              style={{
+                width: '600px',
+                height: '80px',
+                left: '-100px',
+                bottom: '150px',
+                background: 'linear-gradient(90deg, #D4E2F8 0%, rgba(212, 226, 248, 0) 100%)',
+                transform: 'rotate(-15deg)',
+                opacity: 0.8
+              }}
+            />
+            {/* Dark Blue Bar */}
+            <div
+              className="absolute"
+              style={{
+                width: '500px',
+                height: '100px',
+                left: '-50px',
+                bottom: '80px',
+                background: 'linear-gradient(90deg, #3B82F6 0%, rgba(59, 130, 246, 0) 100%)',
+                transform: 'rotate(-15deg)',
+                opacity: 0.8
               }}
             />
           </div>
