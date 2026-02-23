@@ -136,8 +136,8 @@ export default function SaaSEnterpriseTechnology() {
                 borderRadius: '10px'
               }}
             >
-              <div className="mb-6 inline-flex items-center justify-center" style={{ width: '64px', height: '64px', backgroundColor: '#14358A', borderRadius: '8px' }}>
-                <img src="/icon-growth-market.png" alt="Growth & Go-to-Market Strategy" style={{ width: '40px', height: '40px', objectFit: 'contain' }} />
+              <div className="mb-6">
+                <img src="/icon-strategy-transformation.png" alt="Growth & Go-to-Market Strategy" style={{ width: '64px', height: '64px' }} />
               </div>
               <h3
                 className="font-dm-sans font-bold text-[#14358A] mb-4"
@@ -164,8 +164,8 @@ export default function SaaSEnterpriseTechnology() {
                 borderRadius: '10px'
               }}
             >
-              <div className="mb-6 inline-flex items-center justify-center" style={{ width: '64px', height: '64px', backgroundColor: '#14358A', borderRadius: '8px' }}>
-                <img src="/icon-check-correct.png" alt="Operational Excellence & Scalability" style={{ width: '28px', height: '28px', objectFit: 'contain' }} />
+              <div className="mb-6">
+                <img src="/icon-risk-resilience.png" alt="Operational Excellence & Scalability" style={{ width: '64px', height: '64px' }} />
               </div>
               <h3
                 className="font-dm-sans font-bold text-[#14358A] mb-4"
@@ -192,8 +192,8 @@ export default function SaaSEnterpriseTechnology() {
                 borderRadius: '10px'
               }}
             >
-              <div className="mb-6 inline-flex items-center justify-center" style={{ width: '64px', height: '64px', backgroundColor: '#14358A', borderRadius: '8px' }}>
-                <img src="/icon-heart-funding.png" alt="M&A, Funding, & Financial Performance" style={{ width: '28px', height: '28px', objectFit: 'contain' }} />
+              <div className="mb-6">
+                <img src="/icon-customer-experience.png" alt="M&A, Funding, & Financial Performance" style={{ width: '64px', height: '64px' }} />
               </div>
               <h3
                 className="font-dm-sans font-bold text-[#14358A] mb-4"
@@ -220,8 +220,8 @@ export default function SaaSEnterpriseTechnology() {
                 borderRadius: '10px'
               }}
             >
-              <div className="mb-6 inline-flex items-center justify-center" style={{ width: '64px', height: '64px', backgroundColor: '#14358A', borderRadius: '8px' }}>
-                <img src="/icon-innovation.png" alt="Innovation & Product Strategy" style={{ width: '40px', height: '40px', objectFit: 'contain' }} />
+              <div className="mb-6">
+                <img src="/icon-regulatory-compliance.png" alt="Innovation & Product Strategy" style={{ width: '64px', height: '64px' }} />
               </div>
               <h3
                 className="font-dm-sans font-bold text-[#14358A] mb-4"
@@ -248,8 +248,8 @@ export default function SaaSEnterpriseTechnology() {
                 borderRadius: '10px'
               }}
             >
-              <div className="mb-6 inline-flex items-center justify-center" style={{ width: '64px', height: '64px', backgroundColor: '#14358A', borderRadius: '8px' }}>
-                <img src="/icon-ai-automation.png" alt="AI & Automation Integration" style={{ width: '40px', height: '40px', objectFit: 'contain' }} />
+              <div className="mb-6">
+                <img src="/icon-innovation-fintech.png" alt="AI & Automation Integration" style={{ width: '64px', height: '64px' }} />
               </div>
               <h3
                 className="font-dm-sans font-bold text-[#14358A] mb-4"
@@ -276,8 +276,8 @@ export default function SaaSEnterpriseTechnology() {
                 borderRadius: '10px'
               }}
             >
-              <div className="mb-6 inline-flex items-center justify-center" style={{ width: '64px', height: '64px', backgroundColor: '#14358A', borderRadius: '8px' }}>
-                <img src="/icon-cloud-strategy.png" alt="Cloud Strategy & Migration" style={{ width: '40px', height: '40px', objectFit: 'contain' }} />
+              <div className="mb-6">
+                <img src="/icon-capital-performance.png" alt="Cloud Strategy & Migration" style={{ width: '64px', height: '64px' }} />
               </div>
               <h3
                 className="font-dm-sans font-bold text-[#14358A] mb-4"
