@@ -319,6 +319,426 @@ export default function FinancialServicesFinTech() {
         </div>
       </div>
 
+      {/* Our Projects Section */}
+      <div
+        className="relative py-24 px-6 overflow-hidden"
+        style={{
+          background: 'linear-gradient(135deg, #1e3a8a 0%, #1e40af 50%, #2563eb 100%)',
+          minHeight: '700px'
+        }}
+      >
+        {/* Decorative Background Elements */}
+        <div className="absolute top-0 left-0 w-full h-full pointer-events-none overflow-hidden">
+          {/* Top left diagonal line */}
+          <div
+            className="absolute"
+            style={{
+              top: '0',
+              left: '0',
+              width: '300px',
+              height: '2px',
+              background: 'rgba(59, 130, 246, 0.5)',
+              transform: 'rotate(30deg)',
+              transformOrigin: 'top left'
+            }}
+          />
+          {/* Bottom left blue shape */}
+          <div
+            className="absolute"
+            style={{
+              bottom: '-50px',
+              left: '-50px',
+              width: '250px',
+              height: '250px',
+              background: 'rgba(37, 99, 235, 0.3)',
+              transform: 'rotate(45deg)'
+            }}
+          />
+          {/* Top right cyan shape */}
+          <div
+            className="absolute"
+            style={{
+              top: '50px',
+              right: '-100px',
+              width: '400px',
+              height: '400px',
+              background: 'rgba(6, 182, 212, 0.3)',
+              clipPath: 'polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)',
+              transform: 'rotate(15deg)'
+            }}
+          />
+        </div>
+
+        <div className="max-w-[1300px] mx-auto relative z-10">
+          {/* Section Title */}
+          <h2
+            className="font-poppins font-semibold text-white text-center mb-16"
+            style={{
+              fontSize: '48px',
+              lineHeight: '105%',
+              letterSpacing: '-3%'
+            }}
+          >
+            Our Projects
+          </h2>
+
+          {/* Project Cards Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
+            {/* Card 1: Prestige1 Capital */}
+            <div
+              className="bg-[#E8F0FE] hover:shadow-xl transition-shadow duration-300 relative"
+              style={{
+                width: '340px',
+                minHeight: '420px',
+                borderRadius: '16px',
+                padding: '32px',
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '20px'
+              }}
+            >
+              <h3
+                className="font-poppins font-semibold text-center"
+                style={{
+                  fontSize: '30px',
+                  lineHeight: '110%',
+                  color: '#1e40af',
+                  marginBottom: '8px'
+                }}
+              >
+                Prestige1 Capital
+              </h3>
+
+              {/* Stats */}
+              <div className="flex flex-col gap-4">
+                {/* Stat 1 */}
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="3" y="6" width="18" height="14" rx="2" stroke="#1e40af" strokeWidth="2"/>
+                      <path d="M12 14C13.1046 14 14 13.1046 14 12C14 10.8954 13.1046 10 12 10C10.8954 10 10 10.8954 10 12C10 13.1046 10.8954 14 12 14Z" stroke="#1e40af" strokeWidth="2"/>
+                      <path d="M7 6V4M17 6V4" stroke="#1e40af" strokeWidth="2" strokeLinecap="round"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <p
+                      className="font-poppins font-semibold"
+                      style={{ fontSize: '24px', lineHeight: '110%', color: '#1e40af' }}
+                    >
+                      $9.7M
+                    </p>
+                    <p
+                      className="font-inter font-normal"
+                      style={{ fontSize: '14px', lineHeight: '140%', color: '#64748b' }}
+                    >
+                      in new yearly profit generated
+                    </p>
+                  </div>
+                </div>
+
+                {/* Stat 2 */}
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M3 18L9 12L13 16L21 8" stroke="#1e40af" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      <path d="M21 8V14M21 8H15" stroke="#1e40af" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <p
+                      className="font-poppins font-semibold"
+                      style={{ fontSize: '24px', lineHeight: '110%', color: '#1e40af' }}
+                    >
+                      2.6x
+                    </p>
+                    <p
+                      className="font-inter font-normal"
+                      style={{ fontSize: '14px', lineHeight: '140%', color: '#64748b' }}
+                    >
+                      higher ROI than typical investments
+                    </p>
+                  </div>
+                </div>
+
+                {/* Stat 3 */}
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M20 7L10 17L5 12" stroke="#1e40af" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <p
+                      className="font-poppins font-semibold"
+                      style={{ fontSize: '24px', lineHeight: '110%', color: '#1e40af' }}
+                    >
+                      43x
+                    </p>
+                    <p
+                      className="font-inter font-normal"
+                      style={{ fontSize: '14px', lineHeight: '140%', color: '#64748b' }}
+                    >
+                      Return on Investment
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Learn More Button */}
+              <div className="mt-auto mx-auto">
+                <button
+                  className="font-poppins font-semibold text-white hover:opacity-90 transition-opacity"
+                  style={{
+                    width: '180px',
+                    height: '56px',
+                    borderRadius: '12px',
+                    background: 'linear-gradient(112.8deg, #8B5CF6 -15.76%, #A78BFA 102.86%)',
+                    fontSize: '18px',
+                    lineHeight: '140%'
+                  }}
+                >
+                  Learn More
+                </button>
+              </div>
+            </div>
+
+            {/* Card 2: Kraken */}
+            <div
+              className="bg-[#E8F0FE] hover:shadow-xl transition-shadow duration-300 relative"
+              style={{
+                width: '340px',
+                minHeight: '420px',
+                borderRadius: '16px',
+                padding: '32px',
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '20px'
+              }}
+            >
+              <h3
+                className="font-poppins font-semibold text-center"
+                style={{
+                  fontSize: '30px',
+                  lineHeight: '110%',
+                  color: '#1e40af',
+                  marginBottom: '8px'
+                }}
+              >
+                Kraken
+              </h3>
+
+              {/* Stats */}
+              <div className="flex flex-col gap-4">
+                {/* Stat 1 */}
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="3" y="3" width="18" height="18" rx="2" stroke="#1e40af" strokeWidth="2"/>
+                      <path d="M9 12L11 14L15 10" stroke="#1e40af" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <p
+                      className="font-poppins font-semibold"
+                      style={{ fontSize: '24px', lineHeight: '110%', color: '#1e40af' }}
+                    >
+                      22%
+                    </p>
+                    <p
+                      className="font-inter font-normal"
+                      style={{ fontSize: '14px', lineHeight: '140%', color: '#64748b' }}
+                    >
+                      increase in customer satisfaction
+                    </p>
+                  </div>
+                </div>
+
+                {/* Stat 2 */}
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12 8V12L15 15" stroke="#1e40af" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      <circle cx="12" cy="12" r="9" stroke="#1e40af" strokeWidth="2"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <p
+                      className="font-poppins font-semibold"
+                      style={{ fontSize: '24px', lineHeight: '110%', color: '#1e40af' }}
+                    >
+                      40%
+                    </p>
+                    <p
+                      className="font-inter font-normal"
+                      style={{ fontSize: '14px', lineHeight: '140%', color: '#64748b' }}
+                    >
+                      reduction in signup-to-activation time
+                    </p>
+                  </div>
+                </div>
+
+                {/* Stat 3 */}
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M20 7L10 17L5 12" stroke="#1e40af" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <p
+                      className="font-poppins font-semibold"
+                      style={{ fontSize: '24px', lineHeight: '110%', color: '#1e40af' }}
+                    >
+                      23x
+                    </p>
+                    <p
+                      className="font-inter font-normal"
+                      style={{ fontSize: '14px', lineHeight: '140%', color: '#64748b' }}
+                    >
+                      Return on Investment
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Learn More Button */}
+              <div className="mt-auto mx-auto">
+                <button
+                  className="font-poppins font-semibold text-white hover:opacity-90 transition-opacity"
+                  style={{
+                    width: '180px',
+                    height: '56px',
+                    borderRadius: '12px',
+                    background: 'linear-gradient(112.8deg, #8B5CF6 -15.76%, #A78BFA 102.86%)',
+                    fontSize: '18px',
+                    lineHeight: '140%'
+                  }}
+                >
+                  Learn More
+                </button>
+              </div>
+            </div>
+
+            {/* Card 3: Artemis Capital */}
+            <div
+              className="bg-[#E8F0FE] hover:shadow-xl transition-shadow duration-300 relative"
+              style={{
+                width: '340px',
+                minHeight: '420px',
+                borderRadius: '16px',
+                padding: '32px',
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '20px'
+              }}
+            >
+              <h3
+                className="font-poppins font-semibold text-center"
+                style={{
+                  fontSize: '30px',
+                  lineHeight: '110%',
+                  color: '#1e40af',
+                  marginBottom: '8px'
+                }}
+              >
+                Artemis Capital
+              </h3>
+
+              {/* Stats */}
+              <div className="flex flex-col gap-4">
+                {/* Stat 1 */}
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="3" y="3" width="18" height="18" rx="2" stroke="#1e40af" strokeWidth="2"/>
+                      <path d="M9 12L11 14L15 10" stroke="#1e40af" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <p
+                      className="font-poppins font-semibold"
+                      style={{ fontSize: '24px', lineHeight: '110%', color: '#1e40af' }}
+                    >
+                      12%
+                    </p>
+                    <p
+                      className="font-inter font-normal"
+                      style={{ fontSize: '14px', lineHeight: '140%', color: '#64748b' }}
+                    >
+                      in new yearly profit generated
+                    </p>
+                  </div>
+                </div>
+
+                {/* Stat 2 */}
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M3 18L9 12L13 16L21 8" stroke="#1e40af" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      <path d="M21 8V14M21 8H15" stroke="#1e40af" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <p
+                      className="font-poppins font-semibold"
+                      style={{ fontSize: '24px', lineHeight: '110%', color: '#1e40af' }}
+                    >
+                      25%
+                    </p>
+                    <p
+                      className="font-inter font-normal"
+                      style={{ fontSize: '14px', lineHeight: '140%', color: '#64748b' }}
+                    >
+                      higher ROI than typical investments
+                    </p>
+                  </div>
+                </div>
+
+                {/* Stat 3 */}
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M20 7L10 17L5 12" stroke="#1e40af" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <p
+                      className="font-poppins font-semibold"
+                      style={{ fontSize: '24px', lineHeight: '110%', color: '#1e40af' }}
+                    >
+                      22x
+                    </p>
+                    <p
+                      className="font-inter font-normal"
+                      style={{ fontSize: '14px', lineHeight: '140%', color: '#64748b' }}
+                    >
+                      Return on Investment
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Learn More Button */}
+              <div className="mt-auto mx-auto">
+                <button
+                  className="font-poppins font-semibold text-white hover:opacity-90 transition-opacity"
+                  style={{
+                    width: '180px',
+                    height: '56px',
+                    borderRadius: '12px',
+                    background: 'linear-gradient(112.8deg, #8B5CF6 -15.76%, #A78BFA 102.86%)',
+                    fontSize: '18px',
+                    lineHeight: '140%'
+                  }}
+                >
+                  Learn More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Call to Action Section */}
       <div
         className="text-center flex flex-col items-center"
