@@ -745,9 +745,8 @@ export default function FinancialServicesFinTech() {
 
           {/* Section Title */}
           <h2
-            className="font-dm-sans font-bold text-center"
+            className="font-dm-sans font-bold text-center whitespace-nowrap"
             style={{
-              width: '785px',
               fontSize: '48px',
               lineHeight: '105%',
               letterSpacing: '-3%',
@@ -762,7 +761,7 @@ export default function FinancialServicesFinTech() {
           <div
             className="font-dm-sans font-normal"
             style={{
-              width: '1082px',
+              maxWidth: '1082px',
               fontSize: '30px',
               lineHeight: '140%',
               letterSpacing: '0%',
@@ -770,9 +769,9 @@ export default function FinancialServicesFinTech() {
               textAlign: 'center'
             }}
           >
-            Financial Services and FinTech operate at the intersection of hyper-regulation and rapid technological change. Generalist consultants often provide broad recommendations on market trends or digital strategy that fail to account for the core challenges of regulatory compliance, legacy system modernization, and risk management. Their advice is often rendered impractical by the necessity of robust audit trails and jurisdictional complexity.
+            Financial Services and FinTech operate at the intersection of hyper–regulation and rapid technological change. Generalist consultants often provide broad recommendations on market trends or digital strategy that fail to account for the core challenges of regulatory compliance, legacy system modernization, and risk management. Their advice is often rendered impractical by the necessity of robust audit trails and jurisdictional complexity.
             <br /><br />
-            PMG&apos;s model delivers validated, compliant execution. We deploy specialized functional operators, experts in areas like modernizing core banking systems, implementing AI-driven risk models, optimizing regulatory reporting (e.g., Basel, KYC/AML), and scaling new FinTech products. Our specialists don&apos;t just advise; they implement proven systems and processes that ensure your transformation is not only efficient and differentiated in the market but is fully auditable and compliant from day one.
+            PMG's model delivers validated, compliant execution. We deploy specialized functional operators, experts in areas like modernizing core banking systems, implementing AI–driven risk models, optimizing regulatory reporting (e.g., Basel, KYC/AML), and scaling new FinTech products. Our specialists don't just advise; they implement proven systems and processes that ensure your transformation is not only efficient and differentiated in the market but is fully auditable and compliant from day one.
           </div>
 
         </div>
