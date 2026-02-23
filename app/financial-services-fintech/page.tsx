@@ -72,41 +72,41 @@ export default function FinancialServicesFinTech() {
 
       </div>
 
-      {/* Your Strategic Partner Section */}
+      {/* Your Partner in a High-Growth Sector Section */}
       <div className="relative w-full bg-white" style={{ paddingTop: '120px', paddingBottom: '120px' }}>
-        <div className="relative max-w-[1440px] mx-auto px-12">
+        <div className="relative max-w-[1440px] mx-auto flex flex-col items-center px-6">
 
           {/* Section Title */}
           <h2
             className="font-poppins font-semibold text-center"
             style={{
-              fontSize: '50px',
-              lineHeight: '46px',
+              maxWidth: '900px',
+              fontSize: '42px',
+              lineHeight: '120%',
               color: '#14358A',
               letterSpacing: '0%',
-              marginBottom: '60px'
+              marginBottom: '48px'
             }}
           >
-            Your Strategic Partner
+            Your Partner in a High-Growth Sector
           </h2>
 
           {/* Section Description */}
           <div
-            className="font-montserrat font-normal mx-auto"
+            className="font-inter font-normal text-center"
             style={{
-              width: '1342px',
-              fontSize: '32px',
-              lineHeight: '100%',
-              color: '#333333',
-              letterSpacing: '0%',
-              textAlign: 'center'
+              maxWidth: '1050px',
+              fontSize: '19px',
+              lineHeight: '165%',
+              color: '#4A5568',
+              letterSpacing: '0%'
             }}
           >
-            <p style={{ marginBottom: '40px' }}>
-              PMG partners with banks, asset managers, insurers, & fintechs to deliver a balance of strategic insight & operational expertise. We enable organizations to strengthen performance, manage risk, & deliver sustainable value in an environment of constant disruption.
+            <p style={{ marginBottom: '28px' }}>
+              With opportunity comes complexity. Issues of scalability, regulation, competition, and talent are front of mind for technology leaders worldwide. PMG partners with technology firms from emerging startups to global enterprises to navigate this dynamic environment.
             </p>
             <p>
-              Our financial services work is complemented by PMG&apos;s cross-sector expertise in technology & organizational transformation, equipping leaders to address challenges across governance, digital adoption, & market positioning.
+              Our consultants bring deep expertise in strategy, operations, finance, and transformation, helping companies manage rapid growth and competitive pressures. Our cross-sector knowledge in finance and organizational design equips leaders to address challenges that span innovation, customer acquisition, talent management, and long-term value creation.
             </p>
           </div>
 
