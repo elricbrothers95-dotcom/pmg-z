@@ -144,13 +144,8 @@ export default function FinancialServicesFinTech() {
                 borderRadius: '10px'
               }}
             >
-              <div className="mb-6 inline-flex items-center justify-center" style={{ width: '64px', height: '64px', backgroundColor: '#14358A', borderRadius: '8px' }}>
-                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M16 8L20 12L16 16L12 12L16 8Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  <path d="M8 16L12 20L8 24L4 20L8 16Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  <path d="M24 16L28 20L24 24L20 20L24 16Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  <path d="M16 16L20 20L16 24L12 20L16 16Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
+              <div className="mb-6">
+                <img src="/icon-strategy-transformation.png" alt="Strategy & Transformation" style={{ width: '64px', height: '64px' }} />
               </div>
               <h3
                 className="font-dm-sans font-bold text-[#14358A] mb-4"
@@ -176,12 +171,8 @@ export default function FinancialServicesFinTech() {
                 borderRadius: '10px'
               }}
             >
-              <div className="mb-6 inline-flex items-center justify-center" style={{ width: '64px', height: '64px', backgroundColor: '#14358A', borderRadius: '8px' }}>
-                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M16 4L4 10L16 16L28 10L16 4Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  <path d="M4 16L16 22L28 16" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  <path d="M4 22L16 28L28 22" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
+              <div className="mb-6">
+                <img src="/icon-risk-resilience.png" alt="Risk & Operational Resilience" style={{ width: '64px', height: '64px' }} />
               </div>
               <h3
                 className="font-dm-sans font-bold text-[#14358A] mb-4"
@@ -207,11 +198,8 @@ export default function FinancialServicesFinTech() {
                 borderRadius: '10px'
               }}
             >
-              <div className="mb-6 inline-flex items-center justify-center" style={{ width: '64px', height: '64px', backgroundColor: '#14358A', borderRadius: '8px' }}>
-                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z" stroke="white" strokeWidth="2"/>
-                  <path d="M16 12V16L19 19" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-                </svg>
+              <div className="mb-6">
+                <img src="/icon-customer-experience.png" alt="Customer & Digital Experience" style={{ width: '64px', height: '64px' }} />
               </div>
               <h3
                 className="font-dm-sans font-bold text-[#14358A] mb-4"
@@ -237,11 +225,8 @@ export default function FinancialServicesFinTech() {
                 borderRadius: '10px'
               }}
             >
-              <div className="mb-6 inline-flex items-center justify-center" style={{ width: '64px', height: '64px', backgroundColor: '#14358A', borderRadius: '8px' }}>
-                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <rect x="8" y="4" width="16" height="24" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  <path d="M12 4V2M20 4V2M8 10H24M12 14H20M12 18H20M12 22H16" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-                </svg>
+              <div className="mb-6">
+                <img src="/icon-regulatory-compliance.png" alt="Regulatory & Compliance Strategy" style={{ width: '64px', height: '64px' }} />
               </div>
               <h3
                 className="font-dm-sans font-bold text-[#14358A] mb-4"
@@ -267,10 +252,8 @@ export default function FinancialServicesFinTech() {
                 borderRadius: '10px'
               }}
             >
-              <div className="mb-6 inline-flex items-center justify-center" style={{ width: '64px', height: '64px', backgroundColor: '#14358A', borderRadius: '8px' }}>
-                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M16 6L19 12L26 13L21 18L22 25L16 22L10 25L11 18L6 13L13 12L16 6Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
+              <div className="mb-6">
+                <img src="/icon-innovation-fintech.png" alt="Innovation & Fintech Partnerships" style={{ width: '64px', height: '64px' }} />
               </div>
               <h3
                 className="font-dm-sans font-bold text-[#14358A] mb-4"
@@ -296,11 +279,8 @@ export default function FinancialServicesFinTech() {
                 borderRadius: '10px'
               }}
             >
-              <div className="mb-6 inline-flex items-center justify-center" style={{ width: '64px', height: '64px', backgroundColor: '#14358A', borderRadius: '8px' }}>
-                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M4 28L10 22L16 26L28 14" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  <path d="M20 14H28V22" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
+              <div className="mb-6">
+                <img src="/icon-capital-performance.png" alt="Capital & Financial Performance" style={{ width: '64px', height: '64px' }} />
               </div>
               <h3
                 className="font-dm-sans font-bold text-[#14358A] mb-4"
