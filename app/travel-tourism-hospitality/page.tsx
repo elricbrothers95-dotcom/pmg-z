@@ -152,14 +152,13 @@ export default function TravelTourismHospitality() {
               border: '3px solid #14358A',
             }}
           >
-            <div className="w-16 h-16 mb-4 flex items-center justify-center">
+            <div className="mb-4">
               <img
-                src="/icons/policy-strategy.png"
+                src="/icon-strategy-transformation.png"
                 alt="Growth & Market Strategy"
                 style={{
-                  width: '32px',
-                  height: '32px',
-                  objectFit: 'contain',
+                  width: '64px',
+                  height: '64px',
                 }}
               />
             </div>
@@ -197,14 +196,13 @@ export default function TravelTourismHospitality() {
               border: '3px solid #14358A',
             }}
           >
-            <div className="w-16 h-16 mb-4 flex items-center justify-center">
+            <div className="mb-4">
               <img
-                src="/icons/stakeholder-engagement.png"
+                src="/icon-customer-experience.png"
                 alt="Guest Experience & Service Innovation"
                 style={{
-                  width: '32px',
-                  height: '32px',
-                  objectFit: 'contain',
+                  width: '64px',
+                  height: '64px',
                 }}
               />
             </div>
@@ -242,14 +240,13 @@ export default function TravelTourismHospitality() {
               border: '3px solid #14358A',
             }}
           >
-            <div className="w-16 h-16 mb-4 flex items-center justify-center">
+            <div className="mb-4">
               <img
-                src="/icons/operational-efficiency.png"
+                src="/icon-risk-resilience.png"
                 alt="Operational Efficiency & Profitability"
                 style={{
-                  width: '32px',
-                  height: '32px',
-                  objectFit: 'contain',
+                  width: '64px',
+                  height: '64px',
                 }}
               />
             </div>
@@ -287,14 +284,13 @@ export default function TravelTourismHospitality() {
               border: '3px solid #14358A',
             }}
           >
-            <div className="w-16 h-16 mb-4 flex items-center justify-center">
+            <div className="mb-4">
               <img
-                src="/icons/digital-government.png"
+                src="/icon-regulatory-compliance.png"
                 alt="Digital Transformation"
                 style={{
-                  width: '32px',
-                  height: '32px',
-                  objectFit: 'contain',
+                  width: '64px',
+                  height: '64px',
                 }}
               />
             </div>
@@ -332,14 +328,13 @@ export default function TravelTourismHospitality() {
               border: '3px solid #14358A',
             }}
           >
-            <div className="w-16 h-16 mb-4 flex items-center justify-center">
+            <div className="mb-4">
               <img
-                src="/icons/workforce.png"
+                src="/icon-innovation-fintech.png"
                 alt="Workforce Strategy"
                 style={{
-                  width: '32px',
-                  height: '32px',
-                  objectFit: 'contain',
+                  width: '64px',
+                  height: '64px',
                 }}
               />
             </div>
@@ -377,14 +372,13 @@ export default function TravelTourismHospitality() {
               border: '3px solid #14358A',
             }}
           >
-            <div className="w-16 h-16 mb-4 flex items-center justify-center">
+            <div className="mb-4">
               <img
-                src="/icons/infrastructure.png"
+                src="/icon-capital-performance.png"
                 alt="Sustainability & ESG Strategy"
                 style={{
-                  width: '32px',
-                  height: '32px',
-                  objectFit: 'contain',
+                  width: '64px',
+                  height: '64px',
                 }}
               />
             </div>
