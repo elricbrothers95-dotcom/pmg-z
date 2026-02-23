@@ -430,16 +430,20 @@ export default function FinancialServicesFinTech() {
                 <button
                   className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
                   style={{
-                    width: '180px',
+                    width: '157px',
                     height: '60px',
-                    borderRadius: '30px',
+                    borderRadius: '10px',
                     padding: '16px 32px',
-                    background: 'linear-gradient(112.8deg, #8B5CF6 -15.76%, #A855F7 102.86%)',
+                    background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
                     fontSize: '20px',
                     lineHeight: '140%',
                     letterSpacing: '0%',
                     border: 'none',
-                    cursor: 'pointer'
+                    cursor: 'pointer',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    gap: '4px'
                   }}
                 >
                   Learn More
@@ -551,16 +555,20 @@ export default function FinancialServicesFinTech() {
                 <button
                   className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
                   style={{
-                    width: '180px',
+                    width: '157px',
                     height: '60px',
-                    borderRadius: '30px',
+                    borderRadius: '10px',
                     padding: '16px 32px',
-                    background: 'linear-gradient(112.8deg, #8B5CF6 -15.76%, #A855F7 102.86%)',
+                    background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
                     fontSize: '20px',
                     lineHeight: '140%',
                     letterSpacing: '0%',
                     border: 'none',
-                    cursor: 'pointer'
+                    cursor: 'pointer',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    gap: '4px'
                   }}
                 >
                   Learn More
@@ -672,16 +680,20 @@ export default function FinancialServicesFinTech() {
                 <button
                   className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
                   style={{
-                    width: '180px',
+                    width: '157px',
                     height: '60px',
-                    borderRadius: '30px',
+                    borderRadius: '10px',
                     padding: '16px 32px',
-                    background: 'linear-gradient(112.8deg, #8B5CF6 -15.76%, #A855F7 102.86%)',
+                    background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
                     fontSize: '20px',
                     lineHeight: '140%',
                     letterSpacing: '0%',
                     border: 'none',
-                    cursor: 'pointer'
+                    cursor: 'pointer',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    gap: '4px'
                   }}
                 >
                   Learn More
