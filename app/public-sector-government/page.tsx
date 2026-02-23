@@ -124,8 +124,8 @@ export default function PublicSectorGovernment() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Policy & Strategy Development */}
           <div className="border-[3px] border-[#14358A] rounded-[10px] p-6 bg-white">
-            <div className="w-16 h-16 bg-[#14358A] rounded-[10px] flex items-center justify-center mb-5">
-              <img src="/icons/policy-strategy.png" alt="Policy & Strategy" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
+            <div className="mb-5">
+              <img src="/icon-strategy-transformation.png" alt="Policy & Strategy" style={{ width: '64px', height: '64px' }} />
             </div>
             <h3 className="font-bold text-[#14358A] mb-3 leading-tight" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em' }}>
               Policy & Strategy<br />Development
@@ -137,8 +137,8 @@ export default function PublicSectorGovernment() {
 
           {/* Operational Efficiency */}
           <div className="border-[3px] border-[#14358A] rounded-[10px] p-6 bg-white">
-            <div className="w-16 h-16 bg-[#14358A] rounded-[10px] flex items-center justify-center mb-5">
-              <img src="/icons/operational-efficiency.png" alt="Operational Efficiency" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
+            <div className="mb-5">
+              <img src="/icon-risk-resilience.png" alt="Operational Efficiency" style={{ width: '64px', height: '64px' }} />
             </div>
             <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em' }}>
               Operational Efficiency
@@ -150,8 +150,8 @@ export default function PublicSectorGovernment() {
 
           {/* Digital Government & Service Transformation */}
           <div className="border-[3px] border-[#14358A] rounded-[10px] p-6 bg-white">
-            <div className="w-16 h-16 bg-[#14358A] rounded-[10px] flex items-center justify-center mb-5">
-              <img src="/icons/digital-government.png" alt="Digital Government" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
+            <div className="mb-5">
+              <img src="/icon-customer-experience.png" alt="Digital Government" style={{ width: '64px', height: '64px' }} />
             </div>
             <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em' }}>
               Digital Government &<br />Service Transformation
@@ -163,8 +163,8 @@ export default function PublicSectorGovernment() {
 
           {/* Public Infrastructure & Capital Projects */}
           <div className="border-[3px] border-[#14358A] rounded-[10px] p-6 bg-white">
-            <div className="w-16 h-16 bg-[#14358A] rounded-[10px] flex items-center justify-center mb-5">
-              <img src="/icons/infrastructure.png" alt="Infrastructure" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
+            <div className="mb-5">
+              <img src="/icon-regulatory-compliance.png" alt="Infrastructure" style={{ width: '64px', height: '64px' }} />
             </div>
             <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em' }}>
               Public Infrastructure &<br />Capital Projects
@@ -176,8 +176,8 @@ export default function PublicSectorGovernment() {
 
           {/* Fiscal & Financial Management */}
           <div className="border-[3px] border-[#14358A] rounded-[10px] p-6 bg-white">
-            <div className="w-16 h-16 bg-[#14358A] rounded-[10px] flex items-center justify-center mb-5">
-              <img src="/icons/fiscal-management.png" alt="Fiscal Management" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
+            <div className="mb-5">
+              <img src="/icon-innovation-fintech.png" alt="Fiscal Management" style={{ width: '64px', height: '64px' }} />
             </div>
             <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em' }}>
               Fiscal & Financial<br />Management
@@ -189,8 +189,8 @@ export default function PublicSectorGovernment() {
 
           {/* Workforce & Organizational Transformation */}
           <div className="border-[3px] border-[#14358A] rounded-[10px] p-6 bg-white">
-            <div className="w-16 h-16 bg-[#14358A] rounded-[10px] flex items-center justify-center mb-5">
-              <img src="/icons/workforce.png" alt="Workforce" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
+            <div className="mb-5">
+              <img src="/icon-capital-performance.png" alt="Workforce" style={{ width: '64px', height: '64px' }} />
             </div>
             <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em' }}>
               Workforce & Organizational<br />Transformation
@@ -202,8 +202,8 @@ export default function PublicSectorGovernment() {
 
           {/* Program Evaluation & Impact Measurement */}
           <div className="border-[3px] border-[#14358A] rounded-[10px] p-6 bg-white">
-            <div className="w-16 h-16 bg-[#14358A] rounded-[10px] flex items-center justify-center mb-5">
-              <img src="/icons/program-evaluation.png" alt="Program Evaluation" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
+            <div className="mb-5">
+              <img src="/icon-regulatory-compliance.png" alt="Program Evaluation" style={{ width: '64px', height: '64px' }} />
             </div>
             <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em' }}>
               Program Evaluation &<br />Impact Measurement
@@ -215,8 +215,8 @@ export default function PublicSectorGovernment() {
 
           {/* Stakeholder Engagement & Public Consultation */}
           <div className="border-[3px] border-[#14358A] rounded-[10px] p-6 bg-white">
-            <div className="w-16 h-16 bg-[#14358A] rounded-[10px] flex items-center justify-center mb-5">
-              <img src="/icons/stakeholder-engagement.png" alt="Stakeholder Engagement" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
+            <div className="mb-5">
+              <img src="/icon-innovation-fintech.png" alt="Stakeholder Engagement" style={{ width: '64px', height: '64px' }} />
             </div>
             <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em' }}>
               Stakeholder Engagement &<br />Public Consultation
@@ -228,8 +228,8 @@ export default function PublicSectorGovernment() {
 
           {/* Procurement & Sourcing Modernization */}
           <div className="border-[3px] border-[#14358A] rounded-[10px] p-6 bg-white">
-            <div className="w-16 h-16 bg-[#14358A] rounded-[10px] flex items-center justify-center mb-5">
-              <img src="/icons/procurement.png" alt="Procurement" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
+            <div className="mb-5">
+              <img src="/icon-capital-performance.png" alt="Procurement" style={{ width: '64px', height: '64px' }} />
             </div>
             <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em' }}>
               Procurement & Sourcing<br />Modernization
