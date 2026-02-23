@@ -428,14 +428,16 @@ export default function FinancialServicesFinTech() {
               {/* Learn More Button */}
               <div className="mt-auto mx-auto">
                 <button
-                  className="font-poppins font-semibold text-white hover:opacity-90 transition-opacity"
+                  className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
                   style={{
-                    width: '180px',
-                    height: '56px',
-                    borderRadius: '12px',
-                    background: 'linear-gradient(112.8deg, #8B5CF6 -15.76%, #A78BFA 102.86%)',
-                    fontSize: '18px',
-                    lineHeight: '140%'
+                    width: '157px',
+                    height: '60px',
+                    borderRadius: '10px',
+                    padding: '16px 32px',
+                    background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
+                    fontSize: '20px',
+                    lineHeight: '140%',
+                    letterSpacing: '0%'
                   }}
                 >
                   Learn More
@@ -545,14 +547,16 @@ export default function FinancialServicesFinTech() {
               {/* Learn More Button */}
               <div className="mt-auto mx-auto">
                 <button
-                  className="font-poppins font-semibold text-white hover:opacity-90 transition-opacity"
+                  className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
                   style={{
-                    width: '180px',
-                    height: '56px',
-                    borderRadius: '12px',
-                    background: 'linear-gradient(112.8deg, #8B5CF6 -15.76%, #A78BFA 102.86%)',
-                    fontSize: '18px',
-                    lineHeight: '140%'
+                    width: '157px',
+                    height: '60px',
+                    borderRadius: '10px',
+                    padding: '16px 32px',
+                    background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
+                    fontSize: '20px',
+                    lineHeight: '140%',
+                    letterSpacing: '0%'
                   }}
                 >
                   Learn More
@@ -662,14 +666,16 @@ export default function FinancialServicesFinTech() {
               {/* Learn More Button */}
               <div className="mt-auto mx-auto">
                 <button
-                  className="font-poppins font-semibold text-white hover:opacity-90 transition-opacity"
+                  className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
                   style={{
-                    width: '180px',
-                    height: '56px',
-                    borderRadius: '12px',
-                    background: 'linear-gradient(112.8deg, #8B5CF6 -15.76%, #A78BFA 102.86%)',
-                    fontSize: '18px',
-                    lineHeight: '140%'
+                    width: '157px',
+                    height: '60px',
+                    borderRadius: '10px',
+                    padding: '16px 32px',
+                    background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
+                    fontSize: '20px',
+                    lineHeight: '140%',
+                    letterSpacing: '0%'
                   }}
                 >
                   Learn More
