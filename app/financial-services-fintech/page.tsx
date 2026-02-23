@@ -321,53 +321,14 @@ export default function FinancialServicesFinTech() {
 
       {/* Our Projects Section */}
       <div
-        className="relative py-24 px-6 overflow-hidden"
+        className="relative py-24 px-6"
         style={{
-          background: 'linear-gradient(135deg, #1e3a8a 0%, #1e40af 50%, #2563eb 100%)',
+          backgroundImage: 'url(/projects-bg-financial.png)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
           minHeight: '700px'
         }}
       >
-        {/* Decorative Background Elements */}
-        <div className="absolute top-0 left-0 w-full h-full pointer-events-none overflow-hidden">
-          {/* Top left diagonal line */}
-          <div
-            className="absolute"
-            style={{
-              top: '0',
-              left: '0',
-              width: '300px',
-              height: '2px',
-              background: 'rgba(59, 130, 246, 0.5)',
-              transform: 'rotate(30deg)',
-              transformOrigin: 'top left'
-            }}
-          />
-          {/* Bottom left blue shape */}
-          <div
-            className="absolute"
-            style={{
-              bottom: '-50px',
-              left: '-50px',
-              width: '250px',
-              height: '250px',
-              background: 'rgba(37, 99, 235, 0.3)',
-              transform: 'rotate(45deg)'
-            }}
-          />
-          {/* Top right cyan shape */}
-          <div
-            className="absolute"
-            style={{
-              top: '50px',
-              right: '-100px',
-              width: '400px',
-              height: '400px',
-              background: 'rgba(6, 182, 212, 0.3)',
-              clipPath: 'polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)',
-              transform: 'rotate(15deg)'
-            }}
-          />
-        </div>
 
         <div className="max-w-[1300px] mx-auto relative z-10">
           {/* Section Title */}
