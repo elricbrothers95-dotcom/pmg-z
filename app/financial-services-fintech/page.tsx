@@ -740,18 +740,19 @@ export default function FinancialServicesFinTech() {
       </div>
 
       {/* The Functional Consulting Advantage Section */}
-      <div className="relative bg-white py-32 px-6">
-        <div className="max-w-[1440px] mx-auto">
+      <div className="bg-white py-24 px-6">
+        <div className="max-w-[1440px] mx-auto flex flex-col items-center">
 
           {/* Section Title */}
           <h2
-            className="font-dm-sans font-bold text-center mx-auto mb-16"
+            className="font-dm-sans font-bold text-center"
             style={{
-              maxWidth: '785px',
+              width: '785px',
               fontSize: '48px',
               lineHeight: '105%',
               letterSpacing: '-3%',
-              color: '#14358A'
+              color: '#14358A',
+              marginBottom: '60px'
             }}
           >
             The Functional Consulting Advantage
@@ -759,21 +760,19 @@ export default function FinancialServicesFinTech() {
 
           {/* Section Content */}
           <div
-            className="font-dm-sans font-normal text-center mx-auto"
+            className="font-dm-sans font-normal"
             style={{
-              maxWidth: '1082px',
+              width: '1082px',
               fontSize: '30px',
               lineHeight: '140%',
               letterSpacing: '0%',
-              color: '#333333'
+              color: '#333333',
+              textAlign: 'center'
             }}
           >
-            <p style={{ marginBottom: '32px' }}>
-              Financial Services and FinTech operate at the intersection of hyper-regulation and rapid technological change. Generalist consultants often provide broad recommendations on market trends or digital strategy that fail to account for the core challenges of regulatory compliance, legacy system modernization, and risk management. Their advice is often rendered impractical by the necessity of robust audit trails and jurisdictional complexity.
-            </p>
-            <p>
-              PMG&apos;s model delivers validated, compliant execution. We deploy specialized functional operators, experts in areas like modernizing core banking systems, implementing AI-driven risk models, optimizing regulatory reporting (e.g., Basel, KYC/AML), and scaling new FinTech products. Our specialists don&apos;t just advise; they implement proven systems and processes that ensure your transformation is not only efficient and differentiated in the market but is fully auditable and compliant from day one.
-            </p>
+            Financial Services and FinTech operate at the intersection of hyper-regulation and rapid technological change. Generalist consultants often provide broad recommendations on market trends or digital strategy that fail to account for the core challenges of regulatory compliance, legacy system modernization, and risk management. Their advice is often rendered impractical by the necessity of robust audit trails and jurisdictional complexity.
+            <br /><br />
+            PMG&apos;s model delivers validated, compliant execution. We deploy specialized functional operators, experts in areas like modernizing core banking systems, implementing AI-driven risk models, optimizing regulatory reporting (e.g., Basel, KYC/AML), and scaling new FinTech products. Our specialists don&apos;t just advise; they implement proven systems and processes that ensure your transformation is not only efficient and differentiated in the market but is fully auditable and compliant from day one.
           </div>
 
         </div>
