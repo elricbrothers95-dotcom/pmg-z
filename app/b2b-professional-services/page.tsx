@@ -56,36 +56,43 @@ export default function B2BProfessionalServices() {
       </div>
 
       {/* Your Partner in Service Excellence Section */}
-      <div className="relative w-full bg-white py-24 px-6">
-        <div className="max-w-[1440px] mx-auto flex flex-col items-center">
+      <div className="relative w-full bg-white" style={{ paddingTop: '120px', paddingBottom: '120px' }}>
+        <div className="relative max-w-[1440px] mx-auto flex flex-col items-center px-6">
+
+          {/* Section Title */}
           <h2
             className="font-poppins font-semibold text-center"
             style={{
-              fontSize: '42px',
-              lineHeight: '120%',
+              width: '1087px',
+              fontSize: '50px',
+              lineHeight: '46px',
               color: '#14358A',
-              marginBottom: '48px',
+              letterSpacing: '0%',
+              marginBottom: '60px'
             }}
           >
             Your Partner in Service Excellence
           </h2>
 
+          {/* Section Description */}
           <div
-            className="font-inter font-normal text-center"
+            className="font-montserrat font-normal text-center"
             style={{
-              maxWidth: '1050px',
-              fontSize: '19px',
-              lineHeight: '165%',
-              color: '#4A5568',
+              width: '1342px',
+              fontSize: '32px',
+              lineHeight: '100%',
+              color: '#333333',
+              letterSpacing: '0%'
             }}
           >
-            <p style={{ marginBottom: '28px' }}>
+            <p style={{ marginBottom: '40px' }}>
               Whether you are a law firm, accounting practice, architectural firm, or a corporate HR, IT, or finance department, your challenge is the same: deliver expert value efficiently. PMG provides the operational and strategic expertise to help you scale your impact.
             </p>
             <p>
               Our work is strengthened by deep functional knowledge in organizational design, process automation, and financial management, allowing us to deliver solutions that are not just strategic, but also highly practical and profitable.
             </p>
           </div>
+
         </div>
       </div>
 
