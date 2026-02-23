@@ -443,7 +443,8 @@ export default function FinancialServicesFinTech() {
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    gap: '4px'
+                    gap: '4px',
+                    whiteSpace: 'nowrap'
                   }}
                 >
                   Learn More
@@ -568,7 +569,8 @@ export default function FinancialServicesFinTech() {
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    gap: '4px'
+                    gap: '4px',
+                    whiteSpace: 'nowrap'
                   }}
                 >
                   Learn More
@@ -693,7 +695,8 @@ export default function FinancialServicesFinTech() {
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    gap: '4px'
+                    gap: '4px',
+                    whiteSpace: 'nowrap'
                   }}
                 >
                   Learn More
