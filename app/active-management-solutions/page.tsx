@@ -443,7 +443,7 @@ export default function ActiveManagementSolutions() {
                         fontSize: '14px',
                         color: '#14358A',
                         padding: '14px 16px',
-                        verticalAlign: 'top',
+                        verticalAlign: 'top',   //hi 
                       }}
                     >
                       {row.category}
