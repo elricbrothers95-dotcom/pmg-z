@@ -1,6 +1,7 @@
 'use client';
 import { useState } from 'react';
 import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 type InquiryItem = {
   iconPath?: string;
@@ -11,7 +12,7 @@ type InquiryItem = {
 const inquiryTypes: InquiryItem[] = [
   { iconPath: '/icons/consulting.png', label: 'New Consulting Services' },
   { iconPath: '/icons/existing-consulting.png', label: 'Existing Consulting Services' },
-  { iconEmoji: '📰', label: 'Media Inquiry' },
+  { iconPath: '/icons/media-inquiry.png', label: 'Media Inquiry' },
   { iconPath: '/icons/speaking-events.png', label: 'Speaking Engagements & Events' },
   { iconPath: '/icons/vendor-supplier.png', label: 'Vendor & Supplier Inquiries' },
   { iconPath: '/icons/other-business.png', label: 'Other Business Inquiry' },
@@ -203,8 +204,8 @@ export default function ContactUs() {
                         borderRadius: '8px',
                         border: `1.5px solid ${selectedInquiry === i ? '#14358A' : 'transparent'}`,
                         cursor: 'pointer',
-                        backgroundColor: selectedInquiry === i ? '#14358A' : 'transparent',
-                        color: selectedInquiry === i ? '#FFFFFF' : '#333333',
+                        backgroundColor: selectedInquiry === i ? '#EEF2FF' : 'transparent',
+                        color: selectedInquiry === i ? '#14358A' : '#333333',
                         fontFamily: 'Montserrat, sans-serif',
                         fontWeight: selectedInquiry === i ? 600 : 400,
                         fontSize: 'clamp(11px, 0.97vw, 14px)',
@@ -222,7 +223,7 @@ export default function ContactUs() {
                               width: 'clamp(14px, 1.25vw, 18px)',
                               height: 'clamp(14px, 1.25vw, 18px)',
                               objectFit: 'contain',
-                              filter: selectedInquiry === i ? 'brightness(0) invert(1)' : 'none',
+                              filter: 'none',
                               flexShrink: 0,
                             }}
                           />
@@ -295,11 +296,12 @@ export default function ContactUs() {
                         key={method}
                         onClick={() => setContactMethod(method)}
                         style={{
-                          padding: '8px 20px',
-                          borderRadius: '6px',
-                          border: `1.5px solid ${contactMethod === method ? '#14358A' : '#D0D0D0'}`,
-                          backgroundColor: contactMethod === method ? '#EEF1F8' : '#FFFFFF',
-                          color: contactMethod === method ? '#14358A' : '#666666',
+                          padding: '4px 0',
+                          borderRadius: '0',
+                          border: 'none',
+                          borderBottom: contactMethod === method ? '2px solid #14358A' : '2px solid transparent',
+                          backgroundColor: 'transparent',
+                          color: contactMethod === method ? '#14358A' : '#888888',
                           fontFamily: 'Montserrat, sans-serif',
                           fontWeight: contactMethod === method ? 600 : 400,
                           fontSize: 'clamp(12px, 0.97vw, 14px)',
@@ -346,9 +348,9 @@ export default function ContactUs() {
                         gap: '6px',
                         padding: '6px 12px',
                         borderRadius: '6px',
-                        border: '1.5px solid #6A36FF',
-                        backgroundColor: '#FFFFFF',
-                        color: '#6A36FF',
+                        border: 'none',
+                        backgroundColor: '#14358A',
+                        color: '#FFFFFF',
                         fontFamily: 'Montserrat, sans-serif',
                         fontWeight: 600,
                         fontSize: 'clamp(11px, 0.83vw, 12px)',
@@ -358,7 +360,7 @@ export default function ContactUs() {
                       <img
                         src="/icons/draft-with-ai.png"
                         alt=""
-                        style={{ width: '14px', height: '14px', objectFit: 'contain', flexShrink: 0 }}
+                        style={{ width: '14px', height: '14px', objectFit: 'contain', flexShrink: 0, filter: 'brightness(0) invert(1)' }}
                       />
                       Draft with AI
                     </button>
@@ -381,7 +383,7 @@ export default function ContactUs() {
                     padding: 'clamp(12px, 1.11vw, 16px)',
                     borderRadius: '8px',
                     border: 'none',
-                    background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)',
+                    background: '#14358A',
                     color: '#FFFFFF',
                     fontFamily: 'Montserrat, sans-serif',
                     fontWeight: 700,
@@ -398,72 +400,7 @@ export default function ContactUs() {
         </div>
       </section>
 
-      {/* ─── Footer ─── */}
-      <footer
-        className="text-white pt-16 pb-12 px-6 relative z-20"
-        style={{ background: 'linear-gradient(83.95deg, #1B45B4 3%, #1C2792 96.84%)' }}
-      >
-        <div className="max-w-[1200px] mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mb-8">
-            <div className="md:col-span-1">
-              <div className="mb-6">
-                <img
-                  src="/pmg-logo-footer.png"
-                  alt="PMG Logo"
-                  className="object-contain"
-                  style={{ width: '100px', height: 'auto' }}
-                />
-              </div>
-            </div>
-            <div>
-              <h4 className="font-dm-sans font-bold text-xl mb-4">What we Do</h4>
-              <ul className="space-y-2 font-dm-sans text-white/80">
-                <li><a href="#" className="hover:text-white">Our Services</a></li>
-                <li><a href="#" className="hover:text-white">Our Solutions</a></li>
-                <li><a href="#" className="hover:text-white">Rebuilding from within</a></li>
-                <li><a href="#" className="hover:text-white">Why Consulting?</a></li>
-              </ul>
-            </div>
-            <div className="flex flex-col gap-6">
-              <div>
-                <h4 className="font-dm-sans font-bold text-xl mb-4">Our Content</h4>
-                <ul className="space-y-2 font-dm-sans text-white/80">
-                  <li><a href="#" className="hover:text-white">FAQs</a></li>
-                  <li><a href="#" className="hover:text-white">Insights &amp; Innovations</a></li>
-                  <li><a href="#" className="hover:text-white">Community Programs</a></li>
-                </ul>
-              </div>
-              <div>
-                <h4 className="font-dm-sans font-bold text-xl mb-4">Working with PMG</h4>
-                <ul className="space-y-2 font-dm-sans text-white/80">
-                  <li><a href="#" className="hover:text-white">Careers</a></li>
-                  <li><a href="#" className="hover:text-white">Licensing</a></li>
-                </ul>
-              </div>
-            </div>
-            <div>
-              <h4 className="font-dm-sans font-bold text-xl mb-4">Our Models</h4>
-              <ul className="space-y-2 font-dm-sans text-white/80">
-                <li><a href="#" className="hover:text-white">Sector Convergence Model</a></li>
-                <li><a href="#" className="hover:text-white">I-O Enterprise Architecture</a></li>
-                <li><a href="#" className="hover:text-white">Bussiness Value-Unit Model</a></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-dm-sans font-bold text-xl mb-4">Legal</h4>
-              <ul className="space-y-2 font-dm-sans text-white/80 text-sm">
-                <li><a href="#" className="hover:text-white">Privacy &amp; Cookie Policy</a></li>
-                <li><a href="#" className="hover:text-white">Hiring &amp; Equal Opportunity</a></li>
-                <li><a href="#" className="hover:text-white">AI &amp; Data Ethics Statement</a></li>
-                <li><a href="#" className="hover:text-white">Anti-Modern Slavery Policy</a></li>
-                <li><a href="#" className="hover:text-white">Intellectual Property</a></li>
-                <li><a href="#" className="hover:text-white">Regionalization Policy</a></li>
-                <li><a href="#" className="hover:text-white">Digital Terms of Use</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </main>
   );
 }
