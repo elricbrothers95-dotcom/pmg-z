@@ -10,23 +10,21 @@ export default function OurFunctionalAreas() {
       {/* Hero Section */}
       <div className="relative w-full max-w-[1440px] mx-auto px-4 pt-[171px] pb-16 text-center">
         <h1
-          className="mb-6"
           style={{
             fontFamily: 'Poppins, sans-serif',
             fontWeight: 600,
             fontSize: '50px',
-            lineHeight: '46px',
+            lineHeight: '61.33px',
             letterSpacing: '0%',
             color: '#14358A',
             maxWidth: '778px',
-            margin: '0 auto 24px auto',
+            margin: '0 auto 12px auto',
           }}
         >
           Functional Mastery. Executed.
         </h1>
 
         <p
-          className="mb-10"
           style={{
             fontFamily: 'Montserrat, sans-serif',
             fontWeight: 400,
@@ -36,7 +34,7 @@ export default function OurFunctionalAreas() {
             textAlign: 'center',
             color: '#333333',
             maxWidth: '1258px',
-            margin: '0 auto 40px auto',
+            margin: '0 auto 32px auto',
           }}
         >
           We deliver bespoke solutions that reject generalized frameworks. Expect measurable, tangible business improvements and significant ROI precisely aligned with your strategic, high-stakes objectives.
@@ -62,18 +60,18 @@ export default function OurFunctionalAreas() {
       </div>
 
       {/* Our Functional Areas Section */}
-      <div className="relative w-full max-w-[1440px] mx-auto px-4 py-16">
-        <div className="text-center mb-12">
+      <div className="relative w-full max-w-[1440px] mx-auto px-4" style={{ paddingTop: '75px', paddingBottom: '64px' }}>
+        <div className="text-center" style={{ marginBottom: '30px' }}>
           <h2
-            className="mb-6"
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
               fontSize: '48px',
-              lineHeight: '105%',
+              lineHeight: '80.65%',
               letterSpacing: '-0.03em',
               textAlign: 'center',
               color: '#14358A',
+              marginBottom: '18px',
             }}
           >
             Our Functional Areas
@@ -96,14 +94,18 @@ export default function OurFunctionalAreas() {
         </div>
 
         {/* Row 1: 2 Cards */}
-        <div className="flex flex-col md:flex-row justify-center gap-6 mb-6 max-w-[1264px] mx-auto">
+        <div className="flex flex-col md:flex-row justify-center max-w-[1264px] mx-auto" style={{ gap: '30px', marginBottom: '32px' }}>
           {/* Operations & Strategy */}
           <div
-            className="bg-white p-6 rounded-[10px] flex flex-col"
+            className="bg-white rounded-[10px] flex flex-col"
             style={{
               border: '3px solid #14358A',
               width: '412px',
               minHeight: '198px',
+              paddingLeft: '28px',
+              paddingTop: '26px',
+              paddingRight: '10px',
+              paddingBottom: '24px',
             }}
           >
             <div className="w-16 h-16 mb-4 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
@@ -155,11 +157,15 @@ export default function OurFunctionalAreas() {
 
           {/* People & Organizations */}
           <div
-            className="bg-white p-6 rounded-[10px] flex flex-col"
+            className="bg-white rounded-[10px] flex flex-col"
             style={{
               border: '3px solid #14358A',
               width: '412px',
               minHeight: '198px',
+              paddingLeft: '28px',
+              paddingTop: '26px',
+              paddingRight: '10px',
+              paddingBottom: '24px',
             }}
           >
             <div className="w-16 h-16 mb-4 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
@@ -213,14 +219,18 @@ export default function OurFunctionalAreas() {
         </div>
 
         {/* Row 2: 3 Cards */}
-        <div className="flex flex-col md:flex-row justify-center gap-6 mb-6 max-w-[1264px] mx-auto">
+        <div className="flex flex-col md:flex-row justify-center max-w-[1264px] mx-auto" style={{ gap: '30px', marginBottom: '24px' }}>
           {/* Customer Experience */}
           <div
-            className="bg-white p-6 rounded-[10px] flex flex-col"
+            className="bg-white rounded-[10px] flex flex-col"
             style={{
               border: '3px solid #14358A',
               width: '412px',
               minHeight: '198px',
+              paddingLeft: '28px',
+              paddingTop: '26px',
+              paddingRight: '10px',
+              paddingBottom: '24px',
             }}
           >
             <div className="w-16 h-16 mb-4 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
@@ -272,11 +282,15 @@ export default function OurFunctionalAreas() {
 
           {/* Mergers & Acquisitions */}
           <div
-            className="bg-white p-6 rounded-[10px] flex flex-col"
+            className="bg-white rounded-[10px] flex flex-col"
             style={{
               border: '3px solid #14358A',
               width: '412px',
               minHeight: '198px',
+              paddingLeft: '28px',
+              paddingTop: '26px',
+              paddingRight: '10px',
+              paddingBottom: '24px',
             }}
           >
             <div className="w-16 h-16 mb-4 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
@@ -328,11 +342,15 @@ export default function OurFunctionalAreas() {
 
           {/* Branding & Marketing */}
           <div
-            className="bg-white p-6 rounded-[10px] flex flex-col"
+            className="bg-white rounded-[10px] flex flex-col"
             style={{
               border: '3px solid #14358A',
               width: '412px',
               minHeight: '198px',
+              paddingLeft: '28px',
+              paddingTop: '26px',
+              paddingRight: '10px',
+              paddingBottom: '24px',
             }}
           >
             <div className="w-16 h-16 mb-4 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
@@ -385,14 +403,18 @@ export default function OurFunctionalAreas() {
         </div>
 
         {/* Row 3: 2 Cards */}
-        <div className="flex flex-col md:flex-row justify-center gap-6 max-w-[1264px] mx-auto">
+        <div className="flex flex-col md:flex-row justify-center max-w-[1264px] mx-auto" style={{ gap: '30px' }}>
           {/* BPO & Fractional Talent */}
           <div
-            className="bg-white p-6 rounded-[10px] flex flex-col"
+            className="bg-white rounded-[10px] flex flex-col"
             style={{
               border: '3px solid #14358A',
               width: '412px',
               minHeight: '198px',
+              paddingLeft: '28px',
+              paddingTop: '26px',
+              paddingRight: '10px',
+              paddingBottom: '24px',
             }}
           >
             <div className="w-16 h-16 mb-4 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
@@ -447,11 +469,15 @@ export default function OurFunctionalAreas() {
 
           {/* Crisis & Transition Management */}
           <div
-            className="bg-white p-6 rounded-[10px] flex flex-col"
+            className="bg-white rounded-[10px] flex flex-col"
             style={{
               border: '3px solid #14358A',
               width: '412px',
               minHeight: '198px',
+              paddingLeft: '28px',
+              paddingTop: '26px',
+              paddingRight: '10px',
+              paddingBottom: '24px',
             }}
           >
             <div className="w-16 h-16 mb-4 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
@@ -504,20 +530,19 @@ export default function OurFunctionalAreas() {
       </div>
 
       {/* Ready for a Definitive Path to Transformation Section */}
-      <div className="relative w-full max-w-[1440px] mx-auto px-4 py-20">
-        <div className="text-center mb-12">
+      <div className="relative w-full max-w-[1440px] mx-auto px-4" style={{ paddingTop: '286px', paddingBottom: '80px' }}>
+        <div className="text-center" style={{ marginBottom: '40px' }}>
           <h2
-            className="mb-6"
             style={{
               fontFamily: 'Poppins, sans-serif',
               fontWeight: 600,
               fontSize: '50px',
-              lineHeight: '46px',
+              lineHeight: '61.33px',
               letterSpacing: '0%',
               textAlign: 'center',
               color: '#14358A',
               maxWidth: '1191px',
-              margin: '0 auto 24px auto',
+              margin: '0 auto 15px auto',
             }}
           >
             Ready for a Definitive Path to Transformation?
@@ -541,14 +566,18 @@ export default function OurFunctionalAreas() {
         </div>
 
         {/* Solution Cards - 2x2 Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-[1062px] mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 max-w-[1062px] mx-auto" style={{ columnGap: '22px', rowGap: '24px' }}>
           {/* Out-of-the-Box Solutions */}
           <div
-            className="bg-white p-6 rounded-[10px] flex flex-col"
+            className="bg-white rounded-[10px] flex flex-col"
             style={{
               border: '3px solid #14358A',
               minHeight: '335px',
               width: '519px',
+              paddingLeft: '28px',
+              paddingTop: '26px',
+              paddingRight: '10px',
+              paddingBottom: '24px',
             }}
           >
             <div className="w-16 h-16 mb-4 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
@@ -614,11 +643,15 @@ export default function OurFunctionalAreas() {
 
           {/* Bespoke Solutions */}
           <div
-            className="bg-white p-6 rounded-[10px] flex flex-col"
+            className="bg-white rounded-[10px] flex flex-col"
             style={{
               border: '3px solid #14358A',
               minHeight: '335px',
               width: '519px',
+              paddingLeft: '28px',
+              paddingTop: '26px',
+              paddingRight: '10px',
+              paddingBottom: '24px',
             }}
           >
             <div className="w-16 h-16 mb-4 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
@@ -684,11 +717,15 @@ export default function OurFunctionalAreas() {
 
           {/* Active Management Solutions */}
           <div
-            className="bg-white p-6 rounded-[10px] flex flex-col"
+            className="bg-white rounded-[10px] flex flex-col"
             style={{
               border: '3px solid #14358A',
               minHeight: '335px',
               width: '519px',
+              paddingLeft: '28px',
+              paddingTop: '26px',
+              paddingRight: '10px',
+              paddingBottom: '24px',
             }}
           >
             <div className="w-16 h-16 mb-4 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
@@ -754,11 +791,15 @@ export default function OurFunctionalAreas() {
 
           {/* Equity Engagements */}
           <div
-            className="bg-white p-6 rounded-[10px] flex flex-col"
+            className="bg-white rounded-[10px] flex flex-col"
             style={{
               border: '3px solid #14358A',
               minHeight: '335px',
               width: '519px',
+              paddingLeft: '28px',
+              paddingTop: '26px',
+              paddingRight: '10px',
+              paddingBottom: '24px',
             }}
           >
             <div className="w-16 h-16 mb-4 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
@@ -826,9 +867,11 @@ export default function OurFunctionalAreas() {
 
       {/* Unsure Which Solution Fits Section */}
       <div
-        className="relative w-full py-20"
+        className="relative w-full"
         style={{
           background: '#EAF6FF',
+          paddingTop: '73px',
+          paddingBottom: '80px',
         }}
       >
         <div className="max-w-[1440px] mx-auto px-4 text-center">
@@ -839,7 +882,7 @@ export default function OurFunctionalAreas() {
               fontWeight: 700,
               fontSize: '48px',
               lineHeight: '105%',
-              letterSpacing: '-0.03em',
+              letterSpacing: '-1.44px',
               color: '#14358A',
             }}
           >
