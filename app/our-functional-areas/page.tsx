@@ -103,10 +103,10 @@ export default function OurFunctionalAreas() {
             style={{
               border: '3px solid #14358A',
               width: '412px',
-              minHeight: '237px',
+              minHeight: '198px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+            <div className="w-16 h-16 mb-4 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
               {/* Bar Chart icon - strategy/operations */}
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M18 20V10M12 20V4M6 20v-6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -117,7 +117,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '22px',
+                fontSize: '29px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -159,10 +159,10 @@ export default function OurFunctionalAreas() {
             style={{
               border: '3px solid #14358A',
               width: '412px',
-              minHeight: '237px',
+              minHeight: '198px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+            <div className="w-16 h-16 mb-4 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
               {/* Users/Group icon - people */}
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -175,7 +175,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '22px',
+                fontSize: '29px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -220,10 +220,10 @@ export default function OurFunctionalAreas() {
             style={{
               border: '3px solid #14358A',
               width: '412px',
-              minHeight: '237px',
+              minHeight: '198px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+            <div className="w-16 h-16 mb-4 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
               {/* Chat/Message Bubble icon - customer experience */}
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -234,7 +234,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '22px',
+                fontSize: '29px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -276,10 +276,10 @@ export default function OurFunctionalAreas() {
             style={{
               border: '3px solid #14358A',
               width: '412px',
-              minHeight: '237px',
+              minHeight: '198px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+            <div className="w-16 h-16 mb-4 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
               {/* Expand/Diverge icon - M&A */}
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -290,7 +290,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '22px',
+                fontSize: '29px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -332,10 +332,10 @@ export default function OurFunctionalAreas() {
             style={{
               border: '3px solid #14358A',
               width: '412px',
-              minHeight: '237px',
+              minHeight: '198px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+            <div className="w-16 h-16 mb-4 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
               {/* Price Tag icon - branding */}
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -347,7 +347,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '22px',
+                fontSize: '29px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -392,10 +392,10 @@ export default function OurFunctionalAreas() {
             style={{
               border: '3px solid #14358A',
               width: '412px',
-              minHeight: '237px',
+              minHeight: '198px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+            <div className="w-16 h-16 mb-4 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
               {/* User-Plus icon - talent */}
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -409,7 +409,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '22px',
+                fontSize: '29px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -451,10 +451,10 @@ export default function OurFunctionalAreas() {
             style={{
               border: '3px solid #14358A',
               width: '412px',
-              minHeight: '237px',
+              minHeight: '198px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+            <div className="w-16 h-16 mb-4 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
               {/* Shield icon - crisis/protection */}
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -465,7 +465,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '22px',
+                fontSize: '26px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -541,16 +541,17 @@ export default function OurFunctionalAreas() {
         </div>
 
         {/* Solution Cards - 2x2 Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-[1264px] mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-[1062px] mx-auto">
           {/* Out-of-the-Box Solutions */}
           <div
             className="bg-white p-6 rounded-[10px] flex flex-col"
             style={{
               border: '3px solid #14358A',
               minHeight: '335px',
+              width: '519px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+            <div className="w-16 h-16 mb-4 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
               {/* 3D Box/Cube icon - out-of-the-box */}
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -562,7 +563,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '22px',
+                fontSize: '29px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -617,9 +618,10 @@ export default function OurFunctionalAreas() {
             style={{
               border: '3px solid #14358A',
               minHeight: '335px',
+              width: '519px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+            <div className="w-16 h-16 mb-4 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
               {/* Edit/Pen-Square icon - bespoke/custom */}
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -631,7 +633,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '22px',
+                fontSize: '29px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -686,9 +688,10 @@ export default function OurFunctionalAreas() {
             style={{
               border: '3px solid #14358A',
               minHeight: '335px',
+              width: '519px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+            <div className="w-16 h-16 mb-4 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
               {/* Single User icon - active management */}
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -700,7 +703,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '22px',
+                fontSize: '29px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -755,9 +758,10 @@ export default function OurFunctionalAreas() {
             style={{
               border: '3px solid #14358A',
               minHeight: '335px',
+              width: '519px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+            <div className="w-16 h-16 mb-4 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
               {/* Dollar Sign icon - equity */}
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <line x1="12" y1="1" x2="12" y2="23" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -769,7 +773,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '22px',
+                fontSize: '29px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -824,7 +828,7 @@ export default function OurFunctionalAreas() {
       <div
         className="relative w-full py-20"
         style={{
-          background: 'linear-gradient(180deg, #EBF7FF 0%, #D9ECFA 100%)',
+          background: '#EAF6FF',
         }}
       >
         <div className="max-w-[1440px] mx-auto px-4 text-center">
