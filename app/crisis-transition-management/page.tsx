@@ -144,14 +144,38 @@ export default function CrisisTransitionManagement() {
       <div className="relative w-full max-w-[1440px] mx-auto px-4 py-20">
         <div className="flex flex-col lg:flex-row gap-12 items-start">
           <div className="flex flex-col gap-4">
-            <div className="relative pl-8">
-              <div className="absolute left-0 top-0 h-full flex flex-col items-center" style={{ width: '8px' }}>
-                {Array.from({ length: 40 }).map((_, i) => (
-                  <div key={i} className="rounded-full flex-shrink-0" style={{ width: '4px', height: '4px', background: '#424856', marginBottom: '6px' }} />
-                ))}
+            {/* Capability Pills with Figma Connector */}
+            <div className="relative flex gap-6">
+              {/* Left Connector SVG — blue bullets per pill + gray dots between */}
+              <div className="flex-shrink-0" style={{ width: '50px' }}>
+                <svg width="50" height="424" viewBox="0 0 50 424" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="10" cy="36" r="10" fill="#14358A"/>
+                  <circle cx="10" cy="124" r="10" fill="#14358A"/>
+                  <circle cx="10" cy="212" r="10" fill="#14358A"/>
+                  <circle cx="10" cy="300" r="10" fill="#14358A"/>
+                  <circle cx="10" cy="388" r="10" fill="#14358A"/>
+                  <circle cx="10" cy="68" r="5" fill="#424856"/>
+                  <circle cx="10" cy="80" r="5" fill="#424856"/>
+                  <circle cx="10" cy="92" r="5" fill="#424856"/>
+                  <circle cx="36" cy="80" r="5" fill="#424856"/>
+                  <circle cx="10" cy="156" r="5" fill="#424856"/>
+                  <circle cx="10" cy="168" r="5" fill="#424856"/>
+                  <circle cx="10" cy="180" r="5" fill="#424856"/>
+                  <circle cx="36" cy="168" r="5" fill="#424856"/>
+                  <circle cx="10" cy="244" r="5" fill="#424856"/>
+                  <circle cx="10" cy="256" r="5" fill="#424856"/>
+                  <circle cx="10" cy="268" r="5" fill="#424856"/>
+                  <circle cx="36" cy="256" r="5" fill="#424856"/>
+                  <circle cx="10" cy="332" r="5" fill="#424856"/>
+                  <circle cx="10" cy="344" r="5" fill="#424856"/>
+                  <circle cx="10" cy="356" r="5" fill="#424856"/>
+                  <circle cx="36" cy="344" r="5" fill="#424856"/>
+                </svg>
               </div>
-              <div className="flex items-center gap-4 mb-4">
-                <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A' }}>
+
+              {/* Pills Column */}
+              <div className="flex flex-col gap-4">
+                <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A', height: '72px' }}>
                   <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
                     <div className="w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center">
                       <div className="w-[48px] h-[48px] rounded-full flex items-center justify-center" style={{ background: '#14358A' }}>
@@ -161,9 +185,8 @@ export default function CrisisTransitionManagement() {
                   </div>
                   <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '20px', lineHeight: '100%', color: '#FFFFFF' }}>Product Lifecycle Management</span>
                 </div>
-              </div>
-              <div className="flex items-center gap-4 mb-4">
-                <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A' }}>
+
+                <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A', height: '72px' }}>
                   <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
                     <div className="w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center">
                       <div className="w-[48px] h-[48px] rounded-full flex items-center justify-center" style={{ background: '#14358A' }}>
@@ -173,9 +196,8 @@ export default function CrisisTransitionManagement() {
                   </div>
                   <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '20px', lineHeight: '100%', color: '#FFFFFF' }}>Capital Excellence</span>
                 </div>
-              </div>
-              <div className="flex items-center gap-4 mb-4">
-                <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A' }}>
+
+                <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A', height: '72px' }}>
                   <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
                     <div className="w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center">
                       <div className="w-[48px] h-[48px] rounded-full flex items-center justify-center" style={{ background: '#14358A' }}>
@@ -185,9 +207,8 @@ export default function CrisisTransitionManagement() {
                   </div>
                   <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '20px', lineHeight: '100%', color: '#FFFFFF' }}>Data-Driven Insights</span>
                 </div>
-              </div>
-              <div className="flex items-center gap-4 mb-4">
-                <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A' }}>
+
+                <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A', height: '72px' }}>
                   <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
                     <div className="w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center">
                       <div className="w-[48px] h-[48px] rounded-full flex items-center justify-center" style={{ background: '#14358A' }}>
@@ -197,9 +218,8 @@ export default function CrisisTransitionManagement() {
                   </div>
                   <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '20px', lineHeight: '100%', color: '#FFFFFF' }}>KPI Optimization</span>
                 </div>
-              </div>
-              <div className="flex items-center gap-4">
-                <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A' }}>
+
+                <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A', height: '72px' }}>
                   <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
                     <div className="w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center">
                       <div className="w-[48px] h-[48px] rounded-full flex items-center justify-center" style={{ background: '#14358A' }}>
