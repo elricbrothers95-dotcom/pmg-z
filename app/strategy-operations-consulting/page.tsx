@@ -1,6 +1,7 @@
 'use client';
 
 import Header from '@/components/Header';
+import ApproachRoadmap from '@/components/ApproachRoadmap';
 
 export default function StrategyOperationsConsulting() {
   return (
@@ -87,19 +88,18 @@ export default function StrategyOperationsConsulting() {
               minHeight: '257px',
             }}
           >
-            <div className="mb-6">
-              <img
-                src="/help-capital-excellence.png"
-                alt="Capital Excellence"
-                style={{ width: '64px', height: '64px' }}
-              />
+            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <line x1="12" y1="1" x2="12" y2="23" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
             </div>
             <h3
               className="mb-2"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '29px',
+                fontSize: '22px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -128,19 +128,17 @@ export default function StrategyOperationsConsulting() {
               minHeight: '257px',
             }}
           >
-            <div className="mb-6">
-              <img
-                src="/help-cost-management.png"
-                alt="Cost Management"
-                style={{ width: '64px', height: '64px' }}
-              />
+            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M18 20V10M12 20V4M6 20v-6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
             </div>
             <h3
               className="mb-2"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '29px',
+                fontSize: '22px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -169,19 +167,20 @@ export default function StrategyOperationsConsulting() {
               minHeight: '257px',
             }}
           >
-            <div className="mb-6">
-              <img
-                src="/help-enterprise-architecture.png"
-                alt="Enterprise Architecture"
-                style={{ width: '64px', height: '64px' }}
-              />
+            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <rect x="2" y="2" width="20" height="8" rx="2" ry="2" stroke="white" strokeWidth="2"/>
+                <rect x="2" y="14" width="20" height="8" rx="2" ry="2" stroke="white" strokeWidth="2"/>
+                <line x1="6" y1="6" x2="6.01" y2="6" stroke="white" strokeWidth="2" strokeLinecap="round"/>
+                <line x1="6" y1="18" x2="6.01" y2="18" stroke="white" strokeWidth="2" strokeLinecap="round"/>
+              </svg>
             </div>
             <h3
               className="mb-2"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '29px',
+                fontSize: '22px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -210,19 +209,20 @@ export default function StrategyOperationsConsulting() {
               minHeight: '257px',
             }}
           >
-            <div className="mb-6">
-              <img
-                src="/help-facility-resource.png"
-                alt="Facility & Resource Management"
-                style={{ width: '64px', height: '64px' }}
-              />
+            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <rect x="3" y="3" width="7" height="7" stroke="white" strokeWidth="2"/>
+                <rect x="14" y="3" width="7" height="7" stroke="white" strokeWidth="2"/>
+                <rect x="3" y="14" width="7" height="7" stroke="white" strokeWidth="2"/>
+                <rect x="14" y="14" width="7" height="7" stroke="white" strokeWidth="2"/>
+              </svg>
             </div>
             <h3
               className="mb-2"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '29px',
+                fontSize: '22px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -251,19 +251,18 @@ export default function StrategyOperationsConsulting() {
               minHeight: '257px',
             }}
           >
-            <div className="mb-6">
-              <img
-                src="/help-lean-sigma.png"
-                alt="Lean, Six Sigma, Agile"
-                style={{ width: '64px', height: '64px' }}
-              />
+            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M23 4v6h-6M1 20v-6h6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
             </div>
             <h3
               className="mb-2"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '29px',
+                fontSize: '22px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -292,19 +291,19 @@ export default function StrategyOperationsConsulting() {
               minHeight: '257px',
             }}
           >
-            <div className="mb-6">
-              <img
-                src="/help-multi-unit-strategy.png"
-                alt="Multi-unit Strategy"
-                style={{ width: '64px', height: '64px' }}
-              />
+            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M12 2L2 7l10 5 10-5-10-5z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M2 17l10 5 10-5" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M2 12l10 5 10-5" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
             </div>
             <h3
               className="mb-2"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '29px',
+                fontSize: '22px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -333,19 +332,17 @@ export default function StrategyOperationsConsulting() {
               minHeight: '257px',
             }}
           >
-            <div className="mb-6">
-              <img
-                src="/help-operations-scalability.png"
-                alt="Operations Scalability"
-                style={{ width: '64px', height: '64px' }}
-              />
+            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M16 3h5v5M4 20L21 3M21 16v5h-5M14 14l7 7M3 8V3h5M10 10L3 3" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
             </div>
             <h3
               className="mb-2"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '29px',
+                fontSize: '22px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -374,19 +371,18 @@ export default function StrategyOperationsConsulting() {
               minHeight: '257px',
             }}
           >
-            <div className="mb-6">
-              <img
-                src="/help-performance-metrics.png"
-                alt="Performance Metrics"
-                style={{ width: '64px', height: '64px' }}
-              />
+            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="12" r="10" stroke="white" strokeWidth="2"/>
+                <path d="M12 8v4l3 3" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
             </div>
             <h3
               className="mb-2"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '29px',
+                fontSize: '22px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -415,19 +411,17 @@ export default function StrategyOperationsConsulting() {
               minHeight: '257px',
             }}
           >
-            <div className="mb-6">
-              <img
-                src="/help-risk-crisis.png"
-                alt="Risk & Crisis Management"
-                style={{ width: '64px', height: '64px' }}
-              />
+            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
             </div>
             <h3
               className="mb-2"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '29px',
+                fontSize: '22px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -456,19 +450,18 @@ export default function StrategyOperationsConsulting() {
               minHeight: '257px',
             }}
           >
-            <div className="mb-6">
-              <img
-                src="/help-supply-chain.png"
-                alt="Supply Chain & Procurement"
-                style={{ width: '64px', height: '64px' }}
-              />
+            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M3.27 6.96L12 12.01l8.73-5.05M12 22.08V12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
             </div>
             <h3
               className="mb-2"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '29px',
+                fontSize: '22px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -497,19 +490,19 @@ export default function StrategyOperationsConsulting() {
               minHeight: '257px',
             }}
           >
-            <div className="mb-6">
-              <img
-                src="/help-technology-integration.png"
-                alt="Technology Integration"
-                style={{ width: '64px', height: '64px' }}
-              />
+            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2" stroke="white" strokeWidth="2"/>
+                <line x1="8" y1="21" x2="16" y2="21" stroke="white" strokeWidth="2" strokeLinecap="round"/>
+                <line x1="12" y1="17" x2="12" y2="21" stroke="white" strokeWidth="2" strokeLinecap="round"/>
+              </svg>
             </div>
             <h3
               className="mb-2"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '29px',
+                fontSize: '22px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -538,19 +531,18 @@ export default function StrategyOperationsConsulting() {
               minHeight: '257px',
             }}
           >
-            <div className="mb-6">
-              <img
-                src="/help-product-development.png"
-                alt="Product Development"
-                style={{ width: '64px', height: '64px' }}
-              />
+            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <line x1="7" y1="7" x2="7.01" y2="7" stroke="white" strokeWidth="2" strokeLinecap="round"/>
+              </svg>
             </div>
             <h3
               className="mb-2"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '29px',
+                fontSize: '22px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -676,35 +668,7 @@ export default function StrategyOperationsConsulting() {
           </div>
 
           {/* SVG Roadmap - Figma design */}
-          <svg
-            viewBox="0 0 1031 309"
-            xmlns="http://www.w3.org/2000/svg"
-            style={{ width: '100%', height: 'auto', display: 'block', margin: '40px 0' }}
-          >
-            {/* Left up-branch with endpoint dot */}
-            <path fillRule="evenodd" clipRule="evenodd" d="M0 142.881V165.681H277.768C346.991 165.681 409.076 120.413 435.343 51.6224C447.773 50.7272 457.598 39.5261 457.598 25.8399C457.598 11.5688 446.915 -0.000244377 433.736 -0.000244377C420.557 -0.000244377 409.873 11.5688 409.873 25.8399C409.873 32.4119 412.143 38.409 415.866 42.9633C392.829 103.227 338.424 142.881 277.768 142.881H0ZM433.736 16.7199C438.387 16.7199 442.158 20.8031 442.158 25.8399C442.158 30.8768 438.387 34.96 433.736 34.96C429.085 34.96 425.314 30.8768 425.314 25.8399C425.314 20.8031 429.085 16.7199 433.736 16.7199Z" fill="#14358A" />
-
-            {/* Right up-branch with endpoint dot */}
-            <path fillRule="evenodd" clipRule="evenodd" d="M573.402 142.881V165.681H851.17C920.392 165.681 982.478 120.413 1008.75 51.6224C1021.17 50.7272 1031 39.5261 1031 25.8399C1031 11.5688 1020.32 -0.000244377 1007.14 -0.000244377C993.959 -0.000244377 983.275 11.5688 983.275 25.8399C983.275 32.4119 985.544 38.409 989.267 42.9633C966.231 103.227 911.826 142.881 851.17 142.881H573.402ZM1007.14 16.7199C1011.79 16.7199 1015.56 20.8031 1015.56 25.8399C1015.56 30.8768 1011.79 34.96 1007.14 34.96C1002.49 34.96 998.716 30.8768 998.716 25.8399C998.716 20.8031 1002.49 16.7199 1007.14 16.7199Z" fill="#14358A" />
-
-            {/* Down-branch with endpoint dot */}
-            <path fillRule="evenodd" clipRule="evenodd" d="M290.561 165.681V142.881H568.328C637.551 142.881 699.637 188.149 725.904 256.939C738.333 257.834 748.159 269.035 748.159 282.721C748.159 296.993 737.475 308.562 724.297 308.562C711.118 308.562 700.434 296.993 700.434 282.721C700.434 276.149 702.703 270.152 706.426 265.598C683.39 205.335 628.985 165.681 568.328 165.681H290.561ZM724.297 291.842C728.948 291.842 732.719 287.758 732.719 282.721C732.719 277.685 728.948 273.601 724.297 273.601C719.645 273.601 715.874 277.685 715.874 282.721C715.874 287.758 719.645 291.842 724.297 291.842Z" fill="#14358A" />
-
-            {/* Circle 1 (left) */}
-            <path d="M235.521 153.746C235.521 131.5 218.867 113.466 198.324 113.466C177.78 113.466 161.126 131.5 161.126 153.746C161.126 175.993 177.78 194.027 198.324 194.027C218.867 194.027 235.521 175.993 235.521 153.746Z" fill="white" />
-            <path fillRule="evenodd" clipRule="evenodd" d="M198.621 117.382C217.44 117.382 232.696 133.902 232.696 154.281C232.696 174.66 217.44 191.18 198.621 191.18C179.802 191.18 164.546 174.66 164.546 154.281C164.546 133.902 179.802 117.382 198.621 117.382ZM198.621 107.921C222.265 107.921 241.433 128.677 241.433 154.281C241.433 179.885 222.265 200.641 198.621 200.641C174.976 200.641 155.809 179.885 155.809 154.281C155.809 128.677 174.976 107.921 198.621 107.921Z" fill="#14358A" />
-            <text x="198.621" y="154.281" textAnchor="middle" dominantBaseline="central" fill="#14358A" fontSize="50" fontWeight="700" fontFamily="DM Sans, sans-serif" letterSpacing="-1.5">1</text>
-
-            {/* Circle 2 (center) */}
-            <path d="M526.138 154.026C526.138 176.272 509.484 194.306 488.941 194.306C468.397 194.306 451.743 176.272 451.743 154.026C451.743 131.78 468.397 113.746 488.941 113.746C509.484 113.746 526.138 131.78 526.138 154.026Z" fill="white" />
-            <path fillRule="evenodd" clipRule="evenodd" d="M489.181 191.18C508 191.18 523.256 174.659 523.256 154.281C523.256 133.902 508 117.382 489.181 117.382C470.362 117.382 455.106 133.902 455.106 154.281C455.106 174.659 470.362 191.18 489.181 191.18ZM489.181 200.641C512.826 200.641 531.993 179.885 531.993 154.281C531.993 128.677 512.826 107.92 489.181 107.92C465.537 107.92 446.369 128.677 446.369 154.281C446.369 179.885 465.537 200.641 489.181 200.641Z" fill="#14358A" />
-            <text x="489.181" y="154.281" textAnchor="middle" dominantBaseline="central" fill="#14358A" fontSize="50" fontWeight="700" fontFamily="DM Sans, sans-serif" letterSpacing="-1.5">2</text>
-
-            {/* Circle 3 (right) */}
-            <path d="M808.848 153.746C808.848 131.5 792.194 113.466 771.651 113.466C751.107 113.466 734.453 131.5 734.453 153.746C734.453 175.993 751.107 194.027 771.651 194.027C792.194 194.027 808.848 175.993 808.848 153.746Z" fill="white" />
-            <path fillRule="evenodd" clipRule="evenodd" d="M772.02 117.382C790.84 117.382 806.095 133.902 806.095 154.281C806.095 174.66 790.84 191.18 772.02 191.18C753.201 191.18 737.946 174.66 737.946 154.281C737.946 133.902 753.201 117.382 772.02 117.382ZM772.02 107.921C795.665 107.921 814.833 128.677 814.833 154.281C814.833 179.885 795.665 200.641 772.02 200.641C748.376 200.641 729.208 179.885 729.208 154.281C729.208 128.677 748.376 107.921 772.02 107.921Z" fill="#14358A" />
-            <text x="772.02" y="154.281" textAnchor="middle" dominantBaseline="central" fill="#14358A" fontSize="50" fontWeight="700" fontFamily="DM Sans, sans-serif" letterSpacing="-1.5">3</text>
-          </svg>
+          <ApproachRoadmap />
 
           {/* Step 3 - centered below SVG */}
           <div
@@ -795,11 +759,7 @@ export default function StrategyOperationsConsulting() {
                   style={{ background: '#14358A' }}
                 >
                   <div className="w-[72px] h-[72px] flex items-center justify-center">
-                    <img
-                      src="/icons/paintbrush.png"
-                      alt="Capital Excellence"
-                      style={{ width: '32px', height: '32px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
-                    />
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M12 2V22" stroke="white" strokeWidth="2" strokeLinecap="round"/><path d="M17 5H9.5C8.57174 5 7.6815 5.36875 7.02513 6.02513C6.36875 6.6815 6 7.57174 6 8.5C6 9.42826 6.36875 10.3185 7.02513 10.9749C7.6815 11.6313 8.57174 12 9.5 12H14.5C15.4283 12 16.3185 12.3687 16.9749 13.0251C17.6313 13.6815 18 14.5717 18 15.5C18 16.4283 17.6313 17.3185 16.9749 17.9749C16.3185 18.6313 15.4283 19 14.5 19H6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
                   </div>
                   <span
                     className="pr-8"
@@ -823,11 +783,7 @@ export default function StrategyOperationsConsulting() {
                   style={{ background: '#14358A' }}
                 >
                   <div className="w-[72px] h-[72px] flex items-center justify-center">
-                    <img
-                      src="/icons/cursor-click.png"
-                      alt="Data-Driven Insights"
-                      style={{ width: '32px', height: '32px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
-                    />
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M18 20V10" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M12 20V4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M6 20V14" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
                   </div>
                   <span
                     className="pr-8"
@@ -851,11 +807,7 @@ export default function StrategyOperationsConsulting() {
                   style={{ background: '#14358A' }}
                 >
                   <div className="w-[72px] h-[72px] flex items-center justify-center">
-                    <img
-                      src="/icons/rocket-launch.png"
-                      alt="KPI Optimization"
-                      style={{ width: '32px', height: '32px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
-                    />
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="white" strokeWidth="2"/><circle cx="12" cy="12" r="6" stroke="white" strokeWidth="2"/><circle cx="12" cy="12" r="2" stroke="white" strokeWidth="2"/></svg>
                   </div>
                   <span
                     className="pr-8"
@@ -879,11 +831,7 @@ export default function StrategyOperationsConsulting() {
                   style={{ background: '#14358A' }}
                 >
                   <div className="w-[72px] h-[72px] flex items-center justify-center">
-                    <img
-                      src="/icons/wrench.png"
-                      alt="Lean Six Sigma"
-                      style={{ width: '32px', height: '32px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
-                    />
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
                   </div>
                   <span
                     className="pr-8"

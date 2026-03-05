@@ -1,6 +1,7 @@
 "use client";
 
 import Header from '@/components/Header';
+import ApproachRoadmap from '@/components/ApproachRoadmap';
 
 export default function CustomerExperienceConsulting() {
   return (
@@ -74,118 +75,244 @@ export default function CustomerExperienceConsulting() {
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-[1140px] mx-auto">
-          {[
-            {
-              icon: '/icons/change-communication.png',
-              title: 'Agent Training & Continuous Development',
-              desc: 'Implement continuous agent training and tools to guarantee delivery of exceptional service and drive operational efficiency.',
-            },
-            {
-              icon: '/icons/hris-implementation.png',
-              title: 'AI & Service Automation',
-              desc: 'Drive immediate efficiency and reduce support costs using cutting-edge AI and service automation solutions.',
-            },
-            {
-              icon: '/icons/hr-analytics.png',
-              title: 'Customer Advocacy & Referral Programs',
-              desc: 'Architect high-ROI customer advocacy and referral programs that guarantee organic growth and reduce acquisition costs.',
-            },
-            {
-              icon: '/icons/hr-service-delivery.png',
-              title: 'Customer Experience Design',
-              desc: 'Craft exceptional, data-informed customer experiences using innovative design strategies that maximize engagement and loyalty.',
-            },
-            {
-              icon: '/icons/org-structure.png',
-              title: 'Customer Journey Mapping',
-              desc: 'Precisely map the customer journey to eliminate friction and boost long-term retention and loyalty.',
-            },
-            {
-              icon: '/icons/leadership-development.png',
-              title: 'Customer Lifecycle Management',
-              desc: 'Strategically manage the customer lifecycle, from acquisition to retention, to maximize customer lifetime value (CLV).',
-            },
-            {
-              icon: '/icons/performance-management.png',
-              title: 'Customer Persona Development',
-              desc: 'Build detailed, validated customer profiles to personalize interactions and enhance marketing ROI and effectiveness.',
-            },
-            {
-              icon: '/icons/change-measurement.png',
-              title: 'Customer Retention Strategies',
-              desc: 'Implement proven retention strategies designed to significantly increase loyalty, repeat business, and subscription rates.',
-            },
-            {
-              icon: '/icons/resistance-management.png',
-              title: 'Customer Self-Service Solutions',
-              desc: 'Empower customers with self-service solutions that reduce support volume and improve first-contact resolution rates.',
-            },
-            {
-              icon: '/icons/skills-training.png',
-              title: 'Customer Support Excellence Programs',
-              desc: 'Establish best-in-class support systems that maximize issue resolution speed and enhance customer satisfaction (CSAT).',
-            },
-            {
-              icon: '/icons/succession-planning.png',
-              title: 'Data Analytics & Reporting',
-              desc: 'Provide actionable data-driven insights and reporting from customer behavior trends to inform high-stakes strategic decisions.',
-            },
-            {
-              icon: '/icons/workforce-planning.png',
-              title: 'Digital Engagement & Experience',
-              desc: 'Drive deep customer engagement via innovative digital strategies, including UX design and mobile optimization.',
-            },
-            {
-              icon: '/icons/hr-analytics.png',
-              title: 'Omnichannel Communication & Integration',
-              desc: 'Guarantee a seamless, consistent customer experience across all physical and digital communication channels.',
-            },
-            {
-              icon: '/icons/performance-management.png',
-              title: 'Predictive Analytics',
-              desc: 'Anticipate customer needs and preferences using predictive analytics to secure a competitive edge and drive proactive service.',
-            },
-          ].map((card, idx) => (
-            <div
-              key={idx}
-              className="bg-white p-6 rounded-[10px] flex flex-col"
-              style={{ border: '3px solid #14358A', minHeight: '257px' }}
-            >
-              <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-                <img
-                  src={card.icon}
-                  alt={card.title}
-                  style={{ width: '24px', height: '24px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
-                />
-              </div>
-              <h3
-                className="mb-2"
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: '29px',
-                  lineHeight: '105%',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A',
-                  textAlign: 'left',
-                }}
-              >
-                {card.title}
-              </h3>
-              <p
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 400,
-                  fontSize: '16px',
-                  lineHeight: '140%',
-                  color: '#68718B',
-                  textAlign: 'left',
-                }}
-              >
-                {card.desc}
-              </p>
+          {/* Agent Training & Continuous Development */}
+          <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
+            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+              {/* Open Book icon - training */}
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
             </div>
-          ))}
+            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+              Agent Training & Continuous Development
+            </h3>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
+              Implement continuous agent training and tools to guarantee delivery of exceptional service and drive operational efficiency.
+            </p>
+          </div>
+
+          {/* AI & Service Automation */}
+          <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
+            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+              {/* Monitor/Computer icon - automation/tech */}
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2" stroke="white" strokeWidth="2"/>
+                <line x1="8" y1="21" x2="16" y2="21" stroke="white" strokeWidth="2" strokeLinecap="round"/>
+                <line x1="12" y1="17" x2="12" y2="21" stroke="white" strokeWidth="2" strokeLinecap="round"/>
+              </svg>
+            </div>
+            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+              AI & Service Automation
+            </h3>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
+              Drive immediate efficiency and reduce support costs using cutting-edge AI and service automation solutions.
+            </p>
+          </div>
+
+          {/* Customer Advocacy & Referral Programs */}
+          <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
+            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+              {/* Users/Group icon - advocacy */}
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <circle cx="9" cy="7" r="4" stroke="white" strokeWidth="2"/>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </div>
+            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+              Customer Advocacy & Referral Programs
+            </h3>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
+              Architect high-ROI customer advocacy and referral programs that guarantee organic growth and reduce acquisition costs.
+            </p>
+          </div>
+
+          {/* Customer Experience Design */}
+          <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
+            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+              {/* Edit/Pen-Square icon - design */}
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </div>
+            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+              Customer Experience Design
+            </h3>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
+              Craft exceptional, data-informed customer experiences using innovative design strategies that maximize engagement and loyalty.
+            </p>
+          </div>
+
+          {/* Customer Journey Mapping */}
+          <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
+            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+              {/* Expand/Diverge icon - journey mapping */}
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </div>
+            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+              Customer Journey Mapping
+            </h3>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
+              Precisely map the customer journey to eliminate friction and boost long-term retention and loyalty.
+            </p>
+          </div>
+
+          {/* Customer Lifecycle Management */}
+          <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
+            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+              {/* Refresh/Turnaround Arrows icon - lifecycle */}
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M23 4v6h-6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M1 20v-6h6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </div>
+            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+              Customer Lifecycle Management
+            </h3>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
+              Strategically manage the customer lifecycle, from acquisition to retention, to maximize customer lifetime value (CLV).
+            </p>
+          </div>
+
+          {/* Customer Persona Development */}
+          <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
+            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+              {/* Single User icon - persona */}
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <circle cx="12" cy="7" r="4" stroke="white" strokeWidth="2"/>
+              </svg>
+            </div>
+            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+              Customer Persona Development
+            </h3>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
+              Build detailed, validated customer profiles to personalize interactions and enhance marketing ROI and effectiveness.
+            </p>
+          </div>
+
+          {/* Customer Retention Strategies */}
+          <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
+            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+              {/* Shield icon - retention/protection */}
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </div>
+            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+              Customer Retention Strategies
+            </h3>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
+              Implement proven retention strategies designed to significantly increase loyalty, repeat business, and subscription rates.
+            </p>
+          </div>
+
+          {/* Customer Self-Service Solutions */}
+          <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
+            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+              {/* Question Mark Circle icon - self-service */}
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="12" r="10" stroke="white" strokeWidth="2"/>
+                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <line x1="12" y1="17" x2="12.01" y2="17" stroke="white" strokeWidth="2" strokeLinecap="round"/>
+              </svg>
+            </div>
+            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+              Customer Self-Service Solutions
+            </h3>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
+              Empower customers with self-service solutions that reduce support volume and improve first-contact resolution rates.
+            </p>
+          </div>
+
+          {/* Customer Support Excellence Programs */}
+          <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
+            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+              {/* Chat/Message Bubble icon - support */}
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </div>
+            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+              Customer Support Excellence Programs
+            </h3>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
+              Establish best-in-class support systems that maximize issue resolution speed and enhance customer satisfaction (CSAT).
+            </p>
+          </div>
+
+          {/* Data Analytics & Reporting */}
+          <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
+            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+              {/* Bar Chart icon - analytics */}
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M18 20V10M12 20V4M6 20v-6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </div>
+            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+              Data Analytics & Reporting
+            </h3>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
+              Provide actionable data-driven insights and reporting from customer behavior trends to inform high-stakes strategic decisions.
+            </p>
+          </div>
+
+          {/* Digital Engagement & Experience */}
+          <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
+            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+              {/* 3D Box/Cube icon - digital experience */}
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M3.27 6.96L12 12.01l8.73-5.05M12 22.08V12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </div>
+            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+              Digital Engagement & Experience
+            </h3>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
+              Drive deep customer engagement via innovative digital strategies, including UX design and mobile optimization.
+            </p>
+          </div>
+
+          {/* Omnichannel Communication & Integration */}
+          <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
+            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+              {/* Layers/Stack icon - omnichannel */}
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M12 2L2 7l10 5 10-5-10-5z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M2 17l10 5 10-5" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M2 12l10 5 10-5" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </div>
+            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+              Omnichannel Communication & Integration
+            </h3>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
+              Guarantee a seamless, consistent customer experience across all physical and digital communication channels.
+            </p>
+          </div>
+
+          {/* Predictive Analytics */}
+          <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
+            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+              {/* Clock icon - predictive/future */}
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="12" r="10" stroke="white" strokeWidth="2"/>
+                <path d="M12 6v6l4 2" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </div>
+            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+              Predictive Analytics
+            </h3>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
+              Anticipate customer needs and preferences using predictive analytics to secure a competitive edge and drive proactive service.
+            </p>
+          </div>
         </div>
       </div>
 
@@ -280,11 +407,7 @@ export default function CustomerExperienceConsulting() {
 
           {/* Roadmap Image */}
           <div className="relative flex items-center justify-center mb-12">
-            <img
-              src="/people-approach-roadmap.png"
-              alt="Approach Roadmap"
-              style={{ width: '100%', maxWidth: '1030px', height: 'auto' }}
-            />
+            <ApproachRoadmap />
           </div>
 
           {/* Bottom Box */}
@@ -330,7 +453,6 @@ export default function CustomerExperienceConsulting() {
 
               {[
                 {
-                  icon: null,
                   label: 'Product Lifecycle Management',
                   svg: (
                     <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
@@ -341,10 +463,30 @@ export default function CustomerExperienceConsulting() {
                     </svg>
                   ),
                 },
-                { icon: '/icons/paintbrush.png', label: 'Capital Excellence', svg: null },
-                { icon: '/icons/cursor-click.png', label: 'Data-Driven Insights', svg: null },
-                { icon: '/icons/rocket-launch.png', label: 'KPI Optimization', svg: null },
-                { icon: '/icons/wrench.png', label: 'Lean Six Sigma', svg: null },
+                {
+                  label: 'Capital Excellence',
+                  svg: (
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M12 2V22" stroke="white" strokeWidth="2" strokeLinecap="round"/><path d="M17 5H9.5C8.57174 5 7.6815 5.36875 7.02513 6.02513C6.36875 6.6815 6 7.57174 6 8.5C6 9.42826 6.36875 10.3185 7.02513 10.9749C7.6815 11.6313 8.57174 12 9.5 12H14.5C15.4283 12 16.3185 12.3687 16.9749 13.0251C17.6313 13.6815 18 14.5717 18 15.5C18 16.4283 17.6313 17.3185 16.9749 17.9749C16.3185 18.6313 15.4283 19 14.5 19H6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                  ),
+                },
+                {
+                  label: 'Data-Driven Insights',
+                  svg: (
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M18 20V10" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M12 20V4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M6 20V14" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                  ),
+                },
+                {
+                  label: 'KPI Optimization',
+                  svg: (
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="white" strokeWidth="2"/><circle cx="12" cy="12" r="6" stroke="white" strokeWidth="2"/><circle cx="12" cy="12" r="2" stroke="white" strokeWidth="2"/></svg>
+                  ),
+                },
+                {
+                  label: 'Lean Six Sigma',
+                  svg: (
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                  ),
+                },
               ].map((pill, idx, arr) => (
                 <div key={idx} className={`flex items-center gap-4 ${idx < arr.length - 1 ? 'mb-4' : ''}`}>
                   <div
@@ -352,13 +494,7 @@ export default function CustomerExperienceConsulting() {
                     style={{ background: '#14358A' }}
                   >
                     <div className="w-[72px] h-[72px] flex items-center justify-center">
-                      {pill.svg ? pill.svg : (
-                        <img
-                          src={pill.icon!}
-                          alt={pill.label}
-                          style={{ width: '32px', height: '32px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
-                        />
-                      )}
+                      {pill.svg}
                     </div>
                     <span
                       className="pr-8"

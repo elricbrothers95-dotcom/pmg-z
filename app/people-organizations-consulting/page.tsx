@@ -1,6 +1,7 @@
 "use client";
 
 import Header from '@/components/Header';
+import ApproachRoadmap from '@/components/ApproachRoadmap';
 
 export default function PeopleOrganizationsConsulting() {
   return (
@@ -87,18 +88,17 @@ export default function PeopleOrganizationsConsulting() {
             }}
           >
             <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <img
-                src="/icons/change-communication.png"
-                alt="Change Communication"
-                style={{ width: '24px', height: '24px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
-              />
+              {/* Chat/Message Bubble icon */}
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
             </div>
             <h3
               className="mb-2"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '29px',
+                fontSize: '22px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -130,18 +130,17 @@ export default function PeopleOrganizationsConsulting() {
             }}
           >
             <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <img
-                src="/icons/change-measurement.png"
-                alt="Change Measurement"
-                style={{ width: '24px', height: '24px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
-              />
+              {/* Bar Chart icon */}
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M18 20V10M12 20V4M6 20v-6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
             </div>
             <h3
               className="mb-2"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '29px',
+                fontSize: '22px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -173,18 +172,19 @@ export default function PeopleOrganizationsConsulting() {
             }}
           >
             <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <img
-                src="/icons/hr-analytics.png"
-                alt="HR Analytics"
-                style={{ width: '24px', height: '24px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
-              />
+              {/* Layers/Stack icon */}
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M12 2L2 7l10 5 10-5-10-5z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M2 17l10 5 10-5" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M2 12l10 5 10-5" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
             </div>
             <h3
               className="mb-2"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '29px',
+                fontSize: '22px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -216,18 +216,20 @@ export default function PeopleOrganizationsConsulting() {
             }}
           >
             <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <img
-                src="/icons/hr-service-delivery.png"
-                alt="HR Service Delivery"
-                style={{ width: '24px', height: '24px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
-              />
+              {/* Server/Stacked Rectangles icon */}
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <rect x="2" y="2" width="20" height="8" rx="2" stroke="white" strokeWidth="2"/>
+                <rect x="2" y="14" width="20" height="8" rx="2" stroke="white" strokeWidth="2"/>
+                <line x1="6" y1="6" x2="6.01" y2="6" stroke="white" strokeWidth="2" strokeLinecap="round"/>
+                <line x1="6" y1="18" x2="6.01" y2="18" stroke="white" strokeWidth="2" strokeLinecap="round"/>
+              </svg>
             </div>
             <h3
               className="mb-2"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '29px',
+                fontSize: '22px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -259,18 +261,19 @@ export default function PeopleOrganizationsConsulting() {
             }}
           >
             <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <img
-                src="/icons/hris-implementation.png"
-                alt="HRIS Implementation"
-                style={{ width: '24px', height: '24px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
-              />
+              {/* Monitor/Computer icon */}
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2" stroke="white" strokeWidth="2"/>
+                <line x1="8" y1="21" x2="16" y2="21" stroke="white" strokeWidth="2" strokeLinecap="round"/>
+                <line x1="12" y1="17" x2="12" y2="21" stroke="white" strokeWidth="2" strokeLinecap="round"/>
+              </svg>
             </div>
             <h3
               className="mb-2"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '29px',
+                fontSize: '22px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -302,18 +305,20 @@ export default function PeopleOrganizationsConsulting() {
             }}
           >
             <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <img
-                src="/icons/leadership-development.png"
-                alt="Leadership Development"
-                style={{ width: '24px', height: '24px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
-              />
+              {/* User-Plus icon */}
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <circle cx="8.5" cy="7" r="4" stroke="white" strokeWidth="2"/>
+                <line x1="20" y1="8" x2="20" y2="14" stroke="white" strokeWidth="2" strokeLinecap="round"/>
+                <line x1="23" y1="11" x2="17" y2="11" stroke="white" strokeWidth="2" strokeLinecap="round"/>
+              </svg>
             </div>
             <h3
               className="mb-2"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '29px',
+                fontSize: '22px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -345,18 +350,20 @@ export default function PeopleOrganizationsConsulting() {
             }}
           >
             <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <img
-                src="/icons/org-structure.png"
-                alt="Organizational Structure"
-                style={{ width: '24px', height: '24px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
-              />
+              {/* Four Squares/Grid icon */}
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <rect x="3" y="3" width="7" height="7" stroke="white" strokeWidth="2"/>
+                <rect x="14" y="3" width="7" height="7" stroke="white" strokeWidth="2"/>
+                <rect x="3" y="14" width="7" height="7" stroke="white" strokeWidth="2"/>
+                <rect x="14" y="14" width="7" height="7" stroke="white" strokeWidth="2"/>
+              </svg>
             </div>
             <h3
               className="mb-2"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '29px',
+                fontSize: '22px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -388,18 +395,18 @@ export default function PeopleOrganizationsConsulting() {
             }}
           >
             <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <img
-                src="/icons/performance-management.png"
-                alt="Performance Management"
-                style={{ width: '24px', height: '24px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
-              />
+              {/* Edit/Pen-Square icon */}
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
             </div>
             <h3
               className="mb-2"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '29px',
+                fontSize: '22px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -431,18 +438,17 @@ export default function PeopleOrganizationsConsulting() {
             }}
           >
             <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <img
-                src="/icons/resistance-management.png"
-                alt="Resistance Management"
-                style={{ width: '24px', height: '24px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
-              />
+              {/* Shield icon */}
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
             </div>
             <h3
               className="mb-2"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '29px',
+                fontSize: '22px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -474,18 +480,18 @@ export default function PeopleOrganizationsConsulting() {
             }}
           >
             <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <img
-                src="/icons/skills-training.png"
-                alt="Skills Training"
-                style={{ width: '24px', height: '24px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
-              />
+              {/* Open Book icon */}
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
             </div>
             <h3
               className="mb-2"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '29px',
+                fontSize: '22px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -517,18 +523,19 @@ export default function PeopleOrganizationsConsulting() {
             }}
           >
             <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <img
-                src="/icons/succession-planning.png"
-                alt="Succession Planning"
-                style={{ width: '24px', height: '24px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
-              />
+              {/* Users/Group icon */}
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <circle cx="9" cy="7" r="4" stroke="white" strokeWidth="2"/>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
             </div>
             <h3
               className="mb-2"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '29px',
+                fontSize: '22px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -560,18 +567,18 @@ export default function PeopleOrganizationsConsulting() {
             }}
           >
             <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <img
-                src="/icons/workforce-planning.png"
-                alt="Workforce Planning"
-                style={{ width: '24px', height: '24px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
-              />
+              {/* Clock icon */}
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="12" r="10" stroke="white" strokeWidth="2"/>
+                <path d="M12 6v6l4 2" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
             </div>
             <h3
               className="mb-2"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '29px',
+                fontSize: '22px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -689,17 +696,9 @@ export default function PeopleOrganizationsConsulting() {
             </div>
           </div>
 
-          {/* Roadmap Timeline Graphic - Using Image */}
+          {/* Roadmap Timeline Graphic - Using Component */}
           <div className="relative flex items-center justify-center mb-12">
-            <img
-              src="/people-approach-roadmap.png"
-              alt="Approach Roadmap"
-              style={{
-                width: '100%',
-                maxWidth: '1030px',
-                height: 'auto',
-              }}
-            />
+            <ApproachRoadmap />
           </div>
 
           {/* Bottom Box: Design an Employee Value Proposition */}
@@ -784,11 +783,7 @@ export default function PeopleOrganizationsConsulting() {
                   style={{ background: '#14358A' }}
                 >
                   <div className="w-[72px] h-[72px] flex items-center justify-center">
-                    <img
-                      src="/icons/paintbrush.png"
-                      alt="Capital Excellence"
-                      style={{ width: '32px', height: '32px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
-                    />
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M12 2V22" stroke="white" strokeWidth="2" strokeLinecap="round"/><path d="M17 5H9.5C8.57174 5 7.6815 5.36875 7.02513 6.02513C6.36875 6.6815 6 7.57174 6 8.5C6 9.42826 6.36875 10.3185 7.02513 10.9749C7.6815 11.6313 8.57174 12 9.5 12H14.5C15.4283 12 16.3185 12.3687 16.9749 13.0251C17.6313 13.6815 18 14.5717 18 15.5C18 16.4283 17.6313 17.3185 16.9749 17.9749C16.3185 18.6313 15.4283 19 14.5 19H6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
                   </div>
                   <span
                     className="pr-8"
@@ -812,11 +807,7 @@ export default function PeopleOrganizationsConsulting() {
                   style={{ background: '#14358A' }}
                 >
                   <div className="w-[72px] h-[72px] flex items-center justify-center">
-                    <img
-                      src="/icons/cursor-click.png"
-                      alt="Data-Driven Insights"
-                      style={{ width: '32px', height: '32px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
-                    />
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M18 20V10" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M12 20V4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M6 20V14" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
                   </div>
                   <span
                     className="pr-8"
@@ -840,11 +831,7 @@ export default function PeopleOrganizationsConsulting() {
                   style={{ background: '#14358A' }}
                 >
                   <div className="w-[72px] h-[72px] flex items-center justify-center">
-                    <img
-                      src="/icons/rocket-launch.png"
-                      alt="KPI Optimization"
-                      style={{ width: '32px', height: '32px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
-                    />
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="white" strokeWidth="2"/><circle cx="12" cy="12" r="6" stroke="white" strokeWidth="2"/><circle cx="12" cy="12" r="2" stroke="white" strokeWidth="2"/></svg>
                   </div>
                   <span
                     className="pr-8"
@@ -868,11 +855,7 @@ export default function PeopleOrganizationsConsulting() {
                   style={{ background: '#14358A' }}
                 >
                   <div className="w-[72px] h-[72px] flex items-center justify-center">
-                    <img
-                      src="/icons/wrench.png"
-                      alt="Lean Six Sigma"
-                      style={{ width: '32px', height: '32px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
-                    />
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
                   </div>
                   <span
                     className="pr-8"

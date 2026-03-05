@@ -88,86 +88,35 @@ export default function OurApproach() {
             </p>
           </div>
 
-          {/* Roadmap SVG - Matching Figma exactly */}
-          <div className="absolute left-1/2 -translate-x-1/2 top-[130px] w-full" style={{ maxWidth: "900px" }}>
+          {/* Roadmap SVG - 1-2-3 with branches */}
+          <div
+            className="absolute left-1/2 -translate-x-1/2 top-[130px] w-full"
+            style={{ maxWidth: "900px" }}
+          >
             <svg
-              viewBox="0 0 1000 200"
-              fill="none"
+              viewBox="0 0 1200 240"
               xmlns="http://www.w3.org/2000/svg"
               className="w-full h-auto"
               preserveAspectRatio="xMidYMid meet"
             >
-              {/* Main horizontal line from left edge to Circle 1 */}
-              <path
-                d="M0 100 L130 100"
+              {/* Main horizontal line */}
+              <line
+                x1="80"
+                y1="120"
+                x2="1120"
+                y2="120"
                 stroke="#14358A"
                 strokeWidth="14"
                 strokeLinecap="round"
               />
-              
-              {/* Branch curving up from Circle 1 */}
-              <path
-                d="M175 65 Q175 25 220 25"
-                stroke="#14358A"
-                strokeWidth="14"
-                strokeLinecap="round"
-                fill="none"
-              />
-              {/* Endpoint dot for first branch */}
-              <circle cx="220" cy="25" r="12" fill="white" stroke="#14358A" strokeWidth="6" />
-              
-              {/* Main line from Circle 1 to Circle 2 */}
-              <path
-                d="M220 100 L380 100"
-                stroke="#14358A"
-                strokeWidth="14"
-                strokeLinecap="round"
-              />
-              
-              {/* Main line from Circle 2 to Circle 3 */}
-              <path
-                d="M470 100 L580 100"
-                stroke="#14358A"
-                strokeWidth="14"
-                strokeLinecap="round"
-              />
-              
-              {/* Branch curving up-right after Circle 2 toward top right */}
-              <path
-                d="M530 100 Q580 100 630 50 Q680 0 780 0"
-                stroke="#14358A"
-                strokeWidth="14"
-                strokeLinecap="round"
-                fill="none"
-              />
-              {/* Endpoint dot for upper right branch */}
-              <circle cx="780" cy="0" r="12" fill="white" stroke="#14358A" strokeWidth="6" />
-              
-              {/* Branch curving down from Circle 3 */}
-              <path
-                d="M625 135 Q625 165 700 175 Q780 190 850 190"
-                stroke="#14358A"
-                strokeWidth="14"
-                strokeLinecap="round"
-                fill="none"
-              />
-              {/* Endpoint dot for bottom branch */}
-              <circle cx="850" cy="190" r="12" fill="white" stroke="#14358A" strokeWidth="6" />
-              
-              {/* Main line continuing after Circle 3 */}
-              <path
-                d="M670 100 L1000 100"
-                stroke="#14358A"
-                strokeWidth="14"
-                strokeLinecap="round"
-              />
-              
+
               {/* Circle 1 */}
-              <circle cx="175" cy="100" r="45" fill="white" stroke="#14358A" strokeWidth="10" />
+              <circle cx="230" cy="120" r="40" fill="white" stroke="#14358A" strokeWidth="10" />
               <text
-                x="175"
-                y="112"
+                x="230"
+                y="120"
                 textAnchor="middle"
+                dominantBaseline="central"
                 fill="#14358A"
                 fontFamily="DM Sans, sans-serif"
                 fontSize="32"
@@ -175,13 +124,14 @@ export default function OurApproach() {
               >
                 1
               </text>
-              
+
               {/* Circle 2 */}
-              <circle cx="425" cy="100" r="45" fill="white" stroke="#14358A" strokeWidth="10" />
+              <circle cx="570" cy="120" r="40" fill="white" stroke="#14358A" strokeWidth="10" />
               <text
-                x="425"
-                y="112"
+                x="570"
+                y="120"
                 textAnchor="middle"
+                dominantBaseline="central"
                 fill="#14358A"
                 fontFamily="DM Sans, sans-serif"
                 fontSize="32"
@@ -189,13 +139,14 @@ export default function OurApproach() {
               >
                 2
               </text>
-              
+
               {/* Circle 3 */}
-              <circle cx="625" cy="100" r="45" fill="white" stroke="#14358A" strokeWidth="10" />
+              <circle cx="910" cy="120" r="40" fill="white" stroke="#14358A" strokeWidth="10" />
               <text
-                x="625"
-                y="112"
+                x="910"
+                y="120"
                 textAnchor="middle"
+                dominantBaseline="central"
                 fill="#14358A"
                 fontFamily="DM Sans, sans-serif"
                 fontSize="32"
@@ -203,6 +154,36 @@ export default function OurApproach() {
               >
                 3
               </text>
+
+              {/* Left up-branch from Circle 1 */}
+              <path
+                d="M230 120 C 230 80 180 60 140 40"
+                fill="none"
+                stroke="#14358A"
+                strokeWidth="14"
+                strokeLinecap="round"
+              />
+              <circle cx="140" cy="40" r="14" fill="#14358A" />
+
+              {/* Down branch from Circle 2 */}
+              <path
+                d="M570 120 C 570 165 545 185 525 205"
+                fill="none"
+                stroke="#14358A"
+                strokeWidth="14"
+                strokeLinecap="round"
+              />
+              <circle cx="525" cy="205" r="14" fill="#14358A" />
+
+              {/* Right up-branch from Circle 3 */}
+              <path
+                d="M910 120 C 960 80 1000 60 1040 40"
+                fill="none"
+                stroke="#14358A"
+                strokeWidth="14"
+                strokeLinecap="round"
+              />
+              <circle cx="1040" cy="40" r="14" fill="#14358A" />
             </svg>
           </div>
 
