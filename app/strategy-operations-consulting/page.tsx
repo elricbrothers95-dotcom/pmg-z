@@ -574,55 +574,161 @@ export default function StrategyOperationsConsulting() {
       </div>
 
       {/* Our Approach Section */}
-      <div className="relative w-full max-w-[1440px] mx-auto px-4 py-20">
-        <div className="text-center mb-12">
+      <div style={{ backgroundColor: '#fff', padding: '80px 20px' }}>
+        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
+          {/* Title */}
           <h2
-            className="mb-8"
             style={{
-              fontFamily: 'DM Sans, sans-serif',
-              fontWeight: 700,
+              fontFamily: 'Poppins, sans-serif',
+              fontWeight: 600,
               fontSize: '50px',
               lineHeight: '105%',
-              letterSpacing: '-0.03em',
               color: '#14358A',
+              textAlign: 'center',
+              marginBottom: '24px',
             }}
           >
             Our Approach
           </h2>
 
+          {/* Description */}
           <p
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '30px',
+              fontSize: '25px',
               lineHeight: '140%',
-              letterSpacing: '0%',
+              color: '#333',
               textAlign: 'center',
-              color: '#333333',
-              maxWidth: '1201px',
-              margin: '0 auto',
+              maxWidth: '1000px',
+              margin: '0 auto 60px',
             }}
           >
             Our approach is a unique blend of deep functional expertise and rigorous systems thinking. We solve complex problems by drawing on successful cross-sector strategies, identifying hidden value, and crafting customized execution roadmaps.
           </p>
-        </div>
 
-        {/* Top Row - Steps 1 and 3 */}
-        <div className="flex justify-between max-w-[1200px] mx-auto mb-0">
-          {/* Step 1 - Uncover Strategic Growth Avenues */}
-          <div className="text-center" style={{ maxWidth: '512px' }}>
+          {/* Top two steps */}
+          <div
+            style={{
+              display: 'flex',
+              justifyContent: 'space-between',
+              gap: '60px',
+              marginBottom: '0',
+            }}
+          >
+            {/* Step 1 */}
+            <div style={{ flex: 1, textAlign: 'center' }}>
+              <h3
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontWeight: 700,
+                  fontSize: '27px',
+                  lineHeight: '105%',
+                  color: '#14358A',
+                  letterSpacing: '-0.81px',
+                  marginBottom: '12px',
+                }}
+              >
+                Uncover Strategic Growth Avenues
+              </h3>
+              <p
+                style={{
+                  fontFamily: 'Inter, sans-serif',
+                  fontWeight: 400,
+                  fontSize: '20px',
+                  lineHeight: '140%',
+                  color: '#333',
+                  margin: 0,
+                }}
+              >
+                We identify emerging market trends and cross-sectoral opportunities to develop compelling strategies for long-term dominance.
+              </p>
+            </div>
+
+            {/* Step 2 */}
+            <div style={{ flex: 1, textAlign: 'center' }}>
+              <h3
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontWeight: 700,
+                  fontSize: '27px',
+                  lineHeight: '105%',
+                  color: '#14358A',
+                  letterSpacing: '-0.81px',
+                  marginBottom: '12px',
+                }}
+              >
+                Develop a Resilient Strategic Roadmap
+              </h3>
+              <p
+                style={{
+                  fontFamily: 'Inter, sans-serif',
+                  fontWeight: 400,
+                  fontSize: '20px',
+                  lineHeight: '140%',
+                  color: '#333',
+                  margin: 0,
+                }}
+              >
+                We create a clear and actionable roadmap that can withstand market volatility and position your organization for long-term success.
+              </p>
+            </div>
+          </div>
+
+          {/* SVG Roadmap */}
+          <svg
+            viewBox="0 0 1200 440"
+            xmlns="http://www.w3.org/2000/svg"
+            style={{ width: '100%', height: 'auto', display: 'block', margin: '40px 0' }}
+          >
+            {/* Horizontal line */}
+            <line x1="80" y1="200" x2="1120" y2="200" stroke="#14358A" strokeWidth="10" strokeLinecap="round" />
+
+            {/* Circle 1 (left) - with number */}
+            <circle cx="230" cy="200" r="35" fill="white" stroke="#14358A" strokeWidth="10" />
+            <text x="230" y="200" textAnchor="middle" dominantBaseline="central" fill="#14358A" fontSize="40" fontWeight="600" fontFamily="Poppins, sans-serif">1</text>
+
+            {/* Circle 2 (center) - with number */}
+            <circle cx="570" cy="200" r="35" fill="white" stroke="#14358A" strokeWidth="10" />
+            <text x="570" y="200" textAnchor="middle" dominantBaseline="central" fill="#14358A" fontSize="40" fontWeight="600" fontFamily="Poppins, sans-serif">2</text>
+
+            {/* Circle 3 (right) - with number */}
+            <circle cx="910" cy="200" r="35" fill="white" stroke="#14358A" strokeWidth="10" />
+            <text x="910" y="200" textAnchor="middle" dominantBaseline="central" fill="#14358A" fontSize="40" fontWeight="600" fontFamily="Poppins, sans-serif">3</text>
+
+            {/* Left up-branch: from circle 1 curving UP-LEFT to endpoint dot */}
+            <path d="M230,165 C230,108 155,50 80,35" fill="none" stroke="#14358A" strokeWidth="10" strokeLinecap="round" />
+            <circle cx="80" cy="35" r="18" fill="#14358A" stroke="#14358A" strokeWidth="10" />
+
+            {/* Right up-branch: from Y-junction between circles 2-3, curving UP-RIGHT to endpoint dot */}
+            <path d="M720,200 C735,122 905,58 1110,35" fill="none" stroke="#14358A" strokeWidth="10" strokeLinecap="round" />
+            <circle cx="1110" cy="35" r="18" fill="#14358A" stroke="#14358A" strokeWidth="10" />
+
+            {/* Down branch: from circle 3 curving DOWN to endpoint dot */}
+            <path d="M910,235 C910,318 848,382 782,405" fill="none" stroke="#14358A" strokeWidth="10" strokeLinecap="round" />
+            <circle cx="782" cy="405" r="18" fill="#14358A" stroke="#14358A" strokeWidth="10" />
+          </svg>
+
+          {/* Step 3 - centered below SVG */}
+          <div
+            style={{
+              textAlign: 'center',
+              maxWidth: '600px',
+              margin: '0 auto',
+            }}
+          >
             <h3
-              className="mb-4"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
                 fontSize: '27px',
                 lineHeight: '105%',
-                letterSpacing: '-0.03em',
                 color: '#14358A',
+                letterSpacing: '-0.81px',
+                marginBottom: '12px',
               }}
             >
-              Uncover Strategic Growth Avenues
+              Empower Your Organization for the Future
             </h3>
             <p
               style={{
@@ -630,167 +736,13 @@ export default function StrategyOperationsConsulting() {
                 fontWeight: 400,
                 fontSize: '20px',
                 lineHeight: '140%',
-                color: '#333333',
+                color: '#333',
+                margin: 0,
               }}
             >
-              We identify emerging market trends and cross-sectoral opportunities to develop compelling strategies for long-term dominance.
+              We provide strategic guidance, leadership development, and organizational change management to ensure successful execution.
             </p>
           </div>
-
-          {/* Step 3 - Develop a Resilient Strategic Roadmap */}
-          <div className="text-center" style={{ maxWidth: '491px' }}>
-            <h3
-              className="mb-4"
-              style={{
-                fontFamily: 'DM Sans, sans-serif',
-                fontWeight: 700,
-                fontSize: '27px',
-                lineHeight: '105%',
-                letterSpacing: '-0.03em',
-                color: '#14358A',
-              }}
-            >
-              Develop a Resilient Strategic Roadmap
-            </h3>
-            <p
-              style={{
-                fontFamily: 'Inter, sans-serif',
-                fontWeight: 400,
-                fontSize: '20px',
-                lineHeight: '140%',
-                color: '#333333',
-              }}
-            >
-              We create a clear and actionable roadmap that can withstand market volatility and position your organization for long-term success.
-            </p>
-          </div>
-        </div>
-
-        {/* Roadmap Image with Numbered Circles */}
-        <div className="flex justify-center my-8">
-          <div className="relative" style={{ maxWidth: '1030px', width: '100%' }}>
-            <img
-              src="/approach-roadmap.png"
-              alt="Our Approach Roadmap"
-              style={{
-                width: '100%',
-                height: 'auto',
-                display: 'block',
-              }}
-            />
-
-            {/* Circle 1 - Top Left (on upward branch) */}
-            <div
-              className="absolute flex items-center justify-center"
-              style={{
-                width: '80px',
-                height: '80px',
-                borderRadius: '50%',
-                background: '#14358A',
-                top: '15%',
-                left: '24%',
-                transform: 'translate(-50%, -50%)',
-              }}
-            >
-              <span
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: '50px',
-                  lineHeight: '105%',
-                  letterSpacing: '-0.03em',
-                  textAlign: 'center',
-                  color: '#FFFFFF',
-                }}
-              >
-                1
-              </span>
-            </div>
-
-            {/* Circle 2 - Bottom Center (on downward branch) */}
-            <div
-              className="absolute flex items-center justify-center"
-              style={{
-                width: '80px',
-                height: '80px',
-                borderRadius: '50%',
-                background: '#14358A',
-                bottom: '15%',
-                left: '50%',
-                transform: 'translate(-50%, 50%)',
-              }}
-            >
-              <span
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: '50px',
-                  lineHeight: '105%',
-                  letterSpacing: '-0.03em',
-                  textAlign: 'center',
-                  color: '#FFFFFF',
-                }}
-              >
-                2
-              </span>
-            </div>
-
-            {/* Circle 3 - Top Right (on upward branch) */}
-            <div
-              className="absolute flex items-center justify-center"
-              style={{
-                width: '80px',
-                height: '80px',
-                borderRadius: '50%',
-                background: '#14358A',
-                top: '15%',
-                right: '24%',
-                transform: 'translate(50%, -50%)',
-              }}
-            >
-              <span
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: '50px',
-                  lineHeight: '105%',
-                  letterSpacing: '-0.03em',
-                  textAlign: 'center',
-                  color: '#FFFFFF',
-                }}
-              >
-                3
-              </span>
-            </div>
-          </div>
-        </div>
-
-        {/* Bottom - Step 2 - Empower Your Organization */}
-        <div className="text-center max-w-[625px] mx-auto">
-          <h3
-            className="mb-4"
-            style={{
-              fontFamily: 'DM Sans, sans-serif',
-              fontWeight: 700,
-              fontSize: '27px',
-              lineHeight: '105%',
-              letterSpacing: '-0.03em',
-              color: '#14358A',
-            }}
-          >
-            Empower Your Organization for the Future
-          </h3>
-          <p
-            style={{
-              fontFamily: 'Inter, sans-serif',
-              fontWeight: 400,
-              fontSize: '20px',
-              lineHeight: '140%',
-              color: '#333333',
-            }}
-          >
-            We provide strategic guidance, leadership development, and organizational change management to ensure successful execution.
-          </p>
         </div>
       </div>
 
