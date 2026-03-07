@@ -61,38 +61,28 @@ export default function PublicSectorGovernment() {
       </div>
 
       {/* Your Partner in the Public Sector Section */}
-      <div className="relative w-full max-w-[1440px] mx-auto px-4 sm:px-[52px] py-24">
-        <h2
-          className="font-poppins font-semibold text-[#14358A] text-center mb-12"
-          style={{
-            fontSize: '50px',
-            lineHeight: '46px',
-            letterSpacing: '0%',
-          }}
-        >
-          Your Partner in the Public Sector
-        </h2>
-
-        <div className="flex flex-col gap-8 text-center">
+      <div className="bg-white py-24 px-6">
+        <div className="max-w-[1400px] mx-auto text-center">
+          <h2
+            className="font-poppins font-semibold text-[#14358A] mb-16"
+            style={{
+              fontSize: '50px',
+              lineHeight: '46px',
+            }}
+          >
+            Your Partner in the Public Sector
+          </h2>
           <p
-            className="font-montserrat font-normal text-[#333333]"
+            className="font-montserrat font-normal text-[#333333] mx-auto"
             style={{
               fontSize: '32px',
-              lineHeight: '150%',
-              letterSpacing: '0%',
+              lineHeight: '100%',
+              maxWidth: '1342px',
+              textAlign: 'center',
             }}
           >
             PMG partners with governments at all levels (federal, provincial, and municipal) along with public agencies and government-owned enterprises. Our consultants bring a combination of strategic insight, operational expertise, and transformation experience to help public institutions improve performance, strengthen trust, and deliver meaningful outcomes.
-          </p>
-
-          <p
-            className="font-montserrat font-normal text-[#333333]"
-            style={{
-              fontSize: '32px',
-              lineHeight: '150%',
-              letterSpacing: '0%',
-            }}
-          >
+            <br /><br />
             Our government work is strengthened by cross-sector expertise in finance, technology, education, and organizational design. This allows us to support leaders in addressing complex challenges with practical, actionable strategies that deliver real public value.
           </p>
         </div>
@@ -122,9 +112,9 @@ export default function PublicSectorGovernment() {
         </p>
 
         {/* Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 412px)', gap: '60px 26px', justifyContent: 'center' }}>
           {/* Policy & Strategy Development */}
-          <div className="border-[3px] border-[#14358A] rounded-[10px] p-6 bg-white">
+          <div className="bg-white" style={{ width: '412px', height: '227px', border: '3px solid #14358A', borderRadius: '10px', padding: '23px 25px', overflow: 'hidden' }}>
             <div className="mb-5">
               <img src="/icon-strategy-transformation.png" alt="Policy & Strategy" style={{ width: '64px', height: '64px' }} />
             </div>
@@ -137,7 +127,7 @@ export default function PublicSectorGovernment() {
           </div>
 
           {/* Operational Efficiency */}
-          <div className="border-[3px] border-[#14358A] rounded-[10px] p-6 bg-white">
+          <div className="bg-white" style={{ width: '412px', height: '227px', border: '3px solid #14358A', borderRadius: '10px', padding: '23px 25px', overflow: 'hidden' }}>
             <div className="mb-5">
               <img src="/icon-risk-resilience.png" alt="Operational Efficiency" style={{ width: '64px', height: '64px' }} />
             </div>
@@ -150,7 +140,7 @@ export default function PublicSectorGovernment() {
           </div>
 
           {/* Digital Government & Service Transformation */}
-          <div className="border-[3px] border-[#14358A] rounded-[10px] p-6 bg-white">
+          <div className="bg-white" style={{ width: '412px', height: '227px', border: '3px solid #14358A', borderRadius: '10px', padding: '23px 25px', overflow: 'hidden' }}>
             <div className="mb-5">
               <img src="/icon-customer-experience.png" alt="Digital Government" style={{ width: '64px', height: '64px' }} />
             </div>
@@ -163,7 +153,7 @@ export default function PublicSectorGovernment() {
           </div>
 
           {/* Public Infrastructure & Capital Projects */}
-          <div className="border-[3px] border-[#14358A] rounded-[10px] p-6 bg-white">
+          <div className="bg-white" style={{ width: '412px', height: '227px', border: '3px solid #14358A', borderRadius: '10px', padding: '23px 25px', overflow: 'hidden' }}>
             <div className="mb-5">
               <img src="/icon-regulatory-compliance.png" alt="Infrastructure" style={{ width: '64px', height: '64px' }} />
             </div>
@@ -176,7 +166,7 @@ export default function PublicSectorGovernment() {
           </div>
 
           {/* Fiscal & Financial Management */}
-          <div className="border-[3px] border-[#14358A] rounded-[10px] p-6 bg-white">
+          <div className="bg-white" style={{ width: '412px', height: '227px', border: '3px solid #14358A', borderRadius: '10px', padding: '23px 25px', overflow: 'hidden' }}>
             <div className="mb-5">
               <img src="/icon-innovation-fintech.png" alt="Fiscal Management" style={{ width: '64px', height: '64px' }} />
             </div>
@@ -189,7 +179,7 @@ export default function PublicSectorGovernment() {
           </div>
 
           {/* Workforce & Organizational Transformation */}
-          <div className="border-[3px] border-[#14358A] rounded-[10px] p-6 bg-white">
+          <div className="bg-white" style={{ width: '412px', height: '227px', border: '3px solid #14358A', borderRadius: '10px', padding: '23px 25px', overflow: 'hidden' }}>
             <div className="mb-5">
               <img src="/icon-capital-performance.png" alt="Workforce" style={{ width: '64px', height: '64px' }} />
             </div>
@@ -202,7 +192,7 @@ export default function PublicSectorGovernment() {
           </div>
 
           {/* Program Evaluation & Impact Measurement */}
-          <div className="border-[3px] border-[#14358A] rounded-[10px] p-6 bg-white">
+          <div className="bg-white" style={{ width: '412px', height: '227px', border: '3px solid #14358A', borderRadius: '10px', padding: '23px 25px', overflow: 'hidden' }}>
             <div className="mb-5">
               <img src="/icon-regulatory-compliance.png" alt="Program Evaluation" style={{ width: '64px', height: '64px' }} />
             </div>
@@ -215,7 +205,7 @@ export default function PublicSectorGovernment() {
           </div>
 
           {/* Stakeholder Engagement & Public Consultation */}
-          <div className="border-[3px] border-[#14358A] rounded-[10px] p-6 bg-white">
+          <div className="bg-white" style={{ width: '412px', height: '227px', border: '3px solid #14358A', borderRadius: '10px', padding: '23px 25px', overflow: 'hidden' }}>
             <div className="mb-5">
               <img src="/icon-innovation-fintech.png" alt="Stakeholder Engagement" style={{ width: '64px', height: '64px' }} />
             </div>
@@ -228,7 +218,7 @@ export default function PublicSectorGovernment() {
           </div>
 
           {/* Procurement & Sourcing Modernization */}
-          <div className="border-[3px] border-[#14358A] rounded-[10px] p-6 bg-white">
+          <div className="bg-white" style={{ width: '412px', height: '227px', border: '3px solid #14358A', borderRadius: '10px', padding: '23px 25px', overflow: 'hidden' }}>
             <div className="mb-5">
               <img src="/icon-capital-performance.png" alt="Procurement" style={{ width: '64px', height: '64px' }} />
             </div>
@@ -516,33 +506,10 @@ export default function PublicSectorGovernment() {
       </div>
 
       {/* The Functional Consulting Advantage Section */}
-      <div className="relative w-full py-24 bg-white overflow-hidden">
-        {/* Decorative Shape - Top Left */}
-        <div 
-          className="absolute left-0 top-0"
-          style={{
-            width: '200px',
-            height: '100px',
-            background: 'linear-gradient(135deg, #00D4FF 0%, #0097FE 100%)',
-            clipPath: 'polygon(0 0, 100% 0, 0 100%)',
-          }}
-        />
-
-        {/* Decorative Shape - Bottom Right */}
-        <div 
-          className="absolute right-0 bottom-0"
-          style={{
-            width: '200px',
-            height: '100px',
-            background: 'linear-gradient(135deg, #00D4FF 0%, #0097FE 100%)',
-            clipPath: 'polygon(100% 0, 100% 100%, 0 100%)',
-          }}
-        />
-
-        <div className="relative max-w-[1440px] mx-auto px-4 sm:px-[179px]">
-          {/* Section Heading */}
-          <h2 
-            className="text-center mb-8"
+      <div className="bg-white py-24 px-6">
+        <div className="max-w-[1440px] mx-auto flex flex-col items-center">
+          <h2
+            className="text-center whitespace-nowrap mb-10"
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
@@ -555,10 +522,8 @@ export default function PublicSectorGovernment() {
             The Functional Consulting Advantage
           </h2>
 
-          {/* Content */}
-          <div className="text-center mb-12" style={{ maxWidth: '1082px', margin: '0 auto' }}>
-            <p 
-              className="mb-6"
+          <div className="max-w-[1082px] text-center">
+            <p
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
@@ -569,8 +534,7 @@ export default function PublicSectorGovernment() {
             >
               The public sector operates under unique scrutiny. Generalist consulting often applies private-sector playbooks that fail because they ignore the complex political, legislative, and accountability constraints of government. The result is a well-intentioned but ultimately impractical strategy that gets bogged down in implementation.
             </p>
-
-            <p 
+            <p
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
@@ -579,13 +543,12 @@ export default function PublicSectorGovernment() {
                 color: '#333333',
               }}
             >
-              PMG's model ensures accountability and practical delivery. We deploy specialists in functions like fiscal management, digital service transformation, and efficient procurement who adapt proven, world-class operational frameworks to the public context. We deliver solutions that are not only innovative and efficient but are also transparent, legally compliant, and designed for political viability and citizen adoption.
+              PMG&apos;s model ensures accountability and practical delivery. We deploy specialists in functions like fiscal management, digital service transformation, and efficient procurement who adapt proven, world-class operational frameworks to the public context. We deliver solutions that are not only innovative and efficient but are also transparent, legally compliant, and designed for political viability and citizen adoption.
             </p>
           </div>
 
-          {/* Still Unsure? CTA */}
-          <div className="text-center">
-            <h3 
+          <div className="text-center mt-16">
+            <p
               className="mb-4"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
@@ -596,10 +559,9 @@ export default function PublicSectorGovernment() {
               }}
             >
               Still Unsure?
-            </h3>
-
-            <a 
-              href="#"
+            </p>
+            <a
+              href="/why-functional-consulting"
               className="inline-flex items-center gap-2 hover:opacity-80 transition-opacity"
               style={{
                 fontFamily: 'Inter, sans-serif',
@@ -611,8 +573,8 @@ export default function PublicSectorGovernment() {
               }}
             >
               Discover how we deliver public value without sacrificing accountability and trust.
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                <path d="M3 8H13M13 8L8 3M13 8L8 13" stroke="#14358A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1L7 7L1 13" stroke="#14358A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
             </a>
           </div>

@@ -140,13 +140,17 @@ export default function HigherEducationEdTech() {
 
         {/* Cards Grid */}
         <div className="max-w-[1312px] mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 412px)', gap: '60px 26px', justifyContent: 'center' }}>
             {/* Card 1 - Transformation Strategy & Implementation */}
             <div
-              className="bg-white rounded-[10px] p-8"
+              className="bg-white"
               style={{
+                width: '412px',
+                height: '227px',
                 border: '3px solid #14358A',
-                minHeight: '260px'
+                borderRadius: '10px',
+                padding: '23px 25px',
+                overflow: 'hidden'
               }}
             >
               <div className="mb-6">
@@ -180,10 +184,14 @@ export default function HigherEducationEdTech() {
 
             {/* Card 2 - Operational Efficiency */}
             <div
-              className="bg-white rounded-[10px] p-8"
+              className="bg-white"
               style={{
+                width: '412px',
+                height: '227px',
                 border: '3px solid #14358A',
-                minHeight: '260px'
+                borderRadius: '10px',
+                padding: '23px 25px',
+                overflow: 'hidden'
               }}
             >
               <div className="mb-6">
@@ -217,10 +225,14 @@ export default function HigherEducationEdTech() {
 
             {/* Card 3 - Digital Government & Service Transformation */}
             <div
-              className="bg-white rounded-[10px] p-8"
+              className="bg-white"
               style={{
+                width: '412px',
+                height: '227px',
                 border: '3px solid #14358A',
-                minHeight: '260px'
+                borderRadius: '10px',
+                padding: '23px 25px',
+                overflow: 'hidden'
               }}
             >
               <div className="mb-6">
@@ -254,10 +266,14 @@ export default function HigherEducationEdTech() {
 
             {/* Card 4 - Academic Portfolio & Program Design */}
             <div
-              className="bg-white rounded-[10px] p-8"
+              className="bg-white"
               style={{
+                width: '412px',
+                height: '227px',
                 border: '3px solid #14358A',
-                minHeight: '260px'
+                borderRadius: '10px',
+                padding: '23px 25px',
+                overflow: 'hidden'
               }}
             >
               <div className="mb-6">
@@ -291,10 +307,14 @@ export default function HigherEducationEdTech() {
 
             {/* Card 5 - Governance & Risk */}
             <div
-              className="bg-white rounded-[10px] p-8"
+              className="bg-white"
               style={{
+                width: '412px',
+                height: '227px',
                 border: '3px solid #14358A',
-                minHeight: '260px'
+                borderRadius: '10px',
+                padding: '23px 25px',
+                overflow: 'hidden'
               }}
             >
               <div className="mb-6">
@@ -328,10 +348,14 @@ export default function HigherEducationEdTech() {
 
             {/* Card 6 - Faculty & Staff Engagement */}
             <div
-              className="bg-white rounded-[10px] p-8"
+              className="bg-white"
               style={{
+                width: '412px',
+                height: '227px',
                 border: '3px solid #14358A',
-                minHeight: '260px'
+                borderRadius: '10px',
+                padding: '23px 25px',
+                overflow: 'hidden'
               }}
             >
               <div className="mb-6">
@@ -365,10 +389,14 @@ export default function HigherEducationEdTech() {
 
             {/* Card 7 - Program Evaluation & Impact Measurement */}
             <div
-              className="bg-white rounded-[10px] p-8"
+              className="bg-white"
               style={{
+                width: '412px',
+                height: '227px',
                 border: '3px solid #14358A',
-                minHeight: '260px'
+                borderRadius: '10px',
+                padding: '23px 25px',
+                overflow: 'hidden'
               }}
             >
               <div className="mb-6">
@@ -402,10 +430,14 @@ export default function HigherEducationEdTech() {
 
             {/* Card 8 - Research Performance */}
             <div
-              className="bg-white rounded-[10px] p-8"
+              className="bg-white"
               style={{
+                width: '412px',
+                height: '227px',
                 border: '3px solid #14358A',
-                minHeight: '260px'
+                borderRadius: '10px',
+                padding: '23px 25px',
+                overflow: 'hidden'
               }}
             >
               <div className="mb-6">
@@ -439,10 +471,14 @@ export default function HigherEducationEdTech() {
 
             {/* Card 9 - Alumni Relations & Fundraising */}
             <div
-              className="bg-white rounded-[10px] p-8"
+              className="bg-white"
               style={{
+                width: '412px',
+                height: '227px',
                 border: '3px solid #14358A',
-                minHeight: '260px'
+                borderRadius: '10px',
+                padding: '23px 25px',
+                overflow: 'hidden'
               }}
             >
               <div className="mb-6">
@@ -751,33 +787,10 @@ export default function HigherEducationEdTech() {
       </div>
 
       {/* The Functional Consulting Advantage Section */}
-      <div className="relative w-full py-24 bg-white overflow-hidden">
-        {/* Decorative Shape - Top Left */}
-        <div 
-          className="absolute left-0 top-0"
-          style={{
-            width: '200px',
-            height: '100px',
-            background: 'linear-gradient(135deg, #00D4FF 0%, #0097FE 100%)',
-            clipPath: 'polygon(0 0, 100% 0, 0 100%)',
-          }}
-        />
-
-        {/* Decorative Shape - Bottom Right */}
-        <div 
-          className="absolute right-0 bottom-0"
-          style={{
-            width: '200px',
-            height: '100px',
-            background: 'linear-gradient(135deg, #00D4FF 0%, #0097FE 100%)',
-            clipPath: 'polygon(100% 0, 100% 100%, 0 100%)',
-          }}
-        />
-
-        <div className="relative max-w-[1440px] mx-auto px-4 sm:px-[179px]">
-          {/* Section Heading */}
-          <h2 
-            className="text-center mb-8"
+      <div className="bg-white py-24 px-6">
+        <div className="max-w-[1440px] mx-auto flex flex-col items-center">
+          <h2
+            className="text-center whitespace-nowrap mb-10"
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
@@ -790,10 +803,8 @@ export default function HigherEducationEdTech() {
             The Functional Consulting Advantage
           </h2>
 
-          {/* Content */}
-          <div className="text-center mb-12" style={{ maxWidth: '1082px', margin: '0 auto' }}>
-            <p 
-              className="mb-6"
+          <div className="max-w-[1082px] text-center">
+            <p
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
@@ -802,10 +813,9 @@ export default function HigherEducationEdTech() {
                 color: '#333333',
               }}
             >
-              In academia, strategy often dies in implementation due to cultural resistance. Generalist consultants deliver broad, business-centric recommendations that are frequently perceived by faculty and administration as misaligned with the institution's mission and academic values. They fail to gain the necessary cultural buy-in for lasting change.
+              In academia, strategy often dies in implementation due to cultural resistance. Generalist consultants deliver broad, business-centric recommendations that are frequently perceived by faculty and administration as misaligned with the institution&apos;s mission and academic values. They fail to gain the necessary cultural buy-in for lasting change.
             </p>
-
-            <p 
+            <p
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
@@ -814,13 +824,12 @@ export default function HigherEducationEdTech() {
                 color: '#333333',
               }}
             >
-              PMG's model brings practicality with cultural respect. We deploy functional experts in areas like operational finance, student experience design, and research commercialization. They adapt proven models of excellence to your institution's unique culture and shared governance structure, ensuring that solutions are not only financially sound and efficient but are also embraced by the staff and faculty who must drive the transformation.
+              PMG&apos;s model brings practicality with cultural respect. We deploy functional experts in areas like operational finance, student experience design, and research commercialization. They adapt proven models of excellence to your institution&apos;s unique culture and shared governance structure, ensuring that solutions are not only financially sound and efficient but are also embraced by the staff and faculty who must drive the transformation.
             </p>
           </div>
 
-          {/* Still Unsure? CTA */}
-          <div className="text-center">
-            <h3 
+          <div className="text-center mt-16">
+            <p
               className="mb-4"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
@@ -831,10 +840,9 @@ export default function HigherEducationEdTech() {
               }}
             >
               Still Unsure?
-            </h3>
-
-            <a 
-              href="#"
+            </p>
+            <a
+              href="/why-functional-consulting"
               className="inline-flex items-center gap-2 hover:opacity-80 transition-opacity"
               style={{
                 fontFamily: 'Inter, sans-serif',
@@ -846,8 +854,8 @@ export default function HigherEducationEdTech() {
               }}
             >
               Discover how we balance operational efficiency with the core academic mission.
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                <path d="M3 8H13M13 8L8 3M13 8L8 13" stroke="#14358A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1L7 7L1 13" stroke="#14358A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
             </a>
           </div>

@@ -1,6 +1,7 @@
-"use client";
+﻿"use client";
 
 import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 import ApproachRoadmap from '@/components/ApproachRoadmap';
 
 export default function CustomerExperienceConsulting() {
@@ -728,49 +729,7 @@ export default function CustomerExperienceConsulting() {
         </div>
       </div>
 
-      {/* Footer */}
-      <footer className="relative z-10 py-20" style={{ background: '#1B45B4' }}>
-        <div className="max-w-[1440px] mx-auto px-12">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12">
-            <div>
-              <img src="/PMG_Logo-removebg-preview 11.png" alt="PMG Logo" className="mb-6 h-12" />
-            </div>
-            {[
-              { heading: 'What we Do', items: ['Strategy & Operations', 'People & Organizations', 'Customer Experience', 'M&A', 'Branding & Marketing', 'BPO & Fractional Talent', 'Crisis & Transition'] },
-              { heading: 'Our Content', items: ['Featured Articles', 'Case Studies', 'White Papers', 'Webinars', 'Podcast'] },
-              { heading: 'Our Models', items: ['Out-of-the-Box', 'Bespoke Solutions', 'Active Management', 'Equity Engagements'] },
-              { heading: 'Legal', items: ['Privacy Policy', 'Terms of Service', 'Cookie Policy'] },
-            ].map((col) => (
-              <div key={col.heading}>
-                <h3
-                  className="mb-4"
-                  style={{ fontFamily: 'Trade Gothic LT Std, sans-serif', fontWeight: 700, fontSize: '25px', lineHeight: '100%', color: '#FFFFFF' }}
-                >
-                  {col.heading}
-                </h3>
-                <ul className="space-y-3">
-                  {col.items.map((item) => (
-                    <li key={item}>
-                      <a
-                        href="#"
-                        className="hover:opacity-80 transition-opacity"
-                        style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 500, fontSize: '20px', lineHeight: '100%', color: '#FFFFFF', textDecoration: 'none' }}
-                      >
-                        {item}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
-          <div className="mt-12 pt-8 border-t border-white/20 text-center">
-            <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '16px', color: '#FFFFFF' }}>
-              © 2024 PMG. All rights reserved.
-            </p>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </main>
   );
 }

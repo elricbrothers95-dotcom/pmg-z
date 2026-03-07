@@ -145,12 +145,17 @@ export default function TravelTourismHospitality() {
         </div>
 
         {/* Service Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-[1264px] mx-auto">
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 412px)', gap: '60px 26px', justifyContent: 'center' }}>
           {/* Growth & Market Strategy */}
           <div
-            className="bg-white p-6 rounded-[10px]"
+            className="bg-white"
             style={{
+              width: '412px',
+              height: '227px',
               border: '3px solid #14358A',
+              borderRadius: '10px',
+              padding: '23px 25px',
+              overflow: 'hidden'
             }}
           >
             <div className="mb-4">
@@ -192,9 +197,14 @@ export default function TravelTourismHospitality() {
 
           {/* Guest Experience & Service Innovation */}
           <div
-            className="bg-white p-6 rounded-[10px]"
+            className="bg-white"
             style={{
+              width: '412px',
+              height: '227px',
               border: '3px solid #14358A',
+              borderRadius: '10px',
+              padding: '23px 25px',
+              overflow: 'hidden'
             }}
           >
             <div className="mb-4">
@@ -236,9 +246,14 @@ export default function TravelTourismHospitality() {
 
           {/* Operational Efficiency & Profitability */}
           <div
-            className="bg-white p-6 rounded-[10px]"
+            className="bg-white"
             style={{
+              width: '412px',
+              height: '227px',
               border: '3px solid #14358A',
+              borderRadius: '10px',
+              padding: '23px 25px',
+              overflow: 'hidden'
             }}
           >
             <div className="mb-4">
@@ -280,9 +295,14 @@ export default function TravelTourismHospitality() {
 
           {/* Digital Transformation */}
           <div
-            className="bg-white p-6 rounded-[10px]"
+            className="bg-white"
             style={{
+              width: '412px',
+              height: '227px',
               border: '3px solid #14358A',
+              borderRadius: '10px',
+              padding: '23px 25px',
+              overflow: 'hidden'
             }}
           >
             <div className="mb-4">
@@ -324,9 +344,14 @@ export default function TravelTourismHospitality() {
 
           {/* Workforce Strategy */}
           <div
-            className="bg-white p-6 rounded-[10px]"
+            className="bg-white"
             style={{
+              width: '412px',
+              height: '227px',
               border: '3px solid #14358A',
+              borderRadius: '10px',
+              padding: '23px 25px',
+              overflow: 'hidden'
             }}
           >
             <div className="mb-4">
@@ -368,9 +393,14 @@ export default function TravelTourismHospitality() {
 
           {/* Sustainability & ESG Strategy */}
           <div
-            className="bg-white p-6 rounded-[10px]"
+            className="bg-white"
             style={{
+              width: '412px',
+              height: '227px',
               border: '3px solid #14358A',
+              borderRadius: '10px',
+              padding: '23px 25px',
+              overflow: 'hidden'
             }}
           >
             <div className="mb-4">
@@ -858,14 +888,10 @@ export default function TravelTourismHospitality() {
       </div>
 
       {/* The Functional Consulting Advantage Section */}
-      <div className="relative w-full py-20 bg-white overflow-hidden">
-        {/* Decorative shapes */}
-        <div className="absolute top-0 left-0 w-32 h-32 bg-blue-200 rounded-full opacity-30 -translate-x-1/2 -translate-y-1/2"></div>
-        <div className="absolute bottom-0 right-0 w-48 h-48 bg-blue-100 rounded-full opacity-30 translate-x-1/3 translate-y-1/3"></div>
-
-        <div className="max-w-[1200px] mx-auto px-4 relative z-10">
+      <div className="bg-white py-24 px-6">
+        <div className="max-w-[1440px] mx-auto flex flex-col items-center">
           <h2
-            className="text-center mb-8"
+            className="text-center whitespace-nowrap mb-10"
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
@@ -878,38 +904,33 @@ export default function TravelTourismHospitality() {
             The Functional Consulting Advantage
           </h2>
 
-          <div className="max-w-[1082px] mx-auto text-center">
+          <div className="max-w-[1082px] text-center">
             <p
-              className="mb-6"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
                 fontSize: '30px',
                 lineHeight: '140%',
-                letterSpacing: '0%',
                 color: '#333333',
               }}
             >
-              The hospitality industry is a delicate balance of guest experience and operational precision. Industry-focused consultants often suggest surface-level fixes that don't address the deep-rooted operational or financial inefficiencies that impact service quality.
+              The hospitality industry is a delicate balance of guest experience and operational precision. Industry-focused consultants often suggest surface-level fixes that don&apos;t address the deep-rooted operational or financial inefficiencies that impact service quality.
             </p>
-
             <p
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
                 fontSize: '30px',
                 lineHeight: '140%',
-                letterSpacing: '0%',
                 color: '#333333',
               }}
             >
-              PMG's functional consulting approach provides the necessary depth. We deploy experts in specific functions, like operational excellence, customer experience design, and workforce management, who bring proven models for success. They adapt these world-class frameworks to the unique context of your property or brand, ensuring that operational improvements directly translate into superior guest experiences and a stronger bottom line.
+              PMG&apos;s functional consulting approach provides the necessary depth. We deploy experts in specific functions, like operational excellence, customer experience design, and workforce management, who bring proven models for success. They adapt these world-class frameworks to the unique context of your property or brand, ensuring that operational improvements directly translate into superior guest experiences and a stronger bottom line.
             </p>
           </div>
 
-          {/* Still Unsure? CTA */}
-          <div className="text-center mt-12">
-            <h3
+          <div className="text-center mt-16">
+            <p
               className="mb-4"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
@@ -920,10 +941,9 @@ export default function TravelTourismHospitality() {
               }}
             >
               Still Unsure?
-            </h3>
-
+            </p>
             <a
-              href="#"
+              href="/why-functional-consulting"
               className="inline-flex items-center gap-2 hover:opacity-80 transition-opacity"
               style={{
                 fontFamily: 'Inter, sans-serif',
@@ -935,8 +955,8 @@ export default function TravelTourismHospitality() {
               }}
             >
               Discover how functional precision unlocks five-star guest experiences and stronger margins.
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                <path d="M3 8H13M13 8L8 3M13 8L8 13" stroke="#14358A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1L7 7L1 13" stroke="#14358A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
             </a>
           </div>

@@ -125,16 +125,17 @@ export default function SaaSEnterpriseTechnology() {
           </div>
 
           {/* Work Cards Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 412px)', gap: '60px 26px', justifyContent: 'center' }}>
             {/* Card 1: Growth & Go-to-Market Strategy */}
             <div
-              className="bg-white rounded-xl hover:shadow-lg transition-shadow duration-300"
+              className="bg-white"
               style={{
                 width: '412px',
-                minHeight: '260px',
-                padding: '32px',
+                height: '227px',
+                padding: '23px 25px',
                 border: '3px solid #14358A',
-                borderRadius: '10px'
+                borderRadius: '10px',
+                overflow: 'hidden'
               }}
             >
               <div className="mb-6">
@@ -156,13 +157,14 @@ export default function SaaSEnterpriseTechnology() {
 
             {/* Card 2: Operational Excellence & Scalability */}
             <div
-              className="bg-white rounded-xl hover:shadow-lg transition-shadow duration-300"
+              className="bg-white"
               style={{
                 width: '412px',
-                minHeight: '260px',
-                padding: '32px',
+                height: '227px',
+                padding: '23px 25px',
                 border: '3px solid #14358A',
-                borderRadius: '10px'
+                borderRadius: '10px',
+                overflow: 'hidden'
               }}
             >
               <div className="mb-6">
@@ -184,13 +186,14 @@ export default function SaaSEnterpriseTechnology() {
 
             {/* Card 3: M&A, Funding, & Financial Performance */}
             <div
-              className="bg-white rounded-xl hover:shadow-lg transition-shadow duration-300"
+              className="bg-white"
               style={{
                 width: '412px',
-                minHeight: '260px',
-                padding: '32px',
+                height: '227px',
+                padding: '23px 25px',
                 border: '3px solid #14358A',
-                borderRadius: '10px'
+                borderRadius: '10px',
+                overflow: 'hidden'
               }}
             >
               <div className="mb-6">
@@ -212,13 +215,14 @@ export default function SaaSEnterpriseTechnology() {
 
             {/* Card 4: Innovation & Product Strategy */}
             <div
-              className="bg-white rounded-xl hover:shadow-lg transition-shadow duration-300"
+              className="bg-white"
               style={{
                 width: '412px',
-                minHeight: '260px',
-                padding: '32px',
+                height: '227px',
+                padding: '23px 25px',
                 border: '3px solid #14358A',
-                borderRadius: '10px'
+                borderRadius: '10px',
+                overflow: 'hidden'
               }}
             >
               <div className="mb-6">
@@ -240,13 +244,14 @@ export default function SaaSEnterpriseTechnology() {
 
             {/* Card 5: AI & Automation Integration */}
             <div
-              className="bg-white rounded-xl hover:shadow-lg transition-shadow duration-300"
+              className="bg-white"
               style={{
                 width: '412px',
-                minHeight: '260px',
-                padding: '32px',
+                height: '227px',
+                padding: '23px 25px',
                 border: '3px solid #14358A',
-                borderRadius: '10px'
+                borderRadius: '10px',
+                overflow: 'hidden'
               }}
             >
               <div className="mb-6">
@@ -268,13 +273,14 @@ export default function SaaSEnterpriseTechnology() {
 
             {/* Card 6: Cloud Strategy & Migration */}
             <div
-              className="bg-white rounded-xl hover:shadow-lg transition-shadow duration-300"
+              className="bg-white"
               style={{
                 width: '412px',
-                minHeight: '260px',
-                padding: '32px',
+                height: '227px',
+                padding: '23px 25px',
                 border: '3px solid #14358A',
-                borderRadius: '10px'
+                borderRadius: '10px',
+                overflow: 'hidden'
               }}
             >
               <div className="mb-6">
@@ -680,76 +686,79 @@ export default function SaaSEnterpriseTechnology() {
       </div>
 
       {/* The Functional Consulting Advantage Section */}
-      <div className="relative py-24 bg-white overflow-hidden">
-        {/* Top Left Blue Bar */}
-         <div
-          className="absolute top-0 left-0"
-          style={{
-            width: '300px',
-            height: '60px',
-            background: 'linear-gradient(90deg, #60A5FA 0%, #3B82F6 100%)',
-            transform: 'rotate(-15deg) translate(-50px, 30px)',
-            opacity: 0.8
-          }}
-        />
-
-        <div className="max-w-[1200px] mx-auto px-6 relative z-10 flex flex-col items-center text-center">
+      <div className="bg-white py-24 px-6">
+        <div className="max-w-[1440px] mx-auto flex flex-col items-center">
           <h2
-            className="font-dm-sans font-bold text-[#14358A] mb-12"
-            style={{ fontSize: '48px', lineHeight: '105%', letterSpacing: '-3%' }}
+            className="text-center whitespace-nowrap mb-10"
+            style={{
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: '48px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
+              color: '#14358A',
+            }}
           >
             The Functional Consulting Advantage
           </h2>
 
-          <div className="flex flex-col gap-8 mb-16">
+          <div className="max-w-[1082px] text-center">
             <p
-              className="font-dm-sans font-normal text-[#333333]"
-              style={{ fontSize: '30px', lineHeight: '140%', maxWidth: '1082px' }}
+              style={{
+                fontFamily: 'DM Sans, sans-serif',
+                fontWeight: 400,
+                fontSize: '30px',
+                lineHeight: '140%',
+                color: '#333333',
+              }}
             >
               Technology moves too fast for theoretical advice. The biggest risk to a scaling tech firm is not strategy, but flawed execution. Generalist consultants often provide high-level, slow-to-implement roadmaps that fail to adapt to rapid market changes, product cycles, or the specific needs of your engineering and GTM teams.
             </p>
             <p
-              className="font-dm-sans font-normal text-[#333333]"
-              style={{ fontSize: '30px', lineHeight: '140%', maxWidth: '1082px' }}
+              style={{
+                fontFamily: 'DM Sans, sans-serif',
+                fontWeight: 400,
+                fontSize: '30px',
+                lineHeight: '140%',
+                color: '#333333',
+              }}
             >
               PMG&apos;s model solves the execution gap. We deploy specialized functional operators, experts in areas like automated workflow architecture, hyper-growth GTM strategy, or AI integration, who have proven models for success. They don&apos;t just recommend; they embed, build, and operationalize the change, ensuring your solutions are both innovative and immediately scalable.
             </p>
           </div>
 
-          <div className="flex flex-col items-center gap-4">
+          <div className="text-center mt-16">
             <p
-              className="font-dm-sans font-bold text-[#364153]"
-              style={{ fontSize: '30px', lineHeight: '140%' }}
+              className="mb-4"
+              style={{
+                fontFamily: 'DM Sans, sans-serif',
+                fontWeight: 700,
+                fontSize: '30px',
+                lineHeight: '140%',
+                color: '#364153',
+              }}
             >
               Still Unsure?
             </p>
             <a
-              href="#"
-              className="group flex items-center gap-2 font-inter font-semibold text-[#14358A] hover:opacity-80 transition-opacity"
-              style={{ fontSize: '21.1px', lineHeight: '30px' }}
+              href="/why-functional-consulting"
+              className="inline-flex items-center gap-2 hover:opacity-80 transition-opacity"
+              style={{
+                fontFamily: 'Inter, sans-serif',
+                fontWeight: 600,
+                fontSize: '21.1px',
+                lineHeight: '30px',
+                color: '#14358A',
+                textDecoration: 'none',
+              }}
             >
               Find out how we turn strategy into measurable operational scale
-              <span className="group-hover:translate-x-1 transition-transform inline-flex items-center justify-center bg-[#14358A] rounded-full w-6 h-6">
-                 <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M4.5 9L7.5 6L4.5 3" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                 </svg>
-              </span>
+              <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1L7 7L1 13" stroke="#14358A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
             </a>
           </div>
         </div>
-        
-         {/* Bottom Right Blue Bar (Simulated based on image style) */}
-         <div
-          className="absolute bottom-0 right-0"
-          style={{
-            width: '400px',
-            height: '80px',
-            background: 'linear-gradient(270deg, #60A5FA 0%, #3B82F6 100%)',
-            transform: 'rotate(-10deg) translate(50px, 40px)', 
-            opacity: 0.6
-          }}
-        />
-
       </div>
 
       {/* Partner with PMG Section */}

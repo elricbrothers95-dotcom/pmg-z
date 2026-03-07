@@ -13,6 +13,7 @@ const config: Config = {
         'inter': ['Inter', 'sans-serif'],
         'montserrat': ['Montserrat', 'sans-serif'],
         'poppins': ['Poppins', 'sans-serif'],
+        'trade-gothic': ["'Trade Gothic LT Std'", 'sans-serif'],
       },
     },
   },

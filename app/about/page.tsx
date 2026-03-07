@@ -1,6 +1,7 @@
-'use client';
+﻿'use client';
 
 import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 export default function About() {
   return (
@@ -538,94 +539,49 @@ export default function About() {
         </div>
       </div>
 
-      {/* Ready to Define Your Success Story Section */}
-      <div className="bg-[#EBF7FF] pt-24 pb-32 text-center relative z-0">
-        <h3 className="font-dm-sans font-bold text-[48px] leading-[105%] tracking-[-0.03em] text-[#14358A] mb-6">Ready to Write Your Success Story?</h3>
-        <p className="font-dm-sans font-normal text-[18px] leading-[135%] text-[#68718B] max-w-[577px] mx-auto mb-10">
+      {/* Ready to Write Your Success Story Section */}
+      <div className="bg-[#EBF7FF] text-center relative z-0" style={{ paddingTop: '80px', paddingBottom: '80px' }}>
+        <h3
+          className="font-dm-sans font-bold text-[#14358A]"
+          style={{
+            fontSize: '48px',
+            lineHeight: '105%',
+            letterSpacing: '-0.03em',
+            textAlign: 'center',
+            marginBottom: '12px'
+          }}
+        >
+          Ready to Write Your Success Story?
+        </h3>
+        <p
+          className="font-dm-sans font-normal mx-auto"
+          style={{
+            fontSize: '18px',
+            lineHeight: '135%',
+            textAlign: 'center',
+            color: '#68718B',
+            maxWidth: '577px',
+            marginBottom: '13px'
+          }}
+        >
           Now that you know our story, let us help you write yours. Partner with us to leverage our expertise, values, and innovation for your business.
         </p>
         <button
-          className="text-white font-bold text-[16px] shadow-lg hover:opacity-95 transition-opacity px-8 py-3"
+          className="font-dm-sans font-bold text-white hover:opacity-95 transition-opacity mx-auto"
           style={{
-            background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
-            borderRadius: '10px'
+            fontSize: '16px',
+            lineHeight: '140%',
+            width: '247px',
+            height: '54px',
+            borderRadius: '10px',
+            background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)'
           }}
         >
           Request a Consultation
         </button>
       </div>
 
-      {/* Footer */}
-      <footer className="relative z-10 pt-32 pb-20" style={{ background: '#1B45B4' }}>
-        <div className="max-w-7xl mx-auto px-20">
-          <div className="grid grid-cols-5 gap-16">
-            {/* Logo Column */}
-            <div>
-              <img src="/logo.png" alt="PMG Logo" style={{ width: '120px', height: 'auto' }} />
-            </div>
-
-            {/* What we Do Column */}
-            <div>
-              <h3 className="text-white font-trade-gothic font-bold text-[25px] mb-4" style={{ lineHeight: '100%' }}>
-                What we Do
-              </h3>
-              <ul className="space-y-3">
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>Our Services</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>Our Solutions</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>Rebuilding from within</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>Why Consulting?</a></li>
-              </ul>
-            </div>
-
-            {/* Our Content Column */}
-            <div>
-              <h3 className="text-white font-trade-gothic font-bold text-[25px] mb-4" style={{ lineHeight: '100%' }}>
-                Our Content
-              </h3>
-              <ul className="space-y-3">
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>FAQs</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>Insights & Innovations</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>Community Programs</a></li>
-              </ul>
-              <h3 className="text-white font-trade-gothic font-bold text-[25px] mt-8 mb-4" style={{ lineHeight: '100%' }}>
-                Working with PMG
-              </h3>
-              <ul className="space-y-3">
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>Careers</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>Licensing</a></li>
-              </ul>
-            </div>
-
-            {/* Our Models Column */}
-            <div>
-              <h3 className="text-white font-trade-gothic font-bold text-[25px] mb-4" style={{ lineHeight: '100%' }}>
-                Our Models
-              </h3>
-              <ul className="space-y-3">
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>Sector Convergence Model</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>I-O Enterprise Architecture</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>Bussiness Value-Unit Model</a></li>
-              </ul>
-            </div>
-
-            {/* Legal Column */}
-            <div>
-              <h3 className="text-white font-trade-gothic font-bold text-[25px] mb-4" style={{ lineHeight: '100%' }}>
-                Legal
-              </h3>
-              <ul className="space-y-3">
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>Privacy & Cookie Policy</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>Hiring & Equal Opportunity</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>AI & Data Ethics Statement</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>Anti-Modern Slavery Policy</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>Intellectual Property</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>Regionalization Policy</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '100%' }}>Digital Terms of Use</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </main >
   );
 }

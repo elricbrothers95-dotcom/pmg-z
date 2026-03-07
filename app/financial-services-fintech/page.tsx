@@ -72,44 +72,48 @@ export default function FinancialServicesFinTech() {
 
       </div>
 
-      {/* Your Partner in a High-Growth Sector Section */}
-      <div className="relative w-full bg-white" style={{ paddingTop: '120px', paddingBottom: '120px' }}>
-        <div className="relative max-w-[1440px] mx-auto flex flex-col items-center px-6">
-
-          {/* Section Title */}
+      {/* Your Strategic Partner Section */}
+      <div className="bg-white py-24 px-6">
+        <div className="max-w-[1440px] mx-auto text-center">
           <h2
             className="font-poppins font-semibold text-center"
             style={{
-              maxWidth: '900px',
-              fontSize: '42px',
-              lineHeight: '120%',
-              color: '#14358A',
+              fontSize: '50px',
+              lineHeight: '46px',
               letterSpacing: '0%',
+              color: '#14358A',
               marginBottom: '48px'
             }}
           >
-            Your Partner in a High-Growth Sector
+            Your Strategic Partner
           </h2>
-
-          {/* Section Description */}
-          <div
-            className="font-inter font-normal text-center"
+          <p
+            className="font-montserrat font-normal mx-auto"
             style={{
-              maxWidth: '1050px',
-              fontSize: '19px',
-              lineHeight: '165%',
-              color: '#4A5568',
-              letterSpacing: '0%'
+              fontSize: '32px',
+              lineHeight: 'normal',
+              letterSpacing: '0%',
+              textAlign: 'center',
+              color: '#333',
+              maxWidth: '1342px',
+              marginBottom: 0
             }}
           >
-            <p style={{ marginBottom: '28px' }}>
-              With opportunity comes complexity. Issues of scalability, regulation, competition, and talent are front of mind for technology leaders worldwide. PMG partners with technology firms from emerging startups to global enterprises to navigate this dynamic environment.
-            </p>
-            <p>
-              Our consultants bring deep expertise in strategy, operations, finance, and transformation, helping companies manage rapid growth and competitive pressures. Our cross-sector knowledge in finance and organizational design equips leaders to address challenges that span innovation, customer acquisition, talent management, and long-term value creation.
-            </p>
-          </div>
-
+            PMG partners with banks, asset managers, insurers, &amp; fintechs to deliver a balance of strategic insight &amp; operational expertise. We enable organizations to strengthen performance, manage risk, &amp; deliver sustainable value in an environment of constant disruption.
+          </p>
+          <p
+            className="font-montserrat font-normal mx-auto"
+            style={{
+              fontSize: '32px',
+              lineHeight: 'normal',
+              letterSpacing: '0%',
+              textAlign: 'center',
+              color: '#333',
+              maxWidth: '1342px'
+            }}
+          >
+            Our financial services work is complemented by PMG&apos;s cross-sector expertise in technology &amp; organizational transformation, equipping leaders to address challenges across governance, digital adoption, &amp; market positioning.
+          </p>
         </div>
       </div>
 
@@ -133,29 +137,39 @@ export default function FinancialServicesFinTech() {
           </div>
 
           {/* Work Cards Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div
+            style={{
+              display: 'grid',
+              gridTemplateColumns: 'repeat(3, 412px)',
+              gap: '60px 26px',
+              justifyContent: 'center'
+            }}
+          >
             {/* Card 1: Growth & Go-to-Market Strategy */}
             <div
-              className="bg-white rounded-xl hover:shadow-lg transition-shadow duration-300"
+              className="bg-white"
               style={{
-                minHeight: '260px',
-                padding: '32px',
+                width: '412px',
+                height: '227px',
                 border: '3px solid #14358A',
-                borderRadius: '10px'
+                borderRadius: '10px',
+                padding: '23px 25px',
+                position: 'relative',
+                overflow: 'hidden'
               }}
             >
-              <div className="mb-6">
-                <img src="/icon-strategy-transformation.png" alt="Growth & Go-to-Market Strategy" style={{ width: '64px', height: '64px' }} />
+              <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', marginBottom: '8px' }}>
+                <img src="/icon-strategy-transformation.png" alt="" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <h3
+                  className="font-dm-sans font-bold text-[#14358A]"
+                  style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-0.87px', paddingTop: '7px' }}
+                >
+                  Growth & Go-to-Market Strategy
+                </h3>
               </div>
-              <h3
-                className="font-dm-sans font-bold text-[#14358A] mb-4"
-                style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
-              >
-                Growth & Go-to-Market Strategy
-              </h3>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
-                style={{ fontSize: '16px', lineHeight: '140%' }}
+                style={{ fontSize: '15px', lineHeight: '140%', marginTop: '8px' }}
               >
                 Define and implement growth strategies that balance speed with sustainability, covering GTM planning, international expansion, and optimized pricing models.
               </p>
@@ -163,26 +177,29 @@ export default function FinancialServicesFinTech() {
 
             {/* Card 2: Operational Excellence & Scalability */}
             <div
-              className="bg-white rounded-xl hover:shadow-lg transition-shadow duration-300"
+              className="bg-white"
               style={{
-                minHeight: '260px',
-                padding: '32px',
+                width: '412px',
+                height: '227px',
                 border: '3px solid #14358A',
-                borderRadius: '10px'
+                borderRadius: '10px',
+                padding: '23px 25px',
+                position: 'relative',
+                overflow: 'hidden'
               }}
             >
-              <div className="mb-6">
-                <img src="/icon-risk-resilience.png" alt="Operational Excellence & Scalability" style={{ width: '64px', height: '64px' }} />
+              <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', marginBottom: '8px' }}>
+                <img src="/icon-risk-resilience.png" alt="" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <h3
+                  className="font-dm-sans font-bold text-[#14358A]"
+                  style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-0.87px', paddingTop: '7px' }}
+                >
+                  Operational Excellence & Scalability
+                </h3>
               </div>
-              <h3
-                className="font-dm-sans font-bold text-[#14358A] mb-4"
-                style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
-              >
-                Operational Excellence & Scalability
-              </h3>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
-                style={{ fontSize: '16px', lineHeight: '140%' }}
+                style={{ fontSize: '15px', lineHeight: '140%', marginTop: '8px' }}
               >
                 Improve organizational performance, optimize core processes, and deploy digital transformation initiatives to ensure sustained efficiency at scale.
               </p>
@@ -190,26 +207,29 @@ export default function FinancialServicesFinTech() {
 
             {/* Card 3: M&A, Funding, & Financial Performance */}
             <div
-              className="bg-white rounded-xl hover:shadow-lg transition-shadow duration-300"
+              className="bg-white"
               style={{
-                minHeight: '260px',
-                padding: '32px',
+                width: '412px',
+                height: '227px',
                 border: '3px solid #14358A',
-                borderRadius: '10px'
+                borderRadius: '10px',
+                padding: '23px 25px',
+                position: 'relative',
+                overflow: 'hidden'
               }}
             >
-              <div className="mb-6">
-                <img src="/icon-customer-experience.png" alt="M&A, Funding, & Financial Performance" style={{ width: '64px', height: '64px' }} />
+              <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', marginBottom: '8px' }}>
+                <img src="/icon-customer-experience.png" alt="" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <h3
+                  className="font-dm-sans font-bold text-[#14358A]"
+                  style={{ fontSize: '28px', lineHeight: '105%', letterSpacing: '-0.84px', paddingTop: '8px' }}
+                >
+                  M&A, Funding, & Financial Performance
+                </h3>
               </div>
-              <h3
-                className="font-dm-sans font-bold text-[#14358A] mb-4"
-                style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
-              >
-                M&A, Funding, & Financial Performance
-              </h3>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
-                style={{ fontSize: '16px', lineHeight: '140%' }}
+                style={{ fontSize: '15px', lineHeight: '140%', marginTop: '8px' }}
               >
                 Support M&A, capital funding, and IPO readiness by strengthening financial performance, optimizing portfolios, and enhancing the investment story.
               </p>
@@ -217,26 +237,29 @@ export default function FinancialServicesFinTech() {
 
             {/* Card 4: Innovation & Product Strategy */}
             <div
-              className="bg-white rounded-xl hover:shadow-lg transition-shadow duration-300"
+              className="bg-white"
               style={{
-                minHeight: '260px',
-                padding: '32px',
+                width: '412px',
+                height: '227px',
                 border: '3px solid #14358A',
-                borderRadius: '10px'
+                borderRadius: '10px',
+                padding: '23px 25px',
+                position: 'relative',
+                overflow: 'hidden'
               }}
             >
-              <div className="mb-6">
-                <img src="/icon-regulatory-compliance.png" alt="Innovation & Product Strategy" style={{ width: '64px', height: '64px' }} />
+              <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', marginBottom: '8px' }}>
+                <img src="/icon-regulatory-compliance.png" alt="" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <h3
+                  className="font-dm-sans font-bold text-[#14358A]"
+                  style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-0.87px', paddingTop: '9px' }}
+                >
+                  Innovation & Product Strategy
+                </h3>
               </div>
-              <h3
-                className="font-dm-sans font-bold text-[#14358A] mb-4"
-                style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
-              >
-                Innovation & Product Strategy
-              </h3>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
-                style={{ fontSize: '16px', lineHeight: '140%' }}
+                style={{ fontSize: '16px', lineHeight: '140%', marginTop: '8px' }}
               >
                 Shape innovation agendas, prioritize R&D, and design product strategies (including portfolio and roadmap development) that align with market opportunities.
               </p>
@@ -244,26 +267,29 @@ export default function FinancialServicesFinTech() {
 
             {/* Card 5: AI & Automation Integration */}
             <div
-              className="bg-white rounded-xl hover:shadow-lg transition-shadow duration-300"
+              className="bg-white"
               style={{
-                minHeight: '260px',
-                padding: '32px',
+                width: '412px',
+                height: '227px',
                 border: '3px solid #14358A',
-                borderRadius: '10px'
+                borderRadius: '10px',
+                padding: '23px 25px',
+                position: 'relative',
+                overflow: 'hidden'
               }}
             >
-              <div className="mb-6">
-                <img src="/icon-innovation-fintech.png" alt="AI & Automation Integration" style={{ width: '64px', height: '64px' }} />
+              <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', marginBottom: '8px' }}>
+                <img src="/icon-innovation-fintech.png" alt="" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <h3
+                  className="font-dm-sans font-bold text-[#14358A]"
+                  style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-0.87px', paddingTop: '9px' }}
+                >
+                  AI & Automation Integration
+                </h3>
               </div>
-              <h3
-                className="font-dm-sans font-bold text-[#14358A] mb-4"
-                style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
-              >
-                AI & Automation Integration
-              </h3>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
-                style={{ fontSize: '16px', lineHeight: '140%' }}
+                style={{ fontSize: '15px', lineHeight: '140%', marginTop: '8px' }}
               >
                 Harness AI and automation to enhance product offerings, dramatically improve internal efficiency, and create new, measurable sources of value.
               </p>
@@ -271,26 +297,29 @@ export default function FinancialServicesFinTech() {
 
             {/* Card 6: Cloud Strategy & Migration */}
             <div
-              className="bg-white rounded-xl hover:shadow-lg transition-shadow duration-300"
+              className="bg-white"
               style={{
-                minHeight: '260px',
-                padding: '32px',
+                width: '412px',
+                height: '227px',
                 border: '3px solid #14358A',
-                borderRadius: '10px'
+                borderRadius: '10px',
+                padding: '23px 25px',
+                position: 'relative',
+                overflow: 'hidden'
               }}
             >
-              <div className="mb-6">
-                <img src="/icon-capital-performance.png" alt="Cloud Strategy & Migration" style={{ width: '64px', height: '64px' }} />
+              <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', marginBottom: '8px' }}>
+                <img src="/icon-capital-performance.png" alt="" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <h3
+                  className="font-dm-sans font-bold text-[#14358A]"
+                  style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-0.87px', paddingTop: '7px' }}
+                >
+                  Cloud Strategy & Migration
+                </h3>
               </div>
-              <h3
-                className="font-dm-sans font-bold text-[#14358A] mb-4"
-                style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
-              >
-                Cloud Strategy & Migration
-              </h3>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
-                style={{ fontSize: '16px', lineHeight: '140%' }}
+                style={{ fontSize: '15px', lineHeight: '140%', marginTop: '8px' }}
               >
                 Develop and execute cloud strategies (public, private, or hybrid) that optimize cost, improve scalability, and accelerate organizational innovation.
               </p>
@@ -306,10 +335,9 @@ export default function FinancialServicesFinTech() {
           backgroundImage: 'url(/projects-bg-financial.png)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          minHeight: '700px'
+          minHeight: '852px'
         }}
       >
-
         <div className="max-w-[1300px] mx-auto relative z-10">
           {/* Section Title */}
           <h2
@@ -324,101 +352,100 @@ export default function FinancialServicesFinTech() {
           </h2>
 
           {/* Project Cards Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
-            {/* Card 1: Prestige1 Capital */}
+          <div
+            className="flex justify-center flex-wrap"
+            style={{ gap: '64px' }}
+          >
+            {/* Card 1: Trilogy Software */}
             <div
-              className="bg-[#E8F0FE] hover:shadow-xl transition-shadow duration-300 relative"
+              className="bg-white relative overflow-hidden"
               style={{
-                width: '340px',
-                minHeight: '420px',
-                borderRadius: '16px',
-                padding: '32px',
+                width: '381px',
+                minHeight: '378px',
+                borderRadius: '10px',
+                border: '1px solid #E0E7EF',
+                padding: '24px',
                 display: 'flex',
                 flexDirection: 'column',
-                gap: '20px'
+                gap: '48px'
               }}
             >
-              <h3
-                className="font-poppins font-semibold text-center"
+              {/* Pattern Overlay */}
+              <div
+                className="absolute top-0 left-0"
                 style={{
-                  fontSize: '30px',
-                  lineHeight: '110%',
-                  color: '#1e40af',
-                  marginBottom: '8px'
+                  width: '375px',
+                  height: '240px',
+                  background: '#EBF7FF',
+                  clipPath: 'polygon(0 0, 100% 0, 100% 40%, 0 100%)',
+                  zIndex: 0
                 }}
-              >
-                Prestige1 Capital
-              </h3>
+              />
 
-              {/* Stats */}
-              <div className="flex flex-col gap-4">
-                {/* Stat 1 */}
-                <div className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect x="3" y="6" width="18" height="14" rx="2" stroke="#1e40af" strokeWidth="2"/>
-                      <path d="M12 14C13.1046 14 14 13.1046 14 12C14 10.8954 13.1046 10 12 10C10.8954 10 10 10.8954 10 12C10 13.1046 10.8954 14 12 14Z" stroke="#1e40af" strokeWidth="2"/>
-                      <path d="M7 6V4M17 6V4" stroke="#1e40af" strokeWidth="2" strokeLinecap="round"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <p
-                      className="font-poppins font-semibold"
-                      style={{ fontSize: '24px', lineHeight: '110%', color: '#1e40af' }}
-                    >
-                      $9.7M
-                    </p>
-                    <p
-                      className="font-inter font-normal"
-                      style={{ fontSize: '14px', lineHeight: '140%', color: '#64748b' }}
-                    >
-                      in new yearly profit generated
-                    </p>
-                  </div>
-                </div>
+              {/* Content */}
+              <div className="relative z-10 flex flex-col" style={{ gap: '24px' }}>
+                <h3
+                  className="font-dm-sans font-bold text-center"
+                  style={{
+                    fontSize: '30px',
+                    lineHeight: '1.1',
+                    letterSpacing: '-0.9px',
+                    color: '#006FBA'
+                  }}
+                >
+                  Trilogy Software
+                </h3>
 
-                {/* Stat 2 */}
-                <div className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M3 18L9 12L13 16L21 8" stroke="#1e40af" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                      <path d="M21 8V14M21 8H15" stroke="#1e40af" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                    </svg>
-                  </div>
+                {/* Stats */}
+                <div className="flex flex-col" style={{ gap: '20px' }}>
+                  {/* Stat 1 */}
                   <div>
-                    <p
-                      className="font-poppins font-semibold"
-                      style={{ fontSize: '24px', lineHeight: '110%', color: '#1e40af' }}
-                    >
-                      2.6x
-                    </p>
-                    <p
-                      className="font-inter font-normal"
-                      style={{ fontSize: '14px', lineHeight: '140%', color: '#64748b' }}
-                    >
-                      higher ROI than typical investments
+                    <div className="flex items-center" style={{ gap: '8px' }}>
+                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="1" y="1" width="26" height="26" rx="4" stroke="#006FBA" strokeWidth="2"/>
+                        <circle cx="14" cy="14" r="6" stroke="#006FBA" strokeWidth="2"/>
+                        <path d="M14 11V17M12 14.5H16" stroke="#006FBA" strokeWidth="2" strokeLinecap="round"/>
+                      </svg>
+                      <p className="font-dm-sans font-bold" style={{ fontSize: '24px', lineHeight: '1.1', letterSpacing: '-0.72px', color: '#006FBA' }}>
+                        $8M
+                      </p>
+                    </div>
+                    <p className="font-dm-sans font-normal" style={{ fontSize: '16px', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
+                      in annual support costs saved
                     </p>
                   </div>
-                </div>
 
-                {/* Stat 3 */}
-                <div className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M20 7L10 17L5 12" stroke="#1e40af" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                    </svg>
-                  </div>
+                  {/* Stat 2 */}
                   <div>
-                    <p
-                      className="font-poppins font-semibold"
-                      style={{ fontSize: '24px', lineHeight: '110%', color: '#1e40af' }}
-                    >
-                      43x
+                    <div className="flex items-center" style={{ gap: '8px' }}>
+                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="1" y="1" width="26" height="26" rx="4" stroke="#006FBA" strokeWidth="2"/>
+                        <path d="M8 18L12 13L16 15L20 10" stroke="#006FBA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M17 10H20V13" stroke="#006FBA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      </svg>
+                      <p className="font-dm-sans font-bold" style={{ fontSize: '24px', lineHeight: '1.1', letterSpacing: '-0.72px', color: '#006FBA' }}>
+                        16%
+                      </p>
+                    </div>
+                    <p className="font-dm-sans font-normal" style={{ fontSize: '16px', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
+                      increase in Customer Satisfaction
                     </p>
-                    <p
-                      className="font-inter font-normal"
-                      style={{ fontSize: '14px', lineHeight: '140%', color: '#64748b' }}
-                    >
+                  </div>
+
+                  {/* Stat 3 */}
+                  <div>
+                    <div className="flex items-center" style={{ gap: '8px' }}>
+                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="1" y="1" width="26" height="26" rx="4" stroke="#006FBA" strokeWidth="2"/>
+                        <rect x="6" y="10" width="16" height="10" rx="1" stroke="#006FBA" strokeWidth="2"/>
+                        <circle cx="11" cy="15" r="2" stroke="#006FBA" strokeWidth="1.5"/>
+                        <path d="M17 20L15 17L13 19" stroke="#006FBA" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                      </svg>
+                      <p className="font-dm-sans font-bold" style={{ fontSize: '24px', lineHeight: '1.1', letterSpacing: '-0.72px', color: '#006FBA' }}>
+                        77x
+                      </p>
+                    </div>
+                    <p className="font-dm-sans font-normal" style={{ fontSize: '16px', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
                       Return on Investment
                     </p>
                   </div>
@@ -426,7 +453,7 @@ export default function FinancialServicesFinTech() {
               </div>
 
               {/* Learn More Button */}
-              <div className="mt-auto mx-auto">
+              <div className="mt-auto mx-auto relative z-10">
                 <button
                   className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
                   style={{
@@ -434,10 +461,9 @@ export default function FinancialServicesFinTech() {
                     height: '60px',
                     borderRadius: '10px',
                     padding: '16px 32px',
-                    background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
+                    background: 'linear-gradient(137.73deg, #6A36FF 15.76%, #AC5FE6 102.86%)',
                     fontSize: '20px',
-                    lineHeight: '140%',
-                    letterSpacing: '0%',
+                    lineHeight: '1.4',
                     border: 'none',
                     cursor: 'pointer',
                     display: 'flex',
@@ -454,97 +480,93 @@ export default function FinancialServicesFinTech() {
 
             {/* Card 2: Kraken */}
             <div
-              className="bg-[#E8F0FE] hover:shadow-xl transition-shadow duration-300 relative"
+              className="bg-white relative overflow-hidden"
               style={{
-                width: '340px',
-                minHeight: '420px',
-                borderRadius: '16px',
-                padding: '32px',
+                width: '381px',
+                minHeight: '378px',
+                borderRadius: '10px',
+                border: '1px solid #E0E7EF',
+                padding: '24px',
                 display: 'flex',
                 flexDirection: 'column',
-                gap: '20px'
+                gap: '48px'
               }}
             >
-              <h3
-                className="font-poppins font-semibold text-center"
+              {/* Pattern Overlay */}
+              <div
+                className="absolute top-0 left-0"
                 style={{
-                  fontSize: '30px',
-                  lineHeight: '110%',
-                  color: '#1e40af',
-                  marginBottom: '8px'
+                  width: '375px',
+                  height: '240px',
+                  background: '#EBF7FF',
+                  clipPath: 'polygon(0 0, 100% 0, 100% 40%, 0 100%)',
+                  zIndex: 0
                 }}
-              >
-                Kraken
-              </h3>
+              />
 
-              {/* Stats */}
-              <div className="flex flex-col gap-4">
-                {/* Stat 1 */}
-                <div className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect x="3" y="3" width="18" height="18" rx="2" stroke="#1e40af" strokeWidth="2"/>
-                      <path d="M9 12L11 14L15 10" stroke="#1e40af" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <p
-                      className="font-poppins font-semibold"
-                      style={{ fontSize: '24px', lineHeight: '110%', color: '#1e40af' }}
-                    >
-                      22%
-                    </p>
-                    <p
-                      className="font-inter font-normal"
-                      style={{ fontSize: '14px', lineHeight: '140%', color: '#64748b' }}
-                    >
-                      increase in customer satisfaction
-                    </p>
-                  </div>
-                </div>
+              {/* Content */}
+              <div className="relative z-10 flex flex-col" style={{ gap: '24px' }}>
+                <h3
+                  className="font-dm-sans font-bold text-center"
+                  style={{
+                    fontSize: '30px',
+                    lineHeight: '1.1',
+                    letterSpacing: '-0.9px',
+                    color: '#006FBA'
+                  }}
+                >
+                  Kraken
+                </h3>
 
-                {/* Stat 2 */}
-                <div className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M12 8V12L15 15" stroke="#1e40af" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                      <circle cx="12" cy="12" r="9" stroke="#1e40af" strokeWidth="2"/>
-                    </svg>
-                  </div>
+                {/* Stats */}
+                <div className="flex flex-col" style={{ gap: '20px' }}>
+                  {/* Stat 1 */}
                   <div>
-                    <p
-                      className="font-poppins font-semibold"
-                      style={{ fontSize: '24px', lineHeight: '110%', color: '#1e40af' }}
-                    >
-                      40%
-                    </p>
-                    <p
-                      className="font-inter font-normal"
-                      style={{ fontSize: '14px', lineHeight: '140%', color: '#64748b' }}
-                    >
-                      reduction in signup-to-activation time
+                    <div className="flex items-center" style={{ gap: '8px' }}>
+                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="1" y="1" width="26" height="26" rx="4" stroke="#006FBA" strokeWidth="2"/>
+                        <circle cx="14" cy="14" r="6" stroke="#006FBA" strokeWidth="2"/>
+                        <path d="M14 11V17M12 14.5H16" stroke="#006FBA" strokeWidth="2" strokeLinecap="round"/>
+                      </svg>
+                      <p className="font-dm-sans font-bold" style={{ fontSize: '24px', lineHeight: '1.1', letterSpacing: '-0.72px', color: '#006FBA' }}>
+                        3,500
+                      </p>
+                    </div>
+                    <p className="font-dm-sans font-normal" style={{ fontSize: '16px', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
+                      ticket backlog eliminated
                     </p>
                   </div>
-                </div>
 
-                {/* Stat 3 */}
-                <div className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M20 7L10 17L5 12" stroke="#1e40af" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                    </svg>
-                  </div>
+                  {/* Stat 2 */}
                   <div>
-                    <p
-                      className="font-poppins font-semibold"
-                      style={{ fontSize: '24px', lineHeight: '110%', color: '#1e40af' }}
-                    >
-                      23x
+                    <div className="flex items-center" style={{ gap: '8px' }}>
+                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="1" y="1" width="26" height="26" rx="4" stroke="#006FBA" strokeWidth="2"/>
+                        <rect x="6" y="10" width="16" height="10" rx="1" stroke="#006FBA" strokeWidth="2"/>
+                        <circle cx="11" cy="15" r="2" stroke="#006FBA" strokeWidth="1.5"/>
+                        <path d="M17 20L15 17L13 19" stroke="#006FBA" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                      </svg>
+                      <p className="font-dm-sans font-bold" style={{ fontSize: '24px', lineHeight: '1.1', letterSpacing: '-0.72px', color: '#006FBA' }}>
+                        65%
+                      </p>
+                    </div>
+                    <p className="font-dm-sans font-normal" style={{ fontSize: '16px', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
+                      reduction in first-response time
                     </p>
-                    <p
-                      className="font-inter font-normal"
-                      style={{ fontSize: '14px', lineHeight: '140%', color: '#64748b' }}
-                    >
+                  </div>
+
+                  {/* Stat 3 */}
+                  <div>
+                    <div className="flex items-center" style={{ gap: '8px' }}>
+                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="1" y="1" width="26" height="26" rx="4" stroke="#006FBA" strokeWidth="2"/>
+                        <path d="M10 14L13 17L19 11" stroke="#006FBA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      </svg>
+                      <p className="font-dm-sans font-bold" style={{ fontSize: '24px', lineHeight: '1.1', letterSpacing: '-0.72px', color: '#006FBA' }}>
+                        23x
+                      </p>
+                    </div>
+                    <p className="font-dm-sans font-normal" style={{ fontSize: '16px', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
                       Return on Investment
                     </p>
                   </div>
@@ -552,7 +574,7 @@ export default function FinancialServicesFinTech() {
               </div>
 
               {/* Learn More Button */}
-              <div className="mt-auto mx-auto">
+              <div className="mt-auto mx-auto relative z-10">
                 <button
                   className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
                   style={{
@@ -560,10 +582,9 @@ export default function FinancialServicesFinTech() {
                     height: '60px',
                     borderRadius: '10px',
                     padding: '16px 32px',
-                    background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
+                    background: 'linear-gradient(137.73deg, #6A36FF 15.76%, #AC5FE6 102.86%)',
                     fontSize: '20px',
-                    lineHeight: '140%',
-                    letterSpacing: '0%',
+                    lineHeight: '1.4',
                     border: 'none',
                     cursor: 'pointer',
                     display: 'flex',
@@ -580,97 +601,93 @@ export default function FinancialServicesFinTech() {
 
             {/* Card 3: Artemis Capital */}
             <div
-              className="bg-[#E8F0FE] hover:shadow-xl transition-shadow duration-300 relative"
+              className="bg-white relative overflow-hidden"
               style={{
-                width: '340px',
-                minHeight: '420px',
-                borderRadius: '16px',
-                padding: '32px',
+                width: '381px',
+                minHeight: '378px',
+                borderRadius: '10px',
+                border: '1px solid #E0E7EF',
+                padding: '24px',
                 display: 'flex',
                 flexDirection: 'column',
-                gap: '20px'
+                gap: '48px'
               }}
             >
-              <h3
-                className="font-poppins font-semibold text-center"
+              {/* Pattern Overlay */}
+              <div
+                className="absolute top-0 left-0"
                 style={{
-                  fontSize: '30px',
-                  lineHeight: '110%',
-                  color: '#1e40af',
-                  marginBottom: '8px'
+                  width: '375px',
+                  height: '240px',
+                  background: '#EBF7FF',
+                  clipPath: 'polygon(0 0, 100% 0, 100% 40%, 0 100%)',
+                  zIndex: 0
                 }}
-              >
-                Artemis Capital
-              </h3>
+              />
 
-              {/* Stats */}
-              <div className="flex flex-col gap-4">
-                {/* Stat 1 */}
-                <div className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect x="3" y="3" width="18" height="18" rx="2" stroke="#1e40af" strokeWidth="2"/>
-                      <path d="M9 12L11 14L15 10" stroke="#1e40af" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <p
-                      className="font-poppins font-semibold"
-                      style={{ fontSize: '24px', lineHeight: '110%', color: '#1e40af' }}
-                    >
-                      12%
-                    </p>
-                    <p
-                      className="font-inter font-normal"
-                      style={{ fontSize: '14px', lineHeight: '140%', color: '#64748b' }}
-                    >
-                      in new yearly profit generated
-                    </p>
-                  </div>
-                </div>
+              {/* Content */}
+              <div className="relative z-10 flex flex-col" style={{ gap: '24px' }}>
+                <h3
+                  className="font-dm-sans font-bold text-center"
+                  style={{
+                    fontSize: '30px',
+                    lineHeight: '1.1',
+                    letterSpacing: '-0.9px',
+                    color: '#006FBA'
+                  }}
+                >
+                  Artemis Capital
+                </h3>
 
-                {/* Stat 2 */}
-                <div className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M3 18L9 12L13 16L21 8" stroke="#1e40af" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                      <path d="M21 8V14M21 8H15" stroke="#1e40af" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                    </svg>
-                  </div>
+                {/* Stats */}
+                <div className="flex flex-col" style={{ gap: '20px' }}>
+                  {/* Stat 1 */}
                   <div>
-                    <p
-                      className="font-poppins font-semibold"
-                      style={{ fontSize: '24px', lineHeight: '110%', color: '#1e40af' }}
-                    >
-                      25%
-                    </p>
-                    <p
-                      className="font-inter font-normal"
-                      style={{ fontSize: '14px', lineHeight: '140%', color: '#64748b' }}
-                    >
-                      higher ROI than typical investments
+                    <div className="flex items-center" style={{ gap: '8px' }}>
+                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="1" y="1" width="26" height="26" rx="4" stroke="#006FBA" strokeWidth="2"/>
+                        <circle cx="14" cy="14" r="6" stroke="#006FBA" strokeWidth="2"/>
+                        <path d="M14 11V17M12 14.5H16" stroke="#006FBA" strokeWidth="2" strokeLinecap="round"/>
+                      </svg>
+                      <p className="font-dm-sans font-bold" style={{ fontSize: '24px', lineHeight: '1.1', letterSpacing: '-0.72px', color: '#006FBA' }}>
+                        22%
+                      </p>
+                    </div>
+                    <p className="font-dm-sans font-normal" style={{ fontSize: '16px', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
+                      reduction in customer churn
                     </p>
                   </div>
-                </div>
 
-                {/* Stat 3 */}
-                <div className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M20 7L10 17L5 12" stroke="#1e40af" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                    </svg>
-                  </div>
+                  {/* Stat 2 */}
                   <div>
-                    <p
-                      className="font-poppins font-semibold"
-                      style={{ fontSize: '24px', lineHeight: '110%', color: '#1e40af' }}
-                    >
-                      22x
+                    <div className="flex items-center" style={{ gap: '8px' }}>
+                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="1" y="1" width="26" height="26" rx="4" stroke="#006FBA" strokeWidth="2"/>
+                        <rect x="6" y="10" width="16" height="10" rx="1" stroke="#006FBA" strokeWidth="2"/>
+                        <circle cx="11" cy="15" r="2" stroke="#006FBA" strokeWidth="1.5"/>
+                        <path d="M17 20L15 17L13 19" stroke="#006FBA" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                      </svg>
+                      <p className="font-dm-sans font-bold" style={{ fontSize: '24px', lineHeight: '1.1', letterSpacing: '-0.72px', color: '#006FBA' }}>
+                        14%
+                      </p>
+                    </div>
+                    <p className="font-dm-sans font-normal" style={{ fontSize: '16px', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
+                      increase in post-acquisition margin
                     </p>
-                    <p
-                      className="font-inter font-normal"
-                      style={{ fontSize: '14px', lineHeight: '140%', color: '#64748b' }}
-                    >
+                  </div>
+
+                  {/* Stat 3 */}
+                  <div>
+                    <div className="flex items-center" style={{ gap: '8px' }}>
+                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="1" y="1" width="26" height="26" rx="4" stroke="#006FBA" strokeWidth="2"/>
+                        <path d="M10 14L13 17L19 11" stroke="#006FBA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      </svg>
+                      <p className="font-dm-sans font-bold" style={{ fontSize: '24px', lineHeight: '1.1', letterSpacing: '-0.72px', color: '#006FBA' }}>
+                        20x
+                      </p>
+                    </div>
+                    <p className="font-dm-sans font-normal" style={{ fontSize: '16px', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
                       Return on Investment
                     </p>
                   </div>
@@ -678,7 +695,7 @@ export default function FinancialServicesFinTech() {
               </div>
 
               {/* Learn More Button */}
-              <div className="mt-auto mx-auto">
+              <div className="mt-auto mx-auto relative z-10">
                 <button
                   className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
                   style={{
@@ -686,10 +703,9 @@ export default function FinancialServicesFinTech() {
                     height: '60px',
                     borderRadius: '10px',
                     padding: '16px 32px',
-                    background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
+                    background: 'linear-gradient(137.73deg, #6A36FF 15.76%, #AC5FE6 102.86%)',
                     fontSize: '20px',
-                    lineHeight: '140%',
-                    letterSpacing: '0%',
+                    lineHeight: '1.4',
                     border: 'none',
                     cursor: 'pointer',
                     display: 'flex',
@@ -710,46 +726,52 @@ export default function FinancialServicesFinTech() {
       {/* The Functional Consulting Advantage Section */}
       <div className="bg-white py-24 px-6">
         <div className="max-w-[1440px] mx-auto flex flex-col items-center">
-
-          {/* Section Title */}
           <h2
-            className="font-dm-sans font-bold text-center whitespace-nowrap"
+            className="text-center whitespace-nowrap mb-10"
             style={{
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
               fontSize: '48px',
               lineHeight: '105%',
-              letterSpacing: '-3%',
+              letterSpacing: '-0.03em',
               color: '#14358A',
-              marginBottom: '60px'
             }}
           >
             The Functional Consulting Advantage
           </h2>
 
-          {/* Section Content */}
-          <div
-            className="font-dm-sans font-normal"
-            style={{
-              maxWidth: '1082px',
-              fontSize: '30px',
-              lineHeight: '140%',
-              letterSpacing: '0%',
-              color: '#333333',
-              textAlign: 'center'
-            }}
-          >
-            Financial Services and FinTech operate at the intersection of hyper–regulation and rapid technological change. Generalist consultants often provide broad recommendations on market trends or digital strategy that fail to account for the core challenges of regulatory compliance, legacy system modernization, and risk management. Their advice is often rendered impractical by the necessity of robust audit trails and jurisdictional complexity.
-            <br /><br />
-            PMG's model delivers validated, compliant execution. We deploy specialized functional operators, experts in areas like modernizing core banking systems, implementing AI–driven risk models, optimizing regulatory reporting (e.g., Basel, KYC/AML), and scaling new FinTech products. Our specialists don't just advise; they implement proven systems and processes that ensure your transformation is not only efficient and differentiated in the market but is fully auditable and compliant from day one.
+          <div className="max-w-[1082px] text-center">
+            <p
+              style={{
+                fontFamily: 'DM Sans, sans-serif',
+                fontWeight: 400,
+                fontSize: '30px',
+                lineHeight: '140%',
+                color: '#333333',
+              }}
+            >
+              Financial Services and FinTech operate at the intersection of hyper–regulation and rapid technological change. Generalist consultants often provide broad recommendations on market trends or digital strategy that fail to account for the core challenges of regulatory compliance, legacy system modernization, and risk management. Their advice is often rendered impractical by the necessity of robust audit trails and jurisdictional complexity.
+            </p>
+            <p
+              style={{
+                fontFamily: 'DM Sans, sans-serif',
+                fontWeight: 400,
+                fontSize: '30px',
+                lineHeight: '140%',
+                color: '#333333',
+              }}
+            >
+              PMG&apos;s model delivers validated, compliant execution. We deploy specialized functional operators, experts in areas like modernizing core banking systems, implementing AI–driven risk models, optimizing regulatory reporting (e.g., Basel, KYC/AML), and scaling new FinTech products. Our specialists don&apos;t just advise; they implement proven systems and processes that ensure your transformation is not only efficient and differentiated in the market but is fully auditable and compliant from day one.
+            </p>
           </div>
-
         </div>
       </div>
 
-      {/* Call to Action Section */}
+      {/* Partner with PMG Section */}
       <div
         className="text-center flex flex-col items-center"
         style={{
-          background: '#F0F7FC',
+          background: '#EBF7FF',
           padding: '80px 40px'
         }}
       >
@@ -761,7 +783,7 @@ export default function FinancialServicesFinTech() {
             letterSpacing: '-3%'
           }}
         >
-          Ready to Transform Your Financial Operations?
+          Partner with PMG to Build a Resilient Future
         </h2>
         <p
           className="font-montserrat font-normal text-[#333333] mb-10"
@@ -772,7 +794,7 @@ export default function FinancialServicesFinTech() {
             maxWidth: '1196px'
           }}
         >
-          Let&apos;s discuss how we can help you navigate the evolving financial landscape.
+          Let&apos;s work together to navigate the complexities of the financial sector &amp; drive sustainable growth.
         </p>
         <button
           className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
@@ -786,7 +808,7 @@ export default function FinancialServicesFinTech() {
             letterSpacing: '0%'
           }}
         >
-          Request a Consultation
+          Learn about Functional Consulting
         </button>
       </div>
 

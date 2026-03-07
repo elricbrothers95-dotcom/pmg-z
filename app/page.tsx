@@ -1,4 +1,5 @@
-import Header from '@/components/Header';
+﻿import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
@@ -146,101 +147,106 @@ export default function Home() {
         {/* Services List */}
         <div className="max-w-[1353px] mx-auto" style={{ marginTop: '3rem' }}>
           {/* Service Items */}
-          <div className="overflow-hidden" style={{ borderRadius: '56px', boxShadow: '20px 20px 40px 0px rgba(112, 129, 136, 0.2)', borderLeft: '1px solid rgba(255,255,255,0.1)' }}>
+          <div className="overflow-hidden" style={{ borderRadius: '56px', boxShadow: '20px 20px 40px 0px rgba(112, 129, 136, 0.2)', borderLeft: '1px solid white' }}>
             {/* Crisis & Transition Management */}
-            <div 
-              className="flex items-center justify-between px-12"
-              style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)', height: '156px', borderBottom: '1px solid white' }}
+            <div
+              className="flex items-center"
+              style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)', height: '156px', borderBottom: '1px solid white', paddingLeft: '80px', paddingRight: '80px' }}
             >
-              <div className="flex items-center gap-4">
-                <img src="/arrow-icon.png" alt="Arrow" style={{ width: '24px', height: '24px' }} />
-                <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '30px', lineHeight: '120%' }}>Crisis & Transition Management</span>
+              <img src="/arrow-icon.png" alt="Arrow" style={{ width: '24px', height: '24px', flexShrink: 0 }} />
+              <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '30px', lineHeight: '120%', marginLeft: '32px', width: '524px', flexShrink: 0 }}>Crisis & Transition Management</span>
+              <div className="text-white flex flex-col" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 500, fontSize: '30px', lineHeight: '120%', marginLeft: '94px' }}>
+                <p>Navigating Uncertainty,</p>
+                <p>Delivering Stability.</p>
               </div>
-              <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 500, fontSize: '30px', lineHeight: '60%' }}>Navigating Uncertainty, Delivering Stability.</span>
             </div>
 
             {/* Mergers & Acquisitions */}
-            <div 
-              className="flex items-center justify-between px-12"
-              style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)', height: '156px', borderBottom: '1px solid white' }}
+            <div
+              className="flex items-center"
+              style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)', height: '142px', borderBottom: '1px solid white', paddingLeft: '80px', paddingRight: '80px' }}
             >
-              <div className="flex items-center gap-4">
-                <img src="/arrow-icon.png" alt="Arrow" style={{ width: '24px', height: '24px' }} />
-                <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '30px', lineHeight: '120%' }}>Mergers & Acquisitions</span>
+              <img src="/arrow-icon.png" alt="Arrow" style={{ width: '24px', height: '24px', flexShrink: 0 }} />
+              <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '30px', lineHeight: '120%', marginLeft: '32px', width: '524px', flexShrink: 0 }}>Mergers & Acquisitions</span>
+              <div className="text-white flex flex-col" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 500, fontSize: '30px', lineHeight: '120%', marginLeft: '94px' }}>
+                <p>Realizing the synergies that</p>
+                <p>others leave on the table.</p>
               </div>
-              <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 500, fontSize: '30px', lineHeight: '60%' }}>Realizing the synergies that others leave on the table.</span>
             </div>
 
             {/* Branding & Marketing */}
-            <div 
-              className="flex items-center justify-between px-12"
-              style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)', height: '156px', borderBottom: '1px solid white' }}
+            <div
+              className="flex items-center"
+              style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)', height: '142px', borderBottom: '1px solid white', paddingLeft: '80px', paddingRight: '80px' }}
             >
-              <div className="flex items-center gap-4">
-                <img src="/arrow-icon.png" alt="Arrow" style={{ width: '24px', height: '24px' }} />
-                <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '30px', lineHeight: '120%' }}>Branding & Marketing</span>
+              <img src="/arrow-icon.png" alt="Arrow" style={{ width: '24px', height: '24px', flexShrink: 0 }} />
+              <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '30px', lineHeight: '120%', marginLeft: '32px', width: '524px', flexShrink: 0 }}>Branding & Marketing</span>
+              <div className="text-white flex flex-col" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 500, fontSize: '30px', lineHeight: '120%', marginLeft: '94px' }}>
+                <p>Crafting Identities That Captivate.</p>
               </div>
-              <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 500, fontSize: '30px', lineHeight: '60%' }}>Crafting Identities That Captivate.</span>
             </div>
 
             {/* BPO & Fractional Talent */}
-            <div 
-              className="flex items-center justify-between px-12"
-              style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)', height: '156px', borderBottom: '1px solid white' }}
+            <div
+              className="flex items-center"
+              style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)', height: '142px', borderBottom: '1px solid white', paddingLeft: '80px', paddingRight: '80px' }}
             >
-              <div className="flex items-center gap-4">
-                <img src="/arrow-icon.png" alt="Arrow" style={{ width: '24px', height: '24px' }} />
-                <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '30px', lineHeight: '120%' }}>BPO & Fractional Talent</span>
+              <img src="/arrow-icon.png" alt="Arrow" style={{ width: '24px', height: '24px', flexShrink: 0 }} />
+              <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '30px', lineHeight: '120%', marginLeft: '32px', width: '524px', flexShrink: 0 }}>BPO & Fractional Talent</span>
+              <div className="text-white flex flex-col" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 500, fontSize: '30px', lineHeight: '120%', marginLeft: '94px' }}>
+                <p>Scaling your infrastructure</p>
+                <p>without scaling your overhead.</p>
               </div>
-              <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 500, fontSize: '30px', lineHeight: '60%' }}>Scaling your infrastructure without scaling your overhead.</span>
             </div>
 
             {/* Custom Experience */}
-            <div 
-              className="flex items-center justify-between px-12"
-              style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)', height: '156px', borderBottom: '1px solid white' }}
+            <div
+              className="flex items-center"
+              style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)', height: '142px', borderBottom: '1px solid white', paddingLeft: '80px', paddingRight: '80px' }}
             >
-              <div className="flex items-center gap-4">
-                <img src="/arrow-icon.png" alt="Arrow" style={{ width: '24px', height: '24px' }} />
-                <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '30px', lineHeight: '120%' }}>Custom Experience</span>
+              <img src="/arrow-icon.png" alt="Arrow" style={{ width: '24px', height: '24px', flexShrink: 0 }} />
+              <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '30px', lineHeight: '120%', marginLeft: '32px', width: '524px', flexShrink: 0 }}>Custom Experience</span>
+              <div className="text-white flex flex-col" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 500, fontSize: '30px', lineHeight: '120%', marginLeft: '94px' }}>
+                <p>Engineering high-retention,</p>
+                <p>high-value journey</p>
               </div>
-              <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 500, fontSize: '30px', lineHeight: '60%' }}>Engineering high-retention, high-value journey</span>
             </div>
 
             {/* People & Organizations */}
-            <div 
-              className="flex items-center justify-between px-12"
-              style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)', height: '156px', borderBottom: '1px solid white' }}
+            <div
+              className="flex items-center"
+              style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)', height: '142px', borderBottom: '1px solid white', paddingLeft: '80px', paddingRight: '80px' }}
             >
-              <div className="flex items-center gap-4">
-                <img src="/arrow-icon.png" alt="Arrow" style={{ width: '24px', height: '24px' }} />
-                <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '30px', lineHeight: '120%' }}>People & Organizations</span>
+              <img src="/arrow-icon.png" alt="Arrow" style={{ width: '24px', height: '24px', flexShrink: 0 }} />
+              <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '30px', lineHeight: '120%', marginLeft: '32px', width: '524px', flexShrink: 0 }}>People & Organizations</span>
+              <div className="text-white flex flex-col" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 500, fontSize: '30px', lineHeight: '120%', marginLeft: '94px' }}>
+                <p>We solve the &ldquo;People Tax&rdquo; on P&amp;L.</p>
               </div>
-              <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 500, fontSize: '30px', lineHeight: '60%' }}>We solve the "People Tax" on P&L.</span>
             </div>
 
             {/* Operations & Strategy */}
-            <div 
-              className="flex items-center justify-between px-12"
-              style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)', height: '156px' }}
+            <div
+              className="flex items-center"
+              style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)', height: '142px', paddingLeft: '80px', paddingRight: '80px' }}
             >
-              <div className="flex items-center gap-4">
-                <img src="/arrow-icon.png" alt="Arrow" style={{ width: '24px', height: '24px' }} />
-                <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '30px', lineHeight: '120%' }}>Operations & Strategy</span>
+              <img src="/arrow-icon.png" alt="Arrow" style={{ width: '24px', height: '24px', flexShrink: 0 }} />
+              <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '30px', lineHeight: '120%', marginLeft: '32px', width: '524px', flexShrink: 0 }}>Operations & Strategy</span>
+              <div className="text-white flex flex-col" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 500, fontSize: '30px', lineHeight: '120%', marginLeft: '94px' }}>
+                <p>Efficiency Engineering,</p>
+                <p>Excellence Delivered</p>
               </div>
-              <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 500, fontSize: '30px', lineHeight: '60%' }}>Efficiency Engineering. Excellence Delivered</span>
             </div>
 
             {/* Explore More Button */}
-            <div 
-              className="flex items-center justify-center py-8"
-              style={{ 
+            <div
+              className="flex items-center justify-center"
+              style={{
                 background: '#AC5FE6',
                 boxShadow: '20px 20px 40px 0px rgba(112, 129, 136, 0.2)',
-                borderTop: '1px solid white'
+                height: '117px'
               }}
             >
-              <button 
+              <button
                 className="text-white font-montserrat font-medium text-lg flex items-center gap-3 hover:bg-white/10 transition-all"
                 style={{
                   border: '1px solid white',
@@ -412,430 +418,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Our Work Section */}
-      <div className="relative z-10 bg-white py-20">
-        {/* Section Heading */}
-        <h2 
-          className="text-center font-bold mb-6"
-          style={{
-            fontFamily: 'DM Sans, sans-serif',
-            fontSize: '48px',
-            lineHeight: '105%',
-            letterSpacing: '-0.03em',
-            color: '#14358A',
-          }}
-        >
-          Our Work
-        </h2>
-
-        {/* Description */}
-        <p 
-          className="text-center font-montserrat font-normal mb-16"
-          style={{
-            fontSize: '30px',
-            lineHeight: '140%',
-            color: '#333333',
-            maxWidth: '1082px',
-            margin: '0 auto 4rem auto',
-            padding: '0 2rem'
-          }}
-        >
-          Our work supports strategy, operations, & transformation—equipping financial leaders with the tools to deliver meaningful change.
-        </p>
-
-        {/* Cards Grid */}
-        <div className="max-w-[1312px] mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Card 1 - Policy & Strategy Development */}
-            <div 
-              className="bg-white rounded-[10px] p-8"
-              style={{
-                border: '3px solid #14358A',
-                minHeight: '260px'
-              }}
-            >
-              {/* Icon */}
-              <div 
-                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
-                style={{ background: '#14358A' }}
-              >
-                <img src="/icons/policy-strategy.png" alt="Policy & Strategy" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
-              </div>
-
-              {/* Title */}
-              <h3 
-                className="font-bold mb-3"
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontSize: '29px',
-                  lineHeight: '105%',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A'
-                }}
-              >
-                Policy & Strategy Development
-              </h3>
-
-              {/* Description */}
-              <p 
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontSize: '15px',
-                  lineHeight: '140%',
-                  color: '#68718B'
-                }}
-              >
-                Design ambitious yet practical policies and strategies to support economic growth, improve public service delivery, and maximize long-term societal impact.
-              </p>
-            </div>
-
-            {/* Card 2 - Operational Efficiency */}
-            <div 
-              className="bg-white rounded-[10px] p-8"
-              style={{
-                border: '3px solid #14358A',
-                minHeight: '260px'
-              }}
-            >
-              {/* Icon */}
-              <div 
-                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
-                style={{ background: '#14358A' }}
-              >
-                <img src="/icons/operational-efficiency.png" alt="Operational Efficiency" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
-              </div>
-
-              {/* Title */}
-              <h3 
-                className="font-bold mb-3"
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontSize: '29px',
-                  lineHeight: '105%',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A'
-                }}
-              >
-                Operational Efficiency
-              </h3>
-
-              {/* Description */}
-              <p 
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontSize: '15px',
-                  lineHeight: '140%',
-                  color: '#68718B'
-                }}
-              >
-                Support efficiency initiatives through process optimization, performance measurement, and resource allocation, enabling departments to do more with less.
-              </p>
-            </div>
-
-            {/* Card 3 - Digital Government & Service Transformation */}
-            <div 
-              className="bg-white rounded-[10px] p-8"
-              style={{
-                border: '3px solid #14358A',
-                minHeight: '260px'
-              }}
-            >
-              {/* Icon */}
-              <div 
-                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
-                style={{ background: '#14358A' }}
-              >
-                <img src="/icons/digital-government.png" alt="Digital Government" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
-              </div>
-
-              {/* Title */}
-              <h3 
-                className="font-bold mb-3"
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontSize: '29px',
-                  lineHeight: '105%',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A'
-                }}
-              >
-                Digital Government & Service Transformation
-              </h3>
-
-              {/* Description */}
-              <p 
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontSize: '15px',
-                  lineHeight: '140%',
-                  color: '#68718B'
-                }}
-              >
-                Design and implement digital platforms, data strategies, and user-centered services to significantly improve citizen accessibility and satisfaction.
-              </p>
-            </div>
-
-            {/* Card 4 - Public Infrastructure & Capital Projects */}
-            <div 
-              className="bg-white rounded-[10px] p-8"
-              style={{
-                border: '3px solid #14358A',
-                minHeight: '260px'
-              }}
-            >
-              {/* Icon */}
-              <div 
-                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
-                style={{ background: '#14358A' }}
-              >
-                <img src="/icons/infrastructure.png" alt="Infrastructure" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
-              </div>
-
-              {/* Title */}
-              <h3 
-                className="font-bold mb-3"
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontSize: '29px',
-                  lineHeight: '105%',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A'
-                }}
-              >
-                Public Infrastructure & Capital Projects
-              </h3>
-
-              {/* Description */}
-              <p 
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontSize: '15px',
-                  lineHeight: '140%',
-                  color: '#68718B'
-                }}
-              >
-                Advise on the planning, financing, and delivery of major infrastructure projects, ensuring maximum public value is delivered on time and on budget.
-              </p>
-            </div>
-
-            {/* Card 5 - Fiscal & Financial Management */}
-            <div 
-              className="bg-white rounded-[10px] p-8"
-              style={{
-                border: '3px solid #14358A',
-                minHeight: '260px'
-              }}
-            >
-              {/* Icon */}
-              <div 
-                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
-                style={{ background: '#14358A' }}
-              >
-                <img src="/icons/fiscal-management.png" alt="Fiscal Management" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
-              </div>
-
-              {/* Title */}
-              <h3 
-                className="font-bold mb-3"
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontSize: '29px',
-                  lineHeight: '105%',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A'
-                }}
-              >
-                Fiscal & Financial Management
-              </h3>
-
-              {/* Description */}
-              <p 
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontSize: '15px',
-                  lineHeight: '140%',
-                  color: '#68718B'
-                }}
-              >
-                Advise on fiscal strategy, budget optimization, and cost reduction to ensure long-term financial sustainability while maintaining critical service quality.
-              </p>
-            </div>
-
-            {/* Card 6 - Workforce & Organizational Transformation */}
-            <div 
-              className="bg-white rounded-[10px] p-8"
-              style={{
-                border: '3px solid #14358A',
-                minHeight: '260px'
-              }}
-            >
-              {/* Icon */}
-              <div 
-                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
-                style={{ background: '#14358A' }}
-              >
-                <img src="/icons/workforce.png" alt="Workforce" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
-              </div>
-
-              {/* Title */}
-              <h3 
-                className="font-bold mb-3"
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontSize: '29px',
-                  lineHeight: '105%',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A'
-                }}
-              >
-                Workforce & Organizational Transformation
-              </h3>
-
-              {/* Description */}
-              <p 
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontSize: '15px',
-                  lineHeight: '140%',
-                  color: '#68718B'
-                }}
-              >
-                Strengthen workforce strategies, enhance training, and build organizational cultures that promote innovation and internal accountability.
-              </p>
-            </div>
-
-            {/* Card 7 - Program Evaluation & Impact Measurement */}
-            <div 
-              className="bg-white rounded-[10px] p-8"
-              style={{
-                border: '3px solid #14358A',
-                minHeight: '260px'
-              }}
-            >
-              {/* Icon */}
-              <div 
-                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
-                style={{ background: '#14358A' }}
-              >
-                <img src="/icons/program-evaluation.png" alt="Program Evaluation" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
-              </div>
-
-              {/* Title */}
-              <h3 
-                className="font-bold mb-3"
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontSize: '29px',
-                  lineHeight: '105%',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A'
-                }}
-              >
-                Program Evaluation & Impact Measurement
-              </h3>
-
-              {/* Description */}
-              <p 
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontSize: '15px',
-                  lineHeight: '140%',
-                  color: '#68718B'
-                }}
-              >
-                Design and implement frameworks to rigorously measure program outcomes, evaluate efficacy, and ensure government investments deliver meaningful community impact.
-              </p>
-            </div>
-
-            {/* Card 8 - Stakeholder Engagement & Public Consultation */}
-            <div 
-              className="bg-white rounded-[10px] p-8"
-              style={{
-                border: '3px solid #14358A',
-                minHeight: '260px'
-              }}
-            >
-              {/* Icon */}
-              <div 
-                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
-                style={{ background: '#14358A' }}
-              >
-                <img src="/icons/stakeholder-engagement.png" alt="Stakeholder Engagement" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
-              </div>
-
-              {/* Title */}
-              <h3 
-                className="font-bold mb-3"
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontSize: '29px',
-                  lineHeight: '105%',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A'
-                }}
-              >
-                Stakeholder Engagement & Public Consultation
-              </h3>
-
-              {/* Description */}
-              <p 
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontSize: '15px',
-                  lineHeight: '140%',
-                  color: '#68718B'
-                }}
-              >
-                Facilitate transparent dialogue and public consultation to build trust and ensure policy decisions are informed by diverse citizen and stakeholder perspectives.
-              </p>
-            </div>
-
-            {/* Card 9 - Procurement & Sourcing Modernization */}
-            <div 
-              className="bg-white rounded-[10px] p-8"
-              style={{
-                border: '3px solid #14358A',
-                minHeight: '260px'
-              }}
-            >
-              {/* Icon */}
-              <div 
-                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
-                style={{ background: '#14358A' }}
-              >
-                <img src="/icons/procurement.png" alt="Procurement" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
-              </div>
-
-              {/* Title */}
-              <h3 
-                className="font-bold mb-3"
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontSize: '29px',
-                  lineHeight: '105%',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A'
-                }}
-              >
-                Procurement & Sourcing Modernization
-              </h3>
-
-              {/* Description */}
-              <p 
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontSize: '15px',
-                  lineHeight: '140%',
-                  color: '#68718B'
-                }}
-              >
-                Reform procurement processes to enhance transparency, achieve greater value for money, and support strategic goals like economic development and sustainability.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
       {/* Traditional Consulting is Broken Section */}
       <div className="relative z-10 bg-white py-20">
         {/* Section Heading */}
@@ -870,7 +452,7 @@ export default function Home() {
         {/* CTA Buttons */}
         <div className="flex items-center justify-center gap-5">
           <button 
-            className="text-white font-poppins font-semibold hover:opacity-90 transition-opacity"
+            className="text-white font-poppins font-semibold hover:opacity-90 transition-opacity flex items-center gap-3"
             style={{
               background: '#14358A',
               border: '2px solid #14358A',
@@ -879,7 +461,8 @@ export default function Home() {
               fontSize: '18px'
             }}
           >
-            Explore Strategic solutions ›
+            Explore Strategic solutions
+            <img src="/icons/right-2.png" alt="" style={{ width: '24px', height: '24px' }} />
           </button>
 
           <button 
@@ -1136,496 +719,38 @@ export default function Home() {
 
           {/* Description */}
           <p 
-            className="font-dm-sans font-normal mb-8"
+            className="font-dm-sans font-normal"
             style={{
               fontSize: '18px',
               lineHeight: '135%',
               color: '#68718B',
               maxWidth: '563px',
-              margin: '0 auto 2rem auto'
+              margin: '0 auto 18px auto'
             }}
           >
             Connect with our executive team to solve your critical challenges
             and capitalize on opportunities for immediate, high-impact growth.
           </p>
 
-          {/* CTA Buttons */}
-          <div className="flex items-center justify-center gap-5">
+          {/* CTA Button */}
+          <div className="flex items-center justify-center">
             <button 
-              className="text-white font-dm-sans font-semibold rounded-[10px] hover:opacity-90 transition-opacity"
+              className="text-white font-dm-sans font-bold rounded-[10px] hover:opacity-90 transition-opacity"
               style={{
                 background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
-                padding: '16px 32px',
-                fontSize: '16px'
-              }}
-            >
-              Request a demo
-            </button>
-
-            <button 
-              className="font-dm-sans font-semibold rounded-[10px] hover:bg-purple-50 transition-colors"
-              style={{
-                background: 'transparent',
-                border: '1px solid',
-                borderImage: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
-                borderImageSlice: 1,
-                padding: '16px 32px',
+                width: '245px',
+                height: '54px',
                 fontSize: '16px',
-                color: '#6A36FF'
+                lineHeight: '140%'
               }}
             >
-              Try for free
+              Request a consultation
             </button>
           </div>
         </div>
       </div>
 
-      {/* Ready for a Definitive Path to Transformation Section */}
-      <div className="relative z-10 bg-white py-16 lg:py-24 overflow-hidden">
-        {/* Decorative Background Element */}
-        <div 
-          className="absolute right-0 top-0 w-[280px] lg:w-[300px] h-[100px] lg:h-[116px] opacity-100"
-          style={{
-            background: 'linear-gradient(277.47deg, rgba(0, 151, 254, 0) 8.72%, rgba(0, 151, 254, 0.86) 91.5%)'
-          }}
-        />
-
-        <div className="max-w-[1440px] mx-auto px-6 lg:px-12 xl:px-20 relative">
-          {/* Section Heading */}
-          <h2 
-            className="text-center font-poppins font-semibold mb-8 lg:mb-12"
-            style={{
-              fontSize: 'clamp(32px, 3.5vw, 50px)',
-              lineHeight: '1.1',
-              color: '#14358A'
-            }}
-          >
-            Ready for a Definitive Path to Transformation?
-          </h2>
-
-          {/* Description */}
-          <p 
-            className="text-center font-montserrat font-normal mb-12 lg:mb-16 mx-auto"
-            style={{
-              fontSize: 'clamp(20px, 2vw, 30px)',
-              lineHeight: '1.4',
-              color: '#333333',
-              maxWidth: '1082px'
-            }}
-          >
-            PMG's expertise translates directly into superior results. Explore our structured engagement models, ensuring the right expertise is delivered in a way that aligns perfectly with your growth goals.
-          </p>
-
-          {/* Solution Cards Grid - Top Row */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 xl:gap-10 mb-6 lg:mb-8 xl:mb-10 max-w-[1200px] mx-auto">
-            {/* Out-of-the-Box Solutions Card */}
-            <div 
-              className="bg-white rounded-[10px] p-6 lg:p-8 relative"
-              style={{
-                border: '3px solid #14358A',
-                minHeight: '335px'
-              }}
-            >
-              {/* Icon */}
-              <div 
-                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
-                style={{ background: '#14358A' }}
-              >
-                <img src="/cube-three.png" alt="Out-of-the-Box Solutions" className="w-10 h-10" />
-              </div>
-
-              {/* Title */}
-              <h3 
-                className="font-dm-sans font-bold mb-2"
-                style={{
-                  fontSize: 'clamp(24px, 2vw, 29px)',
-                  lineHeight: '1.05',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A'
-                }}
-              >
-                Out-of-the-Box Solutions
-              </h3>
-
-              {/* Subtitle */}
-              <p 
-                className="font-dm-sans mb-4"
-                style={{
-                  fontSize: '16px',
-                  lineHeight: '1.4',
-                  color: '#68718B'
-                }}
-              >
-                Simple · Affordable · Self-Directed
-              </p>
-
-              {/* Description */}
-              <p 
-                className="font-dm-sans mb-6"
-                style={{
-                  fontSize: '18px',
-                  lineHeight: '1.67',
-                  color: '#68718B',
-                  marginBottom: 'auto'
-                }}
-              >
-                Pre-packaged, technology-enabled offerings designed to rapidly address common industry challenges and deliver immediate value.
-              </p>
-
-              {/* CTA Link */}
-              <a 
-                href="#"
-                className="font-inter font-semibold inline-flex items-center gap-2 hover:gap-3 transition-all"
-                style={{
-                  fontSize: '21px',
-                  lineHeight: '1.43',
-                  color: '#14358A'
-                }}
-              >
-                Explore Strategic solutions
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                  <path d="M4 10H16M16 10L10 4M16 10L10 16" stroke="#14358A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-              </a>
-            </div>
-
-            {/* Bespoke Solutions Card */}
-            <div 
-              className="bg-white rounded-[10px] p-6 lg:p-8 relative"
-              style={{
-                border: '3px solid #14358A',
-                minHeight: '335px'
-              }}
-            >
-              {/* Icon */}
-              <div 
-                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
-                style={{ background: '#14358A' }}
-              >
-                <img src="/pencil.png" alt="Bespoke Solutions" className="w-10 h-10" />
-              </div>
-
-              {/* Title */}
-              <h3 
-                className="font-dm-sans font-bold mb-2"
-                style={{
-                  fontSize: 'clamp(24px, 2vw, 29px)',
-                  lineHeight: '1.05',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A'
-                }}
-              >
-                Bespoke Solutions
-              </h3>
-
-              {/* Subtitle */}
-              <p 
-                className="font-dm-sans mb-4"
-                style={{
-                  fontSize: '16px',
-                  lineHeight: '1.4',
-                  color: '#68718B'
-                }}
-              >
-                Custom · Flexible · Fully Supported
-              </p>
-
-              {/* Description */}
-              <p 
-                className="font-dm-sans mb-6"
-                style={{
-                  fontSize: '18px',
-                  lineHeight: '1.67',
-                  color: '#68718B'
-                }}
-              >
-                Tailored to your specific, complex needs. Our custom solutions are managed hands-on by our world-class expert team, ensuring high-impact innovation.
-              </p>
-
-              {/* CTA Link */}
-              <a 
-                href="#"
-                className="font-inter font-semibold inline-flex items-center gap-2 hover:gap-3 transition-all"
-                style={{
-                  fontSize: '21px',
-                  lineHeight: '1.43',
-                  color: '#14358A'
-                }}
-              >
-                Explore Strategic solutions
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                  <path d="M4 10H16M16 10L10 4M16 10L10 16" stroke="#14358A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-              </a>
-            </div>
-          </div>
-
-          {/* Solution Cards Grid - Bottom Row */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 xl:gap-10 max-w-[1200px] mx-auto">
-            {/* Active Management Solutions Card */}
-            <div 
-              className="bg-white rounded-[10px] p-6 lg:p-8 relative"
-              style={{
-                border: '3px solid #14358A',
-                minHeight: '335px'
-              }}
-            >
-              {/* Icon */}
-              <div 
-                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
-                style={{ background: '#14358A' }}
-              >
-                <img src="/right-user.png" alt="Active Management Solutions" className="w-10 h-10" />
-              </div>
-
-              {/* Title */}
-              <h3 
-                className="font-dm-sans font-bold mb-2"
-                style={{
-                  fontSize: 'clamp(24px, 2vw, 29px)',
-                  lineHeight: '1.05',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A'
-                }}
-              >
-                Active Management Solutions
-              </h3>
-
-              {/* Subtitle */}
-              <p 
-                className="font-dm-sans mb-4"
-                style={{
-                  fontSize: '16px',
-                  lineHeight: '1.4',
-                  color: '#68718B'
-                }}
-              >
-                Proactive · Expert-Led · Fully Managed
-              </p>
-
-              {/* Description */}
-              <p 
-                className="font-dm-sans mb-6"
-                style={{
-                  fontSize: '18px',
-                  lineHeight: '1.67',
-                  color: '#68718B'
-                }}
-              >
-                We don't just consult—we actively manage critical functions. PMG leads hands-on, end-to-end solution delivery with full accountability for results.
-              </p>
-
-              {/* CTA Link */}
-              <a 
-                href="#"
-                className="font-inter font-semibold inline-flex items-center gap-2 hover:gap-3 transition-all"
-                style={{
-                  fontSize: '21px',
-                  lineHeight: '1.43',
-                  color: '#14358A'
-                }}
-              >
-                Explore Strategic solutions
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                  <path d="M4 10H16M16 10L10 4M16 10L10 16" stroke="#14358A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-              </a>
-            </div>
-
-            {/* Equity Engagements Card */}
-            <div 
-              className="bg-white rounded-[10px] p-6 lg:p-8 relative"
-              style={{
-                border: '3px solid #14358A',
-                minHeight: '335px'
-              }}
-            >
-              {/* Icon */}
-              <div 
-                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
-                style={{ background: '#14358A' }}
-              >
-                <img src="/efferent-four.png" alt="Equity Engagements" className="w-10 h-10" />
-              </div>
-
-              {/* Title */}
-              <h3 
-                className="font-dm-sans font-bold mb-2"
-                style={{
-                  fontSize: 'clamp(24px, 2vw, 29px)',
-                  lineHeight: '1.05',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A'
-                }}
-              >
-                Equity Engagements
-              </h3>
-
-              {/* Subtitle */}
-              <p 
-                className="font-dm-sans mb-4"
-                style={{
-                  fontSize: '16px',
-                  lineHeight: '1.4',
-                  color: '#68718B'
-                }}
-              >
-                Aligned · Scalable · Capital-Efficient
-              </p>
-
-              {/* Description */}
-              <p 
-                className="font-dm-sans mb-6"
-                style={{
-                  fontSize: '18px',
-                  lineHeight: '1.67',
-                  color: '#68718B'
-                }}
-              >
-                Access top-tier strategy and execution without draining vital cash reserves. PMG invests proprietary expertise for equity, directly aligning our success with your maximized outcomes.
-              </p>
-
-              {/* CTA Link */}
-              <a 
-                href="#"
-                className="font-inter font-semibold inline-flex items-center gap-2 hover:gap-3 transition-all"
-                style={{
-                  fontSize: '21px',
-                  lineHeight: '1.43',
-                  color: '#14358A'
-                }}
-              >
-                Explore Strategic solutions
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                  <path d="M4 10H16M16 10L10 4M16 10L10 16" stroke="#14358A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Unsure Which Solution Fits Section */}
-      <div className="relative z-10 py-16 lg:py-20" style={{ background: '#EBF7FF' }}>
-        <div className="max-w-[1200px] mx-auto px-6 lg:px-12 text-center">
-          {/* Heading */}
-          <h2 
-            className="font-dm-sans font-bold mb-6 lg:mb-8"
-            style={{
-              fontSize: 'clamp(32px, 3.3vw, 48px)',
-              lineHeight: '1.05',
-              letterSpacing: '-0.03em',
-              color: '#14358A'
-            }}
-          >
-            Unsure which solution fits your business?
-          </h2>
-
-          {/* Description */}
-          <p 
-            className="font-montserrat font-normal mb-10 lg:mb-12 mx-auto"
-            style={{
-              fontSize: 'clamp(20px, 2.2vw, 32px)',
-              lineHeight: '1.35',
-              color: '#333333',
-              maxWidth: '1196px'
-            }}
-          >
-            Our proprietary Solutions Assessment Tool helps you pinpoint the perfect, expert-backed strategy for your unique challenges.
-          </p>
-
-          {/* CTA Button */}
-          <button 
-            className="text-white font-dm-sans font-bold rounded-[10px] hover:opacity-90 transition-all transform hover:scale-105"
-            style={{
-              background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
-              padding: '16px 32px',
-              fontSize: 'clamp(18px, 1.4vw, 20px)',
-              lineHeight: '1.4',
-              minWidth: '280px'
-            }}
-          >
-            Find your ideal solution
-          </button>
-        </div>
-      </div>
-
-      {/* Footer */}
-      <footer className="relative z-10 py-20" style={{ background: '#1B45B4' }}>
-        <div className="max-w-7xl mx-auto px-20">
-          <div className="grid grid-cols-5 gap-16">
-            {/* Logo Column */}
-            <div>
-              <h2 className="text-white mb-2" style={{ fontSize: '38px', lineHeight: '100%' }}>
-                <span className="logo-text">PMG</span> <span style={{ fontFamily: 'var(--font-inter), Inter, sans-serif', fontWeight: 700, letterSpacing: '-0.02em' }}>Consulting</span>
-              </h2>
-              <p className="font-dm-sans font-normal" style={{ fontSize: '20px', lineHeight: '135%', color: '#FFFFFF', opacity: 0.7 }}>
-                Driving Industries Forward
-              </p>
-            </div>
-
-            {/* What we Do Column */}
-            <div>
-              <h3 className="text-white font-trade-gothic font-bold text-[25px] mb-4" style={{ lineHeight: '100%' }}>
-                What we Do
-              </h3>
-              <ul className="space-y-3">
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>Our Services</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>Our Solutions</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>Rebuilding from within</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>Why Consulting?</a></li>
-              </ul>
-            </div>
-
-            {/* Our Content Column */}
-            <div>
-              <h3 className="text-white font-trade-gothic font-bold text-[25px] mb-4" style={{ lineHeight: '100%' }}>
-                Our Content
-              </h3>
-              <ul className="space-y-3">
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>FAQs</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>Insights & Innovations</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>Community Programs</a></li>
-              </ul>
-              <h3 className="text-white font-trade-gothic font-bold text-[25px] mt-8 mb-4" style={{ lineHeight: '100%' }}>
-                Working with PMG
-              </h3>
-              <ul className="space-y-3">
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>Careers</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>Licensing</a></li>
-              </ul>
-            </div>
-
-            {/* Our Models Column */}
-            <div>
-              <h3 className="text-white font-trade-gothic font-bold text-[25px] mb-4" style={{ lineHeight: '100%' }}>
-                Our Models
-              </h3>
-              <ul className="space-y-3">
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>Sector Convergence Model</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>I-O Enterprise Architecture</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>Bussiness Value-Unit Model</a></li>
-              </ul>
-            </div>
-
-            {/* Legal Column */}
-            <div>
-              <h3 className="text-white font-trade-gothic font-bold text-[25px] mb-4" style={{ lineHeight: '100%' }}>
-                Legal
-              </h3>
-              <ul className="space-y-3">
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>Privacy & Cookie Policy</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>Hiring & Equal Opportunity</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>AI & Data Ethics Statement</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>Anti-Modern Slavery Policy</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>Intellectual Property</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>Regionalization Policy</a></li>
-                <li><a href="#" className="text-white font-montserrat font-medium text-[20px] opacity-70 hover:opacity-100 transition-opacity" style={{ lineHeight: '150%', display: 'block' }}>Digital Terms of Use</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </main>
   );
 }

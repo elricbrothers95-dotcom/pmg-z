@@ -1,5 +1,6 @@
-import Image from 'next/image';
+﻿import Image from 'next/image';
 import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 export default function EquitySolutions() {
   return (
@@ -998,6 +999,390 @@ export default function EquitySolutions() {
         </div>
       </section>
 
+      {/* ─── Our Projects Section ─── */}
+      <section
+        className="relative w-full py-24 px-6"
+        style={{
+          background: 'linear-gradient(135deg, #1B45B4 0%, #0D1A7A 100%)',
+          minHeight: '852px'
+        }}
+      >
+        <div className="max-w-[1300px] mx-auto relative z-10">
+          {/* Section Title */}
+          <h2
+            className="font-poppins font-semibold text-white text-center mb-16"
+            style={{
+              fontSize: '48px',
+              lineHeight: '105%',
+              letterSpacing: '-3%'
+            }}
+          >
+            Our Projects
+          </h2>
+
+          {/* Project Cards Grid */}
+          <div
+            className="flex justify-center flex-wrap"
+            style={{ gap: '64px' }}
+          >
+            {/* Card 1: Trilogy Software */}
+            <div
+              className="bg-white relative overflow-hidden"
+              style={{
+                width: '381px',
+                minHeight: '378px',
+                borderRadius: '10px',
+                border: '1px solid #E0E7EF',
+                padding: '24px',
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '48px'
+              }}
+            >
+              {/* Pattern Overlay */}
+              <div
+                className="absolute top-0 left-0"
+                style={{
+                  width: '375px',
+                  height: '240px',
+                  background: '#EBF7FF',
+                  clipPath: 'polygon(0 0, 100% 0, 100% 40%, 0 100%)',
+                  zIndex: 0
+                }}
+              />
+
+              {/* Content */}
+              <div className="relative z-10 flex flex-col" style={{ gap: '24px' }}>
+                <h3
+                  className="font-dm-sans font-bold text-center"
+                  style={{
+                    fontSize: '30px',
+                    lineHeight: '1.1',
+                    letterSpacing: '-0.9px',
+                    color: '#006FBA'
+                  }}
+                >
+                  Trilogy Software
+                </h3>
+
+                {/* Stats */}
+                <div className="flex flex-col" style={{ gap: '20px' }}>
+                  <div>
+                    <div className="flex items-center" style={{ gap: '8px' }}>
+                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="1" y="1" width="26" height="26" rx="4" stroke="#006FBA" strokeWidth="2"/>
+                        <circle cx="14" cy="14" r="6" stroke="#006FBA" strokeWidth="2"/>
+                        <path d="M14 11V17M12 14.5H16" stroke="#006FBA" strokeWidth="2" strokeLinecap="round"/>
+                      </svg>
+                      <p className="font-dm-sans font-bold" style={{ fontSize: '24px', lineHeight: '1.1', letterSpacing: '-0.72px', color: '#006FBA' }}>
+                        $8M
+                      </p>
+                    </div>
+                    <p className="font-dm-sans font-normal" style={{ fontSize: '16px', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
+                      in annual support costs saved
+                    </p>
+                  </div>
+
+                  <div>
+                    <div className="flex items-center" style={{ gap: '8px' }}>
+                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="1" y="1" width="26" height="26" rx="4" stroke="#006FBA" strokeWidth="2"/>
+                        <path d="M8 18L12 13L16 15L20 10" stroke="#006FBA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M17 10H20V13" stroke="#006FBA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      </svg>
+                      <p className="font-dm-sans font-bold" style={{ fontSize: '24px', lineHeight: '1.1', letterSpacing: '-0.72px', color: '#006FBA' }}>
+                        16%
+                      </p>
+                    </div>
+                    <p className="font-dm-sans font-normal" style={{ fontSize: '16px', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
+                      increase in Customer Satisfaction
+                    </p>
+                  </div>
+
+                  <div>
+                    <div className="flex items-center" style={{ gap: '8px' }}>
+                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="1" y="1" width="26" height="26" rx="4" stroke="#006FBA" strokeWidth="2"/>
+                        <rect x="6" y="10" width="16" height="10" rx="1" stroke="#006FBA" strokeWidth="2"/>
+                        <circle cx="11" cy="15" r="2" stroke="#006FBA" strokeWidth="1.5"/>
+                        <path d="M17 20L15 17L13 19" stroke="#006FBA" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                      </svg>
+                      <p className="font-dm-sans font-bold" style={{ fontSize: '24px', lineHeight: '1.1', letterSpacing: '-0.72px', color: '#006FBA' }}>
+                        77x
+                      </p>
+                    </div>
+                    <p className="font-dm-sans font-normal" style={{ fontSize: '16px', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
+                      Return on Investment
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Learn More Button */}
+              <div className="mt-auto mx-auto relative z-10">
+                <button
+                  className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
+                  style={{
+                    width: '157px',
+                    height: '60px',
+                    borderRadius: '10px',
+                    padding: '16px 32px',
+                    background: 'linear-gradient(137.73deg, #6A36FF 15.76%, #AC5FE6 102.86%)',
+                    fontSize: '20px',
+                    lineHeight: '1.4',
+                    border: 'none',
+                    cursor: 'pointer',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    gap: '4px',
+                    whiteSpace: 'nowrap'
+                  }}
+                >
+                  Learn More
+                </button>
+              </div>
+            </div>
+
+            {/* Card 2: Kraken */}
+            <div
+              className="bg-white relative overflow-hidden"
+              style={{
+                width: '381px',
+                minHeight: '378px',
+                borderRadius: '10px',
+                border: '1px solid #E0E7EF',
+                padding: '24px',
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '48px'
+              }}
+            >
+              {/* Pattern Overlay */}
+              <div
+                className="absolute top-0 left-0"
+                style={{
+                  width: '375px',
+                  height: '240px',
+                  background: '#EBF7FF',
+                  clipPath: 'polygon(0 0, 100% 0, 100% 40%, 0 100%)',
+                  zIndex: 0
+                }}
+              />
+
+              {/* Content */}
+              <div className="relative z-10 flex flex-col" style={{ gap: '24px' }}>
+                <h3
+                  className="font-dm-sans font-bold text-center"
+                  style={{
+                    fontSize: '30px',
+                    lineHeight: '1.1',
+                    letterSpacing: '-0.9px',
+                    color: '#006FBA'
+                  }}
+                >
+                  Kraken
+                </h3>
+
+                {/* Stats */}
+                <div className="flex flex-col" style={{ gap: '20px' }}>
+                  <div>
+                    <div className="flex items-center" style={{ gap: '8px' }}>
+                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="1" y="1" width="26" height="26" rx="4" stroke="#006FBA" strokeWidth="2"/>
+                        <circle cx="14" cy="14" r="6" stroke="#006FBA" strokeWidth="2"/>
+                        <path d="M14 11V17M12 14.5H16" stroke="#006FBA" strokeWidth="2" strokeLinecap="round"/>
+                      </svg>
+                      <p className="font-dm-sans font-bold" style={{ fontSize: '24px', lineHeight: '1.1', letterSpacing: '-0.72px', color: '#006FBA' }}>
+                        3,500
+                      </p>
+                    </div>
+                    <p className="font-dm-sans font-normal" style={{ fontSize: '16px', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
+                      ticket backlog eliminated
+                    </p>
+                  </div>
+
+                  <div>
+                    <div className="flex items-center" style={{ gap: '8px' }}>
+                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="1" y="1" width="26" height="26" rx="4" stroke="#006FBA" strokeWidth="2"/>
+                        <rect x="6" y="10" width="16" height="10" rx="1" stroke="#006FBA" strokeWidth="2"/>
+                        <circle cx="11" cy="15" r="2" stroke="#006FBA" strokeWidth="1.5"/>
+                        <path d="M17 20L15 17L13 19" stroke="#006FBA" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                      </svg>
+                      <p className="font-dm-sans font-bold" style={{ fontSize: '24px', lineHeight: '1.1', letterSpacing: '-0.72px', color: '#006FBA' }}>
+                        65%
+                      </p>
+                    </div>
+                    <p className="font-dm-sans font-normal" style={{ fontSize: '16px', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
+                      reduction in first-response time
+                    </p>
+                  </div>
+
+                  <div>
+                    <div className="flex items-center" style={{ gap: '8px' }}>
+                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="1" y="1" width="26" height="26" rx="4" stroke="#006FBA" strokeWidth="2"/>
+                        <path d="M10 14L13 17L19 11" stroke="#006FBA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      </svg>
+                      <p className="font-dm-sans font-bold" style={{ fontSize: '24px', lineHeight: '1.1', letterSpacing: '-0.72px', color: '#006FBA' }}>
+                        23x
+                      </p>
+                    </div>
+                    <p className="font-dm-sans font-normal" style={{ fontSize: '16px', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
+                      Return on Investment
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Learn More Button */}
+              <div className="mt-auto mx-auto relative z-10">
+                <button
+                  className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
+                  style={{
+                    width: '157px',
+                    height: '60px',
+                    borderRadius: '10px',
+                    padding: '16px 32px',
+                    background: 'linear-gradient(137.73deg, #6A36FF 15.76%, #AC5FE6 102.86%)',
+                    fontSize: '20px',
+                    lineHeight: '1.4',
+                    border: 'none',
+                    cursor: 'pointer',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    gap: '4px',
+                    whiteSpace: 'nowrap'
+                  }}
+                >
+                  Learn More
+                </button>
+              </div>
+            </div>
+
+            {/* Card 3: Artemis Capital */}
+            <div
+              className="bg-white relative overflow-hidden"
+              style={{
+                width: '381px',
+                minHeight: '378px',
+                borderRadius: '10px',
+                border: '1px solid #E0E7EF',
+                padding: '24px',
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '48px'
+              }}
+            >
+              {/* Pattern Overlay */}
+              <div
+                className="absolute top-0 left-0"
+                style={{
+                  width: '375px',
+                  height: '240px',
+                  background: '#EBF7FF',
+                  clipPath: 'polygon(0 0, 100% 0, 100% 40%, 0 100%)',
+                  zIndex: 0
+                }}
+              />
+
+              {/* Content */}
+              <div className="relative z-10 flex flex-col" style={{ gap: '24px' }}>
+                <h3
+                  className="font-dm-sans font-bold text-center"
+                  style={{
+                    fontSize: '30px',
+                    lineHeight: '1.1',
+                    letterSpacing: '-0.9px',
+                    color: '#006FBA'
+                  }}
+                >
+                  Artemis Capital
+                </h3>
+
+                {/* Stats */}
+                <div className="flex flex-col" style={{ gap: '20px' }}>
+                  <div>
+                    <div className="flex items-center" style={{ gap: '8px' }}>
+                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="1" y="1" width="26" height="26" rx="4" stroke="#006FBA" strokeWidth="2"/>
+                        <circle cx="14" cy="14" r="6" stroke="#006FBA" strokeWidth="2"/>
+                        <path d="M14 11V17M12 14.5H16" stroke="#006FBA" strokeWidth="2" strokeLinecap="round"/>
+                      </svg>
+                      <p className="font-dm-sans font-bold" style={{ fontSize: '24px', lineHeight: '1.1', letterSpacing: '-0.72px', color: '#006FBA' }}>
+                        22%
+                      </p>
+                    </div>
+                    <p className="font-dm-sans font-normal" style={{ fontSize: '16px', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
+                      reduction in customer churn
+                    </p>
+                  </div>
+
+                  <div>
+                    <div className="flex items-center" style={{ gap: '8px' }}>
+                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="1" y="1" width="26" height="26" rx="4" stroke="#006FBA" strokeWidth="2"/>
+                        <rect x="6" y="10" width="16" height="10" rx="1" stroke="#006FBA" strokeWidth="2"/>
+                        <circle cx="11" cy="15" r="2" stroke="#006FBA" strokeWidth="1.5"/>
+                        <path d="M17 20L15 17L13 19" stroke="#006FBA" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                      </svg>
+                      <p className="font-dm-sans font-bold" style={{ fontSize: '24px', lineHeight: '1.1', letterSpacing: '-0.72px', color: '#006FBA' }}>
+                        14%
+                      </p>
+                    </div>
+                    <p className="font-dm-sans font-normal" style={{ fontSize: '16px', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
+                      increase in post-acquisition margin
+                    </p>
+                  </div>
+
+                  <div>
+                    <div className="flex items-center" style={{ gap: '8px' }}>
+                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="1" y="1" width="26" height="26" rx="4" stroke="#006FBA" strokeWidth="2"/>
+                        <path d="M10 14L13 17L19 11" stroke="#006FBA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      </svg>
+                      <p className="font-dm-sans font-bold" style={{ fontSize: '24px', lineHeight: '1.1', letterSpacing: '-0.72px', color: '#006FBA' }}>
+                        20x
+                      </p>
+                    </div>
+                    <p className="font-dm-sans font-normal" style={{ fontSize: '16px', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
+                      Return on Investment
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Learn More Button */}
+              <div className="mt-auto mx-auto relative z-10">
+                <button
+                  className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
+                  style={{
+                    width: '157px',
+                    height: '60px',
+                    borderRadius: '10px',
+                    padding: '16px 32px',
+                    background: 'linear-gradient(137.73deg, #6A36FF 15.76%, #AC5FE6 102.86%)',
+                    fontSize: '20px',
+                    lineHeight: '1.4',
+                    border: 'none',
+                    cursor: 'pointer',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    gap: '4px',
+                    whiteSpace: 'nowrap'
+                  }}
+                >
+                  Learn More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ─── Section 10: Ready to Explore an Equity Partnership? ─── */}
       <section className="w-full bg-white py-20 px-6">
         <div className="max-w-[800px] mx-auto flex flex-col items-center text-center">
@@ -1057,72 +1442,7 @@ export default function EquitySolutions() {
         </div>
       </section>
 
-      {/* ─── Footer ─── */}
-      <footer
-        className="text-white pt-16 pb-12 px-6 relative z-20"
-        style={{ background: 'linear-gradient(83.95deg, #1B45B4 3%, #1C2792 96.84%)' }}
-      >
-        <div className="max-w-[1200px] mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mb-8">
-            <div className="md:col-span-1">
-              <div className="mb-6">
-                <img
-                  src="/pmg-logo-footer.png"
-                  alt="PMG Logo"
-                  className="object-contain"
-                  style={{ width: '100px', height: 'auto' }}
-                />
-              </div>
-            </div>
-            <div>
-              <h4 className="font-dm-sans font-bold text-xl mb-4">What we Do</h4>
-              <ul className="space-y-2 font-dm-sans text-white/80">
-                <li><a href="#" className="hover:text-white">Our Services</a></li>
-                <li><a href="#" className="hover:text-white">Our Solutions</a></li>
-                <li><a href="#" className="hover:text-white">Rebuilding from within</a></li>
-                <li><a href="#" className="hover:text-white">Why Consulting?</a></li>
-              </ul>
-            </div>
-            <div className="flex flex-col gap-6">
-              <div>
-                <h4 className="font-dm-sans font-bold text-xl mb-4">Our Content</h4>
-                <ul className="space-y-2 font-dm-sans text-white/80">
-                  <li><a href="#" className="hover:text-white">FAQs</a></li>
-                  <li><a href="#" className="hover:text-white">Insights &amp; Innovations</a></li>
-                  <li><a href="#" className="hover:text-white">Community Programs</a></li>
-                </ul>
-              </div>
-              <div>
-                <h4 className="font-dm-sans font-bold text-xl mb-4">Working with PMG</h4>
-                <ul className="space-y-2 font-dm-sans text-white/80">
-                  <li><a href="#" className="hover:text-white">Careers</a></li>
-                  <li><a href="#" className="hover:text-white">Licensing</a></li>
-                </ul>
-              </div>
-            </div>
-            <div>
-              <h4 className="font-dm-sans font-bold text-xl mb-4">Our Models</h4>
-              <ul className="space-y-2 font-dm-sans text-white/80">
-                <li><a href="#" className="hover:text-white">Sector Convergence Model</a></li>
-                <li><a href="#" className="hover:text-white">I-O Enterprise Architecture</a></li>
-                <li><a href="#" className="hover:text-white">Bussiness Value-Unit Model</a></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-dm-sans font-bold text-xl mb-4">Legal</h4>
-              <ul className="space-y-2 font-dm-sans text-white/80 text-sm">
-                <li><a href="#" className="hover:text-white">Privacy &amp; Cookie Policy</a></li>
-                <li><a href="#" className="hover:text-white">Hiring &amp; Equal Opportunity</a></li>
-                <li><a href="#" className="hover:text-white">AI &amp; Data Ethics Statement</a></li>
-                <li><a href="#" className="hover:text-white">Anti-Modern Slavery Policy</a></li>
-                <li><a href="#" className="hover:text-white">Intellectual Property</a></li>
-                <li><a href="#" className="hover:text-white">Regionalization Policy</a></li>
-                <li><a href="#" className="hover:text-white">Digital Terms of Use</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </main>
   );
 }

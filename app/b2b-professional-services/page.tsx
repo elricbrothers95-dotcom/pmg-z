@@ -115,15 +115,17 @@ export default function B2BProfessionalServices() {
           </div>
 
           {/* Work Cards Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 412px)', gap: '60px 26px', justifyContent: 'center' }}>
             {/* Card 1: Service Delivery & Margin Optimization */}
             <div
-              className="bg-white rounded-xl hover:shadow-lg transition-shadow duration-300"
+              className="bg-white"
               style={{
-                minHeight: '260px',
-                padding: '32px',
+                width: '412px',
+                height: '227px',
+                padding: '23px 25px',
                 border: '3px solid #14358A',
-                borderRadius: '10px'
+                borderRadius: '10px',
+                overflow: 'hidden'
               }}
             >
               <div className="mb-6">
@@ -145,12 +147,14 @@ export default function B2BProfessionalServices() {
 
             {/* Card 2: Operational Excellence for Corporate Functions */}
             <div
-              className="bg-white rounded-xl hover:shadow-lg transition-shadow duration-300"
+              className="bg-white"
               style={{
-                minHeight: '260px',
-                padding: '32px',
+                width: '412px',
+                height: '227px',
+                padding: '23px 25px',
                 border: '3px solid #14358A',
-                borderRadius: '10px'
+                borderRadius: '10px',
+                overflow: 'hidden'
               }}
             >
               <div className="mb-6">
@@ -172,12 +176,14 @@ export default function B2BProfessionalServices() {
 
             {/* Card 3: Client Relationship & Lifecycle Management */}
             <div
-              className="bg-white rounded-xl hover:shadow-lg transition-shadow duration-300"
+              className="bg-white"
               style={{
-                minHeight: '260px',
-                padding: '32px',
+                width: '412px',
+                height: '227px',
+                padding: '23px 25px',
                 border: '3px solid #14358A',
-                borderRadius: '10px'
+                borderRadius: '10px',
+                overflow: 'hidden'
               }}
             >
               <div className="mb-6">
@@ -199,12 +205,14 @@ export default function B2BProfessionalServices() {
 
             {/* Card 4: Talent Management & Professional Development */}
             <div
-              className="bg-white rounded-xl hover:shadow-lg transition-shadow duration-300"
+              className="bg-white"
               style={{
-                minHeight: '260px',
-                padding: '32px',
+                width: '412px',
+                height: '227px',
+                padding: '23px 25px',
                 border: '3px solid #14358A',
-                borderRadius: '10px'
+                borderRadius: '10px',
+                overflow: 'hidden'
               }}
             >
               <div className="mb-6">
@@ -226,12 +234,14 @@ export default function B2BProfessionalServices() {
 
             {/* Card 5: Partnership & Firm Governance */}
             <div
-              className="bg-white rounded-xl hover:shadow-lg transition-shadow duration-300"
+              className="bg-white"
               style={{
-                minHeight: '260px',
-                padding: '32px',
+                width: '412px',
+                height: '227px',
+                padding: '23px 25px',
                 border: '3px solid #14358A',
-                borderRadius: '10px'
+                borderRadius: '10px',
+                overflow: 'hidden'
               }}
             >
               <div className="mb-6">
@@ -253,12 +263,14 @@ export default function B2BProfessionalServices() {
 
             {/* Card 6: Risk Management & Quality Assurance */}
             <div
-              className="bg-white rounded-xl hover:shadow-lg transition-shadow duration-300"
+              className="bg-white"
               style={{
-                minHeight: '260px',
-                padding: '32px',
+                width: '412px',
+                height: '227px',
+                padding: '23px 25px',
                 border: '3px solid #14358A',
-                borderRadius: '10px'
+                borderRadius: '10px',
+                overflow: 'hidden'
               }}
             >
               <div className="mb-6">
@@ -611,52 +623,74 @@ export default function B2BProfessionalServices() {
       <div className="bg-white py-24 px-6">
         <div className="max-w-[1440px] mx-auto flex flex-col items-center">
           <h2
-            className="font-dm-sans font-bold text-center whitespace-nowrap"
+            className="text-center whitespace-nowrap mb-10"
             style={{
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
               fontSize: '48px',
               lineHeight: '105%',
-              letterSpacing: '-3%',
+              letterSpacing: '-0.03em',
               color: '#14358A',
-              marginBottom: '60px'
             }}
           >
             The Functional Consulting Advantage
           </h2>
 
-          <div
-            className="font-dm-sans font-normal"
-            style={{
-              maxWidth: '1082px',
-              fontSize: '30px',
-              lineHeight: '140%',
-              letterSpacing: '0%',
-              color: '#333333',
-              textAlign: 'center'
-            }}
-          >
-            The public sector operates under unique scrutiny. Generalist consulting often applies private-sector playbooks that fail because they ignore the complex political, legislative, and accountability constraints of government. The result is a well-intentioned but ultimately impractical strategy that gets bogged down in implementation.
-            <br /><br />
-            PMG's model ensures accountability and practical delivery. We deploy specialists in functions like fiscal management, digital service transformation, and efficient procurement who adapt proven, world-class operational frameworks to the public context. We deliver solutions that are not only innovative and efficient but are also transparent, legally compliant, and designed for political viability and citizen adoption.
+          <div className="max-w-[1082px] text-center">
+            <p
+              style={{
+                fontFamily: 'DM Sans, sans-serif',
+                fontWeight: 400,
+                fontSize: '30px',
+                lineHeight: '140%',
+                color: '#333333',
+              }}
+            >
+              The public sector operates under unique scrutiny. Generalist consulting often applies private-sector playbooks that fail because they ignore the complex political, legislative, and accountability constraints of government. The result is a well-intentioned but ultimately impractical strategy that gets bogged down in implementation.
+            </p>
+            <p
+              style={{
+                fontFamily: 'DM Sans, sans-serif',
+                fontWeight: 400,
+                fontSize: '30px',
+                lineHeight: '140%',
+                color: '#333333',
+              }}
+            >
+              PMG&apos;s model ensures accountability and practical delivery. We deploy specialists in functions like fiscal management, digital service transformation, and efficient procurement who adapt proven, world-class operational frameworks to the public context. We deliver solutions that are not only innovative and efficient but are also transparent, legally compliant, and designed for political viability and citizen adoption.
+            </p>
           </div>
 
-          <div className="mt-16 text-center">
-            <h3
-              className="font-dm-sans font-bold text-[#14358A] mb-4"
-              style={{ fontSize: '32px', lineHeight: '120%' }}
+          <div className="text-center mt-16">
+            <p
+              className="mb-4"
+              style={{
+                fontFamily: 'DM Sans, sans-serif',
+                fontWeight: 700,
+                fontSize: '30px',
+                lineHeight: '140%',
+                color: '#364153',
+              }}
             >
               Still Unsure?
-            </h3>
-            <p
-              className="font-dm-sans font-normal"
+            </p>
+            <a
+              href="/why-functional-consulting"
+              className="inline-flex items-center gap-2 hover:opacity-80 transition-opacity"
               style={{
-                fontSize: '18px',
-                lineHeight: '140%',
-                color: '#1e40af',
-                maxWidth: '900px'
+                fontFamily: 'Inter, sans-serif',
+                fontWeight: 600,
+                fontSize: '21.1px',
+                lineHeight: '30px',
+                color: '#14358A',
+                textDecoration: 'none',
               }}
             >
               Discover why our execution-focused model generates superior returns across the investment lifecycle and asset classes.
-            </p>
+              <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1L7 7L1 13" stroke="#14358A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </a>
           </div>
         </div>
       </div>

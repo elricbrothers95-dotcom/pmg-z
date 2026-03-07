@@ -191,17 +191,18 @@ export default function YourIndustry() {
           </div>
 
           {/* Work Cards Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 412px)', gap: '60px 26px', justifyContent: 'center' }}>
             {workCards.map((card, index) => (
               <div
                 key={index}
-                className="bg-white rounded-xl hover:shadow-lg transition-shadow duration-300"
+                className="bg-white"
                 style={{
                   width: '412px',
-                  minHeight: '260px',
-                  padding: '32px',
+                  height: '227px',
+                  padding: '23px 25px',
                   border: '3px solid #14358A',
-                  borderRadius: '10px'
+                  borderRadius: '10px',
+                  overflow: 'hidden'
                 }}
               >
                 <div className="mb-6">
@@ -609,61 +610,75 @@ export default function YourIndustry() {
 
       {/* The Functional Consulting Advantage */}
       <div className="bg-white py-24 px-6">
-        <div className="max-w-[1200px] mx-auto flex flex-col items-center">
+        <div className="max-w-[1440px] mx-auto flex flex-col items-center">
           <h2
-            className="font-dm-sans font-bold text-[#14358A] text-center mb-12"
+            className="text-center whitespace-nowrap mb-10"
             style={{ 
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
               fontSize: '48px', 
               lineHeight: '105%', 
-              letterSpacing: '-3%',
-              maxWidth: '785px'
+              letterSpacing: '-0.03em',
+              color: '#14358A',
             }}
           >
             The Functional Consulting Advantage
           </h2>
-          <div className="flex flex-col gap-8 mb-16">
+
+          <div className="max-w-[1082px] text-center">
             <p
-              className="font-dm-sans font-normal text-[#333333] text-center"
               style={{
+                fontFamily: 'DM Sans, sans-serif',
+                fontWeight: 400,
                 fontSize: '30px',
                 lineHeight: '140%',
-                letterSpacing: '0%',
-                maxWidth: '1082px'
+                color: '#333333',
               }}
             >
               You invest in potential; we unlock its maximum value. Whether you are a PE firm seeking tangible EBITDA growth, a VC firm demanding hyper-scale, or a Fund Manager optimizing operations, generalist advice often misses the mark. It provides high-level strategy that rarely translates into the deep operational precision needed to execute a 100-day plan or accelerate a high-growth scale-up. The challenge is always execution.
             </p>
             <p
-              className="font-dm-sans font-normal text-[#333333] text-center"
               style={{
+                fontFamily: 'DM Sans, sans-serif',
+                fontWeight: 400,
                 fontSize: '30px',
                 lineHeight: '140%',
-                letterSpacing: '0%',
-                maxWidth: '1082px'
+                color: '#333333',
               }}
             >
               PMG&apos;s model is built for the entire capital lifecycle. We replace costly, theoretical counsel with execution-focused operators specializing in discrete value creation levers: commercial due diligence, rapid growth GTM strategy, post-merger integration, and fund operational efficiency. Our consultants embed, execute, and are accountable for measurable improvements, be it EBITDA, burn rate, or LP reporting, ensuring we deliver alpha that matters to your investors.
             </p>
           </div>
 
-          <div className="flex flex-col items-center gap-4">
+          <div className="text-center mt-16">
             <p
-              className="font-dm-sans font-bold text-[#364153]"
-              style={{ fontSize: '30px', lineHeight: '140%' }}
+              className="mb-4"
+              style={{
+                fontFamily: 'DM Sans, sans-serif',
+                fontWeight: 700,
+                fontSize: '30px',
+                lineHeight: '140%',
+                color: '#364153',
+              }}
             >
               Still Unsure?
             </p>
             <a
-              href="#"
-              className="group flex items-center gap-2 font-inter font-semibold text-[#14358A] hover:opacity-80 transition-opacity"
-              style={{ fontSize: '21.1px', lineHeight: '30px' }}
+              href="/why-functional-consulting"
+              className="inline-flex items-center gap-2 hover:opacity-80 transition-opacity"
+              style={{
+                fontFamily: 'Inter, sans-serif',
+                fontWeight: 600,
+                fontSize: '21.1px',
+                lineHeight: '30px',
+                color: '#14358A',
+                textDecoration: 'none',
+              }}
             >
               Find out how we turn strategy into measurable operational scale
-              <span className="group-hover:translate-x-1 transition-transform inline-flex items-center justify-center bg-[#14358A] rounded-full w-6 h-6">
-                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M4.5 9L7.5 6L4.5 3" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-              </span>
+              <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1L7 7L1 13" stroke="#14358A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
             </a>
           </div>
         </div>
