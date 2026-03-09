@@ -13,8 +13,9 @@ export default function PowerOfWorkingWithUs() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '36px',
-              lineHeight: '1.2',
+              fontSize: '48px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
               color: '#14358A',
               marginBottom: '24px',
             }}
@@ -527,7 +528,7 @@ export default function PowerOfWorkingWithUs() {
       {/* ─── Section 8: The Proof is in the Performance ─── */}
       <section className="w-full py-20 px-6 bg-white">
         <div className="max-w-[960px] mx-auto flex flex-col items-center text-center">
-          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '36px', color: '#14358A', marginBottom: '16px' }}>
+          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '16px' }}>
             The Proof is in the Performance
           </h2>
           <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '16px', lineHeight: '1.75', color: '#3A3A3A', marginBottom: '48px', maxWidth: '640px' }}>
@@ -555,7 +556,7 @@ export default function PowerOfWorkingWithUs() {
       {/* ─── Section 9: Our Approach & Methodology ─── */}
       <section className="w-full py-20 px-6" style={{ background: '#F7F9FF' }}>
         <div className="max-w-[960px] mx-auto flex flex-col items-center text-center">
-          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '34px', color: '#14358A', marginBottom: '16px' }}>
+          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '16px' }}>
             Our Approach &amp; Methodology
           </h2>
           <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '16px', lineHeight: '1.75', color: '#3A3A3A', marginBottom: '40px', maxWidth: '700px' }}>
@@ -589,7 +590,7 @@ export default function PowerOfWorkingWithUs() {
       {/* ─── Section 10: Proven Industry Frameworks ─── */}
       <section className="w-full py-20 px-6 bg-white">
         <div className="max-w-[780px] mx-auto flex flex-col items-center text-center">
-          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '34px', color: '#14358A', marginBottom: '12px' }}>
+          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '12px' }}>
             Proven Industry Frameworks
           </h2>
           <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '15px', color: '#5F6D7E', marginBottom: '40px' }}>
@@ -648,7 +649,7 @@ export default function PowerOfWorkingWithUs() {
       <section className="w-full py-20 px-6 bg-white">
         <div className="max-w-[960px] mx-auto" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '60px', alignItems: 'center' }}>
           <div>
-            <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '30px', color: '#14358A', marginBottom: '20px' }}>
+            <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '20px' }}>
               A Commitment to Continuous Improvement
             </h2>
             <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '14px', lineHeight: '1.8', color: '#3A3A3A' }}>
@@ -664,7 +665,7 @@ export default function PowerOfWorkingWithUs() {
       {/* ─── Section 13: Still Not Convinced? ─── */}
       <section className="w-full py-20 px-6" style={{ background: '#F7F9FF' }}>
         <div className="max-w-[960px] mx-auto">
-          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '36px', color: '#14358A', textAlign: 'center', marginBottom: '48px' }}>
+          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'center', marginBottom: '48px' }}>
             Still Not Convinced?
           </h2>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '48px' }}>
@@ -705,7 +706,7 @@ export default function PowerOfWorkingWithUs() {
       {/* ─── Section 14: CTA ─── */}
       <section className="w-full py-24 px-6 bg-white">
         <div className="max-w-[700px] mx-auto flex flex-col items-center text-center">
-          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '40px', color: '#14358A', marginBottom: '36px', lineHeight: '1.2' }}>
+          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '36px' }}>
             Stop Buying Reports. Start Buying Results.
           </h2>
           <a

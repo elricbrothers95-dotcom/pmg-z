@@ -284,7 +284,7 @@ export default function OutOfTheBoxSolutions() {
       <section className="w-full bg-white py-20 px-6">
         <div className="max-w-[1100px] mx-auto">
           <div className="flex flex-col items-center text-center mb-14">
-            <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '46px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '16px' }}>
+            <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '16px' }}>
               The Foundry Catalog
             </h2>
             <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '18px', lineHeight: '160%', color: '#333333', maxWidth: '560px' }}>
@@ -347,7 +347,7 @@ export default function OutOfTheBoxSolutions() {
       <section className="w-full bg-[#F7F9FC] py-20 px-6">
         <div className="max-w-[1100px] mx-auto">
           <div className="flex flex-col items-center text-center mb-12">
-            <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '46px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '0' }}>
+            <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '0' }}>
               Which Solution Is Right for u?
             </h2>
           </div>
@@ -437,7 +437,7 @@ export default function OutOfTheBoxSolutions() {
       {/* ─── Section 7: Ready to Elevate Your Business? ─── */}
       <section className="w-full bg-white py-16 px-6">
         <div className="max-w-[700px] mx-auto flex flex-col items-center text-center">
-          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '46px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '18px' }}>
+          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '18px' }}>
             Ready to Elevate Your Business?
           </h2>
           <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '18px', lineHeight: '160%', color: '#333333', marginBottom: '32px' }}>

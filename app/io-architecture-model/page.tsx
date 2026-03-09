@@ -27,8 +27,9 @@ export default function IOArchitectureModelPage() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '52px',
-              lineHeight: '1.1',
+              fontSize: '48px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
               color: '#14358A',
               marginBottom: '28px',
             }}
@@ -248,7 +249,7 @@ export default function IOArchitectureModelPage() {
       {/* ─── Section 4: Implementation Steps ─── */}
       <section className="w-full py-20 px-6 bg-white">
         <div className="max-w-[860px] mx-auto">
-          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '38px', color: '#14358A', textAlign: 'center', marginBottom: '56px' }}>
+          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'center', marginBottom: '56px' }}>
             How We Implement the I-O Model
           </h2>
 

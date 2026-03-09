@@ -16,15 +16,15 @@ export default function FinancialServicesFinTech() {
 
           {/* Heading */}
           <h1
-            className="absolute font-poppins font-semibold"
+            className="absolute font-dm-sans font-bold"
             style={{
               top: '30px',
               left: '118px',
               width: '802.78px',
-              fontSize: '45px',
-              lineHeight: '46px',
+              fontSize: '48px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
               color: '#14358A',
-              letterSpacing: '0%'
             }}
           >
             Navigating the Future of Finance
@@ -110,11 +110,12 @@ export default function FinancialServicesFinTech() {
 
           {/* Section Title */}
           <h2
-            className="font-poppins font-semibold text-center"
+            className="font-dm-sans font-bold text-center"
             style={{
-              fontSize: '50px',
-              lineHeight: '46px',
-              letterSpacing: '0%',
+              fontFamily: 'DM Sans, sans-serif',
+              fontSize: '48px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
               color: '#14358A',
               marginBottom: '48px'
             }}
@@ -190,7 +191,7 @@ export default function FinancialServicesFinTech() {
           <div className="text-center mb-16">
             <h2
               className="font-dm-sans font-bold text-[#14358A] mb-6"
-              style={{ fontSize: '48px', lineHeight: '105%', letterSpacing: '-3%' }}
+              style={{ fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em' }}
             >
               Our Work
             </h2>
@@ -414,11 +415,12 @@ export default function FinancialServicesFinTech() {
         <div className="max-w-[1300px] mx-auto relative z-10">
           {/* Section Title */}
           <h2
-            className="font-poppins font-semibold text-white text-center mb-16"
+            className="font-dm-sans font-bold text-white text-center mb-16"
             style={{
+              fontFamily: 'DM Sans, sans-serif',
               fontSize: '48px',
               lineHeight: '105%',
-              letterSpacing: '-3%'
+              letterSpacing: '-0.03em'
             }}
           >
             Our Projects
@@ -917,7 +919,7 @@ export default function FinancialServicesFinTech() {
           style={{
             fontSize: '48px',
             lineHeight: '105%',
-            letterSpacing: '-3%'
+            letterSpacing: '-0.03em'
           }}
         >
           Partner with PMG to Build a Resilient Future

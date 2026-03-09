@@ -516,7 +516,7 @@ export default function EquitySolutions() {
       <section className="w-full bg-white py-20 px-6">
         <div className="max-w-[1100px] mx-auto">
           <div className="flex flex-col items-center text-center mb-14">
-            <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '46px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '16px' }}>
+            <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '16px' }}>
               Why PMG Believes in Expertise Capital
             </h2>
             <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '20px', lineHeight: '155%', color: '#333333', maxWidth: '620px' }}>
@@ -587,7 +587,7 @@ export default function EquitySolutions() {
       {/* ─── Section 7: Proven Partnerships, Measurable Impact ─── */}
       <section className="w-full bg-[#F7F9FC] py-20 px-6">
         <div className="max-w-[1000px] mx-auto flex flex-col items-center text-center">
-          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '46px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '48px' }}>
+          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '48px' }}>
             Proven Partnerships, Measurable Impact
           </h2>
 
@@ -628,7 +628,7 @@ export default function EquitySolutions() {
       <section className="w-full bg-white py-20 px-6">
         <div className="max-w-[1100px] mx-auto">
           <div className="flex flex-col items-center text-center mb-10">
-            <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '46px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '18px' }}>
+            <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '18px' }}>
               Our Commitment: True Accountability &amp; Aligned Growth
             </h2>
             <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '18px', lineHeight: '155%', color: '#333333', maxWidth: '760px', textAlign: 'center' }}>
@@ -681,7 +681,7 @@ export default function EquitySolutions() {
       <section className="w-full bg-[#F7F9FC] py-20 px-6">
         <div className="max-w-[1000px] mx-auto">
           <div className="flex flex-col items-center text-center mb-12">
-            <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '46px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '14px' }}>
+            <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '14px' }}>
               How We Compare
             </h2>
             <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '18px', lineHeight: '155%', color: '#333333', maxWidth: '600px', textAlign: 'center' }}>
@@ -1161,7 +1161,7 @@ export default function EquitySolutions() {
       {/* ─── Section 10: Ready to Explore an Equity Partnership? ─── */}
       <section className="w-full bg-white py-20 px-6">
         <div className="max-w-[800px] mx-auto flex flex-col items-center text-center">
-          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '46px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '48px' }}>
+          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '48px' }}>
             Ready to Explore an Equity Partnership?
           </h2>
 

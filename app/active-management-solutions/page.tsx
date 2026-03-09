@@ -119,7 +119,7 @@ export default function ActiveManagementSolutions() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '50px',
+              fontSize: '48px',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -170,7 +170,7 @@ export default function ActiveManagementSolutions() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '50px',
+                fontSize: '48px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -259,7 +259,7 @@ export default function ActiveManagementSolutions() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '50px',
+                fontSize: '48px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -349,7 +349,7 @@ export default function ActiveManagementSolutions() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '50px',
+                fontSize: '48px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -505,7 +505,7 @@ export default function ActiveManagementSolutions() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '50px',
+              fontSize: '48px',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',

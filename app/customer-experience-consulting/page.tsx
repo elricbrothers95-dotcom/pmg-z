@@ -28,11 +28,11 @@ export default function CustomerExperienceConsulting() {
         <h1
           className="mb-6"
           style={{
-            fontFamily: 'Poppins, sans-serif',
-            fontWeight: 600,
-            fontSize: '50px',
-            lineHeight: '46px',
-            letterSpacing: '0%',
+            fontFamily: 'DM Sans, sans-serif',
+            fontWeight: 700,
+            fontSize: '48px',
+            lineHeight: '105%',
+            letterSpacing: '-0.03em',
             textAlign: 'center',
             color: '#14358A',
             maxWidth: '1224px',
@@ -64,11 +64,11 @@ export default function CustomerExperienceConsulting() {
         <h2
           className="text-center mb-12"
           style={{
-            fontFamily: 'Poppins, sans-serif',
-            fontWeight: 600,
-            fontSize: '50px',
-            lineHeight: '46px',
-            letterSpacing: '0%',
+            fontFamily: 'DM Sans, sans-serif',
+            fontWeight: 700,
+            fontSize: '48px',
+            lineHeight: '105%',
+            letterSpacing: '-0.03em',
             color: '#14358A',
           }}
         >
@@ -325,7 +325,7 @@ export default function CustomerExperienceConsulting() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '50px',
+              fontSize: '48px',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -538,7 +538,7 @@ export default function CustomerExperienceConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '50px',
+                fontSize: '48px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',

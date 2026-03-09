@@ -27,11 +27,11 @@ export default function BpoFractionalTalentConsulting() {
 
         <h1
           style={{
-            fontFamily: 'Poppins, sans-serif',
-            fontWeight: 600,
-            fontSize: '50px',
-            lineHeight: '46px',
-            letterSpacing: '0%',
+            fontFamily: 'DM Sans, sans-serif',
+            fontWeight: 700,
+            fontSize: '48px',
+            lineHeight: '105%',
+            letterSpacing: '-0.03em',
             textAlign: 'center',
             color: '#14358A',
             width: '1224px',
@@ -66,11 +66,11 @@ export default function BpoFractionalTalentConsulting() {
         <h2
           className="text-center mb-12"
           style={{
-            fontFamily: 'Poppins, sans-serif',
-            fontWeight: 600,
-            fontSize: '50px',
-            lineHeight: '46px',
-            letterSpacing: '0%',
+            fontFamily: 'DM Sans, sans-serif',
+            fontWeight: 700,
+            fontSize: '48px',
+            lineHeight: '105%',
+            letterSpacing: '-0.03em',
             color: '#14358A',
           }}
         >
@@ -283,7 +283,7 @@ export default function BpoFractionalTalentConsulting() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '50px',
+              fontSize: '48px',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -492,7 +492,7 @@ export default function BpoFractionalTalentConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '50px',
+                fontSize: '48px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',

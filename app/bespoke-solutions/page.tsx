@@ -57,12 +57,12 @@ export default function BespokeSolutions() {
           {/* Main Heading */}
           <h1
             style={{
-              fontFamily: 'Poppins, sans-serif',
-              fontWeight: 600,
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
               fontStyle: 'normal',
-              fontSize: '50px',
-              lineHeight: '46px',
-              letterSpacing: '0%',
+              fontSize: '48px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
               textAlign: 'center',
               color: '#14358A',
               marginBottom: '32px',
@@ -123,11 +123,11 @@ export default function BespokeSolutions() {
           {/* Section Heading */}
           <h2
             style={{
-              fontFamily: 'Poppins, sans-serif',
+              fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '42px',
-              lineHeight: '110%',
-              letterSpacing: '0%',
+              fontSize: '48px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
               color: '#14358A',
               marginBottom: '28px',
             }}
@@ -412,11 +412,11 @@ export default function BespokeSolutions() {
         <div className="max-w-[1100px] mx-auto px-6 flex flex-col items-center text-center mb-10">
           <h2
             style={{
-              fontFamily: 'Poppins, sans-serif',
-              fontWeight: 600,
-              fontSize: '50px',
-              lineHeight: '46px',
-              letterSpacing: '0%',
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: '48px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
               textAlign: 'center',
               color: '#14358A',
               marginBottom: '24px',
@@ -734,7 +734,7 @@ export default function BespokeSolutions() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '50px',
+                fontSize: '48px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 textAlign: 'center',
@@ -1031,7 +1031,7 @@ export default function BespokeSolutions() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '50px',
+                fontSize: '48px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -1261,7 +1261,7 @@ export default function BespokeSolutions() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '50px',
+              fontSize: '48px',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',

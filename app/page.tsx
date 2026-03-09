@@ -23,14 +23,14 @@ export default function Home() {
         {/* Hero Content - Centered */}
         <div className="relative z-10 flex flex-col items-center justify-center px-4" style={{ minHeight: '100vh', paddingTop: '100px' }}>
         {/* Main Heading */}
-        <h1 
+        <h1
           className="text-center text-white font-bold"
           style={{
             fontFamily: 'DM Sans, sans-serif',
-            fontSize: '60px',
+            fontSize: '48px',
             fontWeight: 700,
-            lineHeight: '110%',
-            letterSpacing: '-3%',
+            lineHeight: '105%',
+            letterSpacing: '-0.03em',
             maxWidth: '760px',
             marginBottom: '20px'
           }}
@@ -117,11 +117,13 @@ export default function Home() {
         </p>
 
         {/* Section Heading */}
-        <h2 
-          className="text-center font-poppins font-semibold mb-8"
+        <h2
+          className="text-center font-dm-sans font-bold mb-8"
           style={{
-            fontSize: '50px',
-            lineHeight: '46px',
+            fontFamily: 'DM Sans, sans-serif',
+            fontSize: '48px',
+            lineHeight: '105%',
+            letterSpacing: '-0.03em',
             color: '#14358A',
             marginBottom: '2rem'
           }}
@@ -267,11 +269,13 @@ export default function Home() {
       {/* Why Partner with PMG Section */}
       <div className="relative z-10 bg-white py-24">
         {/* Section Heading */}
-        <h2 
-          className="text-center font-poppins font-bold mb-6"
+        <h2
+          className="text-center font-dm-sans font-bold mb-6"
           style={{
-            fontSize: '50px',
-            lineHeight: '120%',
+            fontFamily: 'DM Sans, sans-serif',
+            fontSize: '48px',
+            lineHeight: '105%',
+            letterSpacing: '-0.03em',
             color: '#14358A',
           }}
         >
@@ -421,11 +425,13 @@ export default function Home() {
       {/* Traditional Consulting is Broken Section */}
       <div className="relative z-10 bg-white py-20">
         {/* Section Heading */}
-        <h2 
-          className="text-center font-poppins font-semibold mb-6"
+        <h2
+          className="text-center font-dm-sans font-bold mb-6"
           style={{
-            fontSize: '50px',
-            lineHeight: '46px',
+            fontFamily: 'DM Sans, sans-serif',
+            fontSize: '48px',
+            lineHeight: '105%',
+            letterSpacing: '-0.03em',
             color: '#14358A',
             maxWidth: '809px',
             margin: '0 auto 1.5rem auto'
@@ -484,11 +490,13 @@ export default function Home() {
       {/* What Our Clients Say Section */}
       <div className="relative z-10 bg-white py-20">
         {/* Section Heading */}
-        <h2 
-          className="text-center font-poppins font-semibold mb-6"
+        <h2
+          className="text-center font-dm-sans font-bold mb-6"
           style={{
-            fontSize: '50px',
-            lineHeight: '46px',
+            fontFamily: 'DM Sans, sans-serif',
+            fontSize: '48px',
+            lineHeight: '105%',
+            letterSpacing: '-0.03em',
             color: '#14358A',
           }}
         >
@@ -595,11 +603,13 @@ export default function Home() {
       {/* Operative Across All 4 Continents Section */}
       <div className="relative z-10 bg-white py-20">
         {/* Section Heading */}
-        <h2 
-          className="text-center font-poppins font-bold mb-8"
+        <h2
+          className="text-center font-dm-sans font-bold mb-8"
           style={{
-            fontSize: '42px',
-            lineHeight: '50px',
+            fontFamily: 'DM Sans, sans-serif',
+            fontSize: '48px',
+            lineHeight: '105%',
+            letterSpacing: '-0.03em',
             color: '#14358A',
           }}
         >
@@ -754,11 +764,13 @@ export default function Home() {
       <div className="relative z-10 bg-white py-16 lg:py-24 overflow-hidden">
 <div className="max-w-[1440px] mx-auto px-6 lg:px-12 xl:px-20 relative">
           {/* Section Heading */}
-          <h2 
-            className="text-center font-poppins font-semibold mb-8 lg:mb-12"
+          <h2
+            className="text-center font-dm-sans font-bold mb-8 lg:mb-12"
             style={{
-              fontSize: 'clamp(32px, 3.5vw, 50px)',
-              lineHeight: '1.1',
+              fontFamily: 'DM Sans, sans-serif',
+              fontSize: '48px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
               color: '#14358A'
             }}
           >
@@ -1071,11 +1083,12 @@ export default function Home() {
       <div className="relative z-10 py-16 lg:py-20" style={{ background: '#EBF7FF' }}>
         <div className="max-w-[1200px] mx-auto px-6 lg:px-12 text-center">
           {/* Heading */}
-          <h2 
+          <h2
             className="font-dm-sans font-bold mb-6 lg:mb-8"
             style={{
-              fontSize: 'clamp(32px, 3.3vw, 48px)',
-              lineHeight: '1.05',
+              fontFamily: 'DM Sans, sans-serif',
+              fontSize: '48px',
+              lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A'
             }}

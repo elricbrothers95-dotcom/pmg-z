@@ -80,10 +80,12 @@ export default function YourIndustry() {
         {/* Left Content */}
         <div className="flex flex-col gap-8 max-w-[803px] z-10">
           <h1
-            className="font-poppins font-semibold text-[#14358A]"
+            className="font-dm-sans font-bold text-[#14358A]"
             style={{
-              fontSize: '45px',
-              lineHeight: '46px',
+              fontFamily: 'DM Sans, sans-serif',
+              fontSize: '48px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
             }}
           >
             Driving Alpha Through Operational Excellence
@@ -126,8 +128,8 @@ export default function YourIndustry() {
       <div className="bg-white py-24 px-6">
         <div className="max-w-[1400px] mx-auto text-center">
           <h2
-            className="font-poppins font-semibold text-[#14358A] mb-16"
-            style={{ fontSize: '50px', lineHeight: '46px' }}
+            className="font-dm-sans font-bold text-[#14358A] mb-16"
+            style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em' }}
           >
             Your Partner in Value Creation
           </h2>
@@ -159,7 +161,7 @@ export default function YourIndustry() {
           <div className="text-center mb-16">
             <h2
               className="font-dm-sans font-bold text-[#14358A] mb-6"
-              style={{ fontSize: '48px', lineHeight: '105%', letterSpacing: '-3%' }}
+              style={{ fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em' }}
             >
               Our Work
             </h2>
@@ -232,7 +234,7 @@ export default function YourIndustry() {
             style={{
               fontSize: '48px',
               lineHeight: '105%',
-              letterSpacing: '-3%'
+              letterSpacing: '-0.03em'
             }}
           >
             Our Projects
@@ -697,9 +699,9 @@ export default function YourIndustry() {
         <h2
           className="font-dm-sans font-bold text-[#14358A] mb-6"
           style={{ 
-            fontSize: '48px', 
+            fontSize: '48px',
             lineHeight: '105%',
-            letterSpacing: '-3%'
+            letterSpacing: '-0.03em'
           }}
         >
           Maximize Your Portfolio&apos;s Potential

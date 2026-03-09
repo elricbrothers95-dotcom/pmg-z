@@ -13,10 +13,11 @@ export default function B2BProfessionalServices() {
         {/* Left Content */}
         <div className="flex flex-col gap-8 max-w-[740px] z-10">
           <h1
-            className="font-poppins font-semibold text-[#14358A]"
+            className="font-dm-sans font-bold text-[#14358A]"
             style={{
-              fontSize: '45px',
-              lineHeight: '46px',
+              fontSize: '48px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
             }}
           >
             Optimizing High-Value Professional Services
@@ -67,13 +68,13 @@ export default function B2BProfessionalServices() {
 
           {/* Section Title */}
           <h2
-            className="font-poppins font-semibold text-center"
+            className="font-dm-sans font-bold text-center"
             style={{
               width: '1087px',
-              fontSize: '50px',
-              lineHeight: '46px',
+              fontSize: '48px',
+              lineHeight: '105%',
               color: '#14358A',
-              letterSpacing: '0%',
+              letterSpacing: '-0.03em',
               marginBottom: '60px'
             }}
           >
@@ -114,7 +115,7 @@ export default function B2BProfessionalServices() {
           <div className="text-center mb-16">
             <h2
               className="font-dm-sans font-bold text-[#14358A] mb-6"
-              style={{ fontSize: '48px', lineHeight: '105%', letterSpacing: '-3%' }}
+              style={{ fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em' }}
             >
               Our Work
             </h2>
@@ -324,11 +325,11 @@ export default function B2BProfessionalServices() {
 
         <div className="max-w-[1300px] mx-auto relative z-10">
           <h2
-            className="font-poppins font-semibold text-white text-center mb-16"
+            className="font-dm-sans font-bold text-white text-center mb-16"
             style={{
               fontSize: '48px',
               lineHeight: '105%',
-              letterSpacing: '-3%'
+              letterSpacing: '-0.03em'
             }}
           >
             Our Projects
@@ -739,7 +740,7 @@ export default function B2BProfessionalServices() {
           style={{
             fontSize: '48px',
             lineHeight: '105%',
-            letterSpacing: '-3%'
+            letterSpacing: '-0.03em'
           }}
         >
           Ready to Optimize Your Service Delivery?

@@ -13,7 +13,7 @@ export default function CrisisTransitionManagement() {
         <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '29px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', margin: '0 auto' }}>
           Crisis & Transition Management
         </p>
-        <h1 style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 600, fontSize: '50px', lineHeight: '46px', letterSpacing: '0%', textAlign: 'center', color: '#14358A', width: '1224px', maxWidth: '100%', margin: '37px auto 0 auto' }}>
+        <h1 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', textAlign: 'center', color: '#14358A', width: '1224px', maxWidth: '100%', margin: '37px auto 0 auto' }}>
           Navigating Uncertainty with Decisive Leadership
         </h1>
         <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '32px', lineHeight: '100%', letterSpacing: '0%', textAlign: 'center', color: '#333333', width: '1258px', maxWidth: '100%', margin: '31px auto 0 auto', paddingBottom: '80px' }}>
@@ -23,7 +23,7 @@ export default function CrisisTransitionManagement() {
 
       {/* How We Help Section */}
       <div className="relative w-full max-w-[1440px] mx-auto px-4 py-16">
-        <h2 className="text-center mb-12" style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 600, fontSize: '50px', lineHeight: '46px', letterSpacing: '0%', color: '#14358A' }}>
+        <h2 className="text-center mb-12" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
           How We Help
         </h2>
 
@@ -114,7 +114,7 @@ export default function CrisisTransitionManagement() {
       {/* Our Approach Section */}
       <div className="relative w-full max-w-[1440px] mx-auto px-4 py-20">
         <div className="text-center mb-12">
-          <h2 className="mb-8" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '50px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>Our Approach</h2>
+          <h2 className="mb-8" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>Our Approach</h2>
           <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '30px', lineHeight: '140%', textAlign: 'center', color: '#333333', maxWidth: '1201px', margin: '0 auto' }}>
             We replace panic with protocol. Our approach is forensic; identifying the leak, stabilizing the burn, and re-engineering the system for long-term immunity. We provide the stability and strategic foresight needed to steer your organization through turbulent times.
           </p>
@@ -235,7 +235,7 @@ export default function CrisisTransitionManagement() {
           </div>
 
           <div className="flex-1 max-w-[715px]">
-            <h2 className="mb-6" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '50px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>Leadership When It Counts</h2>
+            <h2 className="mb-6" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>Leadership When It Counts</h2>
             <p className="mb-8" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '25px', lineHeight: '140%', color: '#333333', textAlign: 'right' }}>
               Effective crisis management requires a unique blend of strategic thinking, operational expertise, and calm under pressure. Our team is composed of seasoned leaders who have successfully navigated high-stakes situations across a range of industries.
             </p>
